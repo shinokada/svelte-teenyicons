@@ -1,6 +1,6 @@
 # Svelte-Teenyicons
 
-TeenyIcons for Svelte. You can import outline and solid icons without name conflict. Svlete-Teenyicons support major CSS framework. You can add additional CSS using the `class` props.
+Monochrome SVG TeenyIcons for Svelte. You can import outline and solid icons without name conflict. Svlete-Teenyicons support major CSS framework. You can add additional CSS using the `class` props.
 
 <p align="center">
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teeny1.webp" />
@@ -54,14 +54,6 @@ Use the `size` prop to change the size of icons.
 <AbTesting size="50" />
 ```
 
-## CSS HEX Colors
-
-Use the `color` prop to change colors with HEX color code.
-
-```html
-<AbTesting color="#ff0000" /> <Alarm color="#00ffd8" />
-```
-
 ## CSS framework support
 
 Use the `class` prop to change colors and add additional css.
@@ -69,15 +61,7 @@ Use the `class` prop to change colors and add additional css.
 For example, Tailwind CSS:
 
 ```html
-<AbTesting class="text-pink-700 mr-4" />
-```
-
-If you use the dark mode on your website with Tailwind CSS, add your dark mode class to the `class` prop.
-
-Let's use `dark` for the dark mode class as an example.
-
-```html
-<AbTesting class="text-pink-700 dark:text-blue-300" />
+<AbTesting class="mr-4" />
 ```
 
 Bootstrap example:
@@ -112,11 +96,11 @@ Use `import * as Icon from 'svelte-teenyicons`.
 	import * as Icon from 'svelte-teenyicons';
 </script>
 
-<Icon.AbTesting size="30" class="text-red-500" />
-<Icon.Alarm size="40" class="text-blue-700" />
-<Icon.MessageX size="50" class="text-green-700" />
-<Icon.Minimize size="60" class="text-purple-500" />
-<Icon.Moon size="100" class="text-purple-500" tabindex="0" />
+<Icon.AbTesting size="30" class="mx-2" />
+<Icon.Alarm size="40" class="mx-2" />
+<Icon.MessageX size="50" class="mx-2" />
+<Icon.Minimize size="60" class="mx-2" />
+<Icon.Moon size="100" class="mx-2" tabindex="0" />
 ```
 
 ## Other icons
