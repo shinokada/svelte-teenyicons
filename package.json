@@ -1,15 +1,15 @@
 {
 	"name": "svelte-teenyicons",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "Teeny icon components for Svelte",
 	"author": {
-    "name": "Shinichi Okada",
-    "email": "connect@codewithshin.com",
-    "url": "https://blog.codewithshin.com"
-  },
-  "bugs": "https://github.com/shinokada/svelte-teenyicons/issues",
-  "homepage": "https://github.com/shinokada/svelte-teenyicons",
-  "license": "MIT",
+		"name": "Shinichi Okada",
+		"email": "connect@codewithshin.com",
+		"url": "https://blog.codewithshin.com"
+	},
+	"bugs": "https://github.com/shinokada/svelte-teenyicons/issues",
+	"homepage": "https://github.com/shinokada/svelte-teenyicons",
+	"license": "MIT",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
@@ -35,15 +35,15 @@
 		"husky": "^8.0.0"
 	},
 	"type": "module",
-  "keywords": [
-    "svelte",
-    "sveltekit",
-    "teenyicons",
-    "svg icons",
-    "icons"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shinokada/svelte-teenyicons"
-  }
+	"keywords": [
+		"svelte",
+		"sveltekit",
+		"teenyicons",
+		"svg icons",
+		"icons"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/shinokada/svelte-teenyicons"
+	}
 }
