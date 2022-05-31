@@ -2,7 +2,6 @@
 
 TeenyIcons for Svelte. You can import outline and solid icons without name conflict. Svlete-Teenyicons support major CSS framework. You can add additional CSS using the `class` props.
 
-
 <p align="center">
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teenyicons1.webp" />
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teenyicons2.webp" />
@@ -12,7 +11,6 @@ TeenyIcons for Svelte. You can import outline and solid icons without name confl
 
 [Icon names](https://github.com/shinokada/svelte-teenyicons/blob/main/icon-list.md)
 
-
 ## Installation
 
 ```sh
@@ -21,14 +19,10 @@ npm i svelte-teenyicons
 
 ## REPL
 
-
-
 ## Usage
 
 ```js
-<script>
-  import { AbTesting, Alarm } from "svelte-teenyicons";
-</script>
+<script>import {(AbTesting, Alarm)} from "svelte-teenyicons";</script>
 ```
 
 ## Props
@@ -39,6 +33,15 @@ npm i svelte-teenyicons
 | class                        |             |
 | ariaLabel                    | <file name> |
 | variation (solid or outline) | outline     |
+
+## Variation
+
+The default variation value is outline. Use the `variation` prop to change it to solid.
+
+```html
+<AbTesting variation="solid" />
+<AbTesting />
+```
 
 ## Size
 
@@ -55,8 +58,7 @@ Use the `size` prop to change the size of icons.
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<AbTesting color="#ff0000" />
-<Alarm color="#00ffd8" />
+<AbTesting color="#ff0000" /> <Alarm color="#00ffd8" />
 ```
 
 ## CSS framework support
@@ -83,14 +85,13 @@ Bootstrap example:
 <AbTesting class="position-absolute top-0 px-1" />
 ```
 
-
 ## aria-label
 
-All icons have aria-label. For example `AbTesting` has `aria-label="ab testing"`. 
-Use `ariaLabel` prop to modify the `aria-label` value. 
+All icons have aria-label. For example `AbTesting` has `aria-label="ab testing"`.
+Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<AbTesting ariaLabel="AB testing icon" class="text-red-500">
+<AbTesting ariaLabel="AB testing icon" class="text-red-500"></AbTesting>
 ```
 
 ## Passing down other attributes
@@ -98,7 +99,7 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 You can pass other attibutes as well.
 
 ```html
-<AbTesting tabindex="0">
+<AbTesting tabindex="0"></AbTesting>
 ```
 
 ## Import all
@@ -107,7 +108,7 @@ Use `import * as Icon from 'svelte-teenyicons`.
 
 ```html
 <script>
-  import * as Icon from "svelte-teenyicons";
+	import * as Icon from 'svelte-teenyicons';
 </script>
 
 <Icon.AbTesting size="30" class="text-red-500" />
