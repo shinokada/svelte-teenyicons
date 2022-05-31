@@ -1,6 +1,6 @@
 {
 	"name": "svelte-teenyicons",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "Teeny icon components for Svelte",
 	"author": {
 		"name": "Shinichi Okada",
