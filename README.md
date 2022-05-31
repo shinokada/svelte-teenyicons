@@ -3,8 +3,10 @@
 TeenyIcons for Svelte. You can import outline and solid icons without name conflict. Svlete-Teenyicons support major CSS framework. You can add additional CSS using the `class` props.
 
 <p align="center">
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teenyicons1.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teenyicons2.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teeny1.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teeny2.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teeny3.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teeny4.webp" />
 </p>
 
 ## List of icons
@@ -39,8 +41,7 @@ npm i svelte-teenyicons
 The default variation value is outline. Use the `variation` prop to change it to solid.
 
 ```html
-<AbTesting variation="solid" />
-<AbTesting />
+<AbTesting variation="solid" /> <AbTesting />
 ```
 
 ## Size
