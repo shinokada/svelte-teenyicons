@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let size = '15';
-	export let ariaLabel = '360';
 	export let variation: 'solid' | 'outline' = 'outline';
 	let svgpath: string;
 	let svgoutline = `<path d="M0.5 8.5L7.5 14.5L14.5 8.5L12.5 0.5L10.5 6.5H4.5L2.5 0.5L0.5 8.5Z" stroke="black" stroke-linejoin="round"/> `;
@@ -15,6 +14,7 @@
 		default:
 			svgpath = svgoutline;
 	}
+	export let ariaLabel = 'gitlab';
 </script>
 
 <svg

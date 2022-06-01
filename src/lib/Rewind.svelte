@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let size = '15';
-	export let ariaLabel = '360';
 	export let variation: 'solid' | 'outline' = 'outline';
 	let svgpath: string;
 	let svgoutline = `<path d="M14.5 12.5V2.5L7.5 7.5L14.5 12.5Z" stroke="black" stroke-linejoin="round"/> <path d="M7.5 12.5V2.5L0.5 7.5L7.5 12.5Z" stroke="black" stroke-linejoin="round"/> `;
@@ -15,6 +14,7 @@
 		default:
 			svgpath = svgoutline;
 	}
+	export let ariaLabel = 'rewind';
 </script>
 
 <svg

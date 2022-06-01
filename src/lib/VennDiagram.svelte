@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let size = '15';
-	export let ariaLabel = '360';
 	export let variation: 'solid' | 'outline' = 'outline';
 	let svgpath: string;
 	let svgoutline = `<path d="M2.5 9.5C2.5 6.73858 4.73858 4.5 7.5 4.5C10.2614 4.5 12.5 6.73858 12.5 9.5C12.5 12.2614 10.2614 14.5 7.5 14.5C4.73858 14.5 2.5 12.2614 2.5 9.5Z" stroke="black"/> <path d="M0.5 5.5C0.5 2.73858 2.73858 0.5 5.5 0.5C8.26142 0.5 10.5 2.73858 10.5 5.5C10.5 8.26142 8.26142 10.5 5.5 10.5C2.73858 10.5 0.5 8.26142 0.5 5.5Z" stroke="black"/> <path d="M4.5 5.5C4.5 2.73858 6.73858 0.5 9.5 0.5C12.2614 0.5 14.5 2.73858 14.5 5.5C14.5 8.26142 12.2614 10.5 9.5 10.5C6.73858 10.5 4.5 8.26142 4.5 5.5Z" stroke="black"/> `;
@@ -15,6 +14,7 @@
 		default:
 			svgpath = svgoutline;
 	}
+	export let ariaLabel = 'venn diagram';
 </script>
 
 <svg

@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let size = '15';
-	export let ariaLabel = '360';
 	export let variation: 'solid' | 'outline' = 'outline';
 	let svgpath: string;
 	let svgoutline = `<path d="M0.5 0V14.5H14.5V0M0.5 4.5H2.5V5.5H4.5V8.5H6.5V11.5H7.5V14.5V12.5H9.5V10.5H11.5V7.5H12.5V5.5H14.5" stroke="black"/> `;
@@ -15,6 +14,7 @@
 		default:
 			svgpath = svgoutline;
 	}
+	export let ariaLabel = 'depth chart';
 </script>
 
 <svg

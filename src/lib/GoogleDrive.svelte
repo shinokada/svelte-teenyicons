@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let size = '15';
-	export let ariaLabel = '360';
 	export let variation: 'solid' | 'outline' = 'outline';
 	let svgpath: string;
 	let svgoutline = `<path d="M5 1.5L0.5 9.5L2.5 13.5M5 1.5L7.5 5.5L2.5 13.5M5 1.5H10L14.5 9.5M5 1.5L10 9.5H14.5M2.5 13.5L5 9.5H14.5M2.5 13.5H12.5L14.5 9.5" stroke="black" stroke-linejoin="round"/> `;
@@ -15,6 +14,7 @@
 		default:
 			svgpath = svgoutline;
 	}
+	export let ariaLabel = 'google drive';
 </script>
 
 <svg

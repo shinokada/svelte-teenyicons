@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let size = '15';
-	export let ariaLabel = '360';
 	export let variation: 'solid' | 'outline' = 'outline';
 	let svgpath: string;
 	let svgoutline = `<path d="M1.5 10.5V4.5M1.5 10.5L7.5 14M1.5 10.5L5 9M1.5 4.5L7.5 1M1.5 4.5L7.5 7.5M7.5 1L13.5 4.5M7.5 1V4.5M13.5 4.5V10.5M13.5 4.5L7.5 7.5M13.5 10.5L7.5 14M13.5 10.5L10 9M7.5 14V7.5M7.5 4.5L5 6V9M7.5 4.5L10 6V9M5 9L7.5 10.5L10 9" stroke="black"/> `;
@@ -15,6 +14,7 @@
 		default:
 			svgpath = svgoutline;
 	}
+	export let ariaLabel = 'webpack';
 </script>
 
 <svg

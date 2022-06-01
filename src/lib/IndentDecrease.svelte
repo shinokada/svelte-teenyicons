@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let size = '15';
-	export let ariaLabel = '360';
 	export let variation: 'solid' | 'outline' = 'outline';
 	let svgpath: string;
 	let svgoutline = `<path d="M0.5 7.5L0.146447 7.14645C-0.0488155 7.34171 -0.0488155 7.65829 0.146447 7.85355L0.5 7.5ZM3 4H15V3H3V4ZM7 8H15V7H7V8ZM3 12H15V11H3V12ZM2.85355 9.14645L0.853553 7.14645L0.146447 7.85355L2.14645 9.85355L2.85355 9.14645ZM0.853553 7.85355L2.85355 5.85355L2.14645 5.14645L0.146447 7.14645L0.853553 7.85355Z" fill="black"/> `;
@@ -15,6 +14,7 @@
 		default:
 			svgpath = svgoutline;
 	}
+	export let ariaLabel = 'indent decrease';
 </script>
 
 <svg

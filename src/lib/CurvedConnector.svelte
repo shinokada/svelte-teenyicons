@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let size = '15';
-	export let ariaLabel = '360';
 	export let variation: 'solid' | 'outline' = 'outline';
 	let svgpath: string;
 	let svgoutline = `<path d="M2.5 1.5C2.5 2.05228 2.05228 2.5 1.5 2.5C0.947715 2.5 0.5 2.05228 0.5 1.5C0.5 0.947715 0.947715 0.5 1.5 0.5C2.05228 0.5 2.5 0.947715 2.5 1.5ZM2.5 1.5H4.5C6.15685 1.5 7.5 2.84315 7.5 4.5V10.5C7.5 12.1569 8.84315 13.5 10.5 13.5H12.5M12.5 13.5C12.5 14.0523 12.9477 14.5 13.5 14.5C14.0523 14.5 14.5 14.0523 14.5 13.5C14.5 12.9477 14.0523 12.5 13.5 12.5C12.9477 12.5 12.5 12.9477 12.5 13.5Z" stroke="black"/> `;
@@ -15,6 +14,7 @@
 		default:
 			svgpath = svgoutline;
 	}
+	export let ariaLabel = 'curved connector';
 </script>
 
 <svg

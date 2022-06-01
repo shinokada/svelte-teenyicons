@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let size = '15';
-	export let ariaLabel = '360';
 	export let variation: 'solid' | 'outline' = 'outline';
 	let svgpath: string;
 	let svgoutline = `<path d="M11.0707 4C10.1632 3.07432 8.89868 2.5 7.49998 2.5C5.26116 2.5 3.36601 3.97145 2.72888 6L8.99998 12.2711C10.8756 11.682 12.275 10.0174 12.4753 8H8.99998M2.5 8.5L6.5 12.5M7.5 14.5C3.63401 14.5 0.5 11.366 0.5 7.5C0.5 3.63401 3.63401 0.5 7.5 0.5C11.366 0.5 14.5 3.63401 14.5 7.5C14.5 11.366 11.366 14.5 7.5 14.5Z" stroke="black"/> `;
@@ -15,6 +14,7 @@
 		default:
 			svgpath = svgoutline;
 	}
+	export let ariaLabel = 'gatsbyjs';
 </script>
 
 <svg

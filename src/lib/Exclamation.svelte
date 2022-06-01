@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let size = '15';
-	export let ariaLabel = '360';
 	export let variation: 'solid' | 'outline' = 'outline';
 	let svgpath: string;
 	let svgoutline = `<path d="M8 13.5V13H7V13.5H8ZM7 13.51V14.01H8V13.51H7ZM7 1V11H8V1H7ZM7 13.5V13.51H8V13.5H7Z" fill="black"/> `;
@@ -15,6 +14,7 @@
 		default:
 			svgpath = svgoutline;
 	}
+	export let ariaLabel = 'exclamation';
 </script>
 
 <svg

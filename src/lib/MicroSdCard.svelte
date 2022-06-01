@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let size = '15';
-	export let ariaLabel = '360';
 	export let variation: 'solid' | 'outline' = 'outline';
 	let svgpath: string;
 	let svgoutline = `<path d="M6.5 3V6M8.5 3V6M10.5 3V6M2.5 14.5H12.5C13.0523 14.5 13.5 14.0523 13.5 13.5V1.5C13.5 0.947716 13.0523 0.5 12.5 0.5H4.5C3.94772 0.5 3.5 0.947715 3.5 1.5V6.5L1.5 8.5V13.5C1.5 14.0523 1.94772 14.5 2.5 14.5Z" stroke="black"/> `;
@@ -15,6 +14,7 @@
 		default:
 			svgpath = svgoutline;
 	}
+	export let ariaLabel = 'micro sd card';
 </script>
 
 <svg

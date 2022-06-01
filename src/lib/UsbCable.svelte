@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let size = '15';
-	export let ariaLabel = '360';
 	export let variation: 'solid' | 'outline' = 'outline';
 	let svgpath: string;
 	let svgoutline = `<path d="M4.5 5.5H10.5M4.5 5.5C3.94772 5.5 3.5 5.94772 3.5 6.5V10.5C3.5 11.0523 3.94772 11.5 4.5 11.5H10.5C11.0523 11.5 11.5 11.0523 11.5 10.5V6.5C11.5 5.94772 11.0523 5.5 10.5 5.5M4.5 5.5V0.5H10.5V5.5M6.5 2V4M8.5 2V4M5.5 11.5V13.5H9.5V11.5M6.5 13.5V15M8.5 13.5V15" stroke="black"/> `;
@@ -15,6 +14,7 @@
 		default:
 			svgpath = svgoutline;
 	}
+	export let ariaLabel = 'usb cable';
 </script>
 
 <svg

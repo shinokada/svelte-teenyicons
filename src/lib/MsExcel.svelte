@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let size = '15';
-	export let ariaLabel = '360';
 	export let variation: 'solid' | 'outline' = 'outline';
 	let svgpath: string;
 	let svgoutline = `<path d="M2.5 3.5V1.5C2.5 0.947715 2.94772 0.5 3.5 0.5H13.5C14.0523 0.5 14.5 0.947715 14.5 1.5V13.5C14.5 14.0523 14.0523 14.5 13.5 14.5H3.5C2.94772 14.5 2.5 14.0523 2.5 13.5V11.5M2.5 5.5L6.5 9.5M2.5 9.5L6.5 5.5M1.5 3.5H7.5C8.05228 3.5 8.5 3.94772 8.5 4.5V10.5C8.5 11.0523 8.05228 11.5 7.5 11.5H1.5C0.947715 11.5 0.5 11.0523 0.5 10.5V4.5C0.5 3.94772 0.947715 3.5 1.5 3.5Z" stroke="black"/> `;
@@ -15,6 +14,7 @@
 		default:
 			svgpath = svgoutline;
 	}
+	export let ariaLabel = 'ms excel';
 </script>
 
 <svg

@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let size = '15';
-	export let ariaLabel = '360';
 	export let variation: 'solid' | 'outline' = 'outline';
 	let svgpath: string;
 	let svgoutline = `<path d="M0.5 12.5L6.5 2.5L12.5 12.5H0.5Z" stroke="black" stroke-linejoin="round"/> <path d="M4.5 12.5L9.5 4L14.5 12.5H4.5Z" stroke="black" stroke-linejoin="round"/> `;
@@ -15,6 +14,7 @@
 		default:
 			svgpath = svgoutline;
 	}
+	export let ariaLabel = 'nuxtjs';
 </script>
 
 <svg

@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let size = '15';
-	export let ariaLabel = '360';
 	export let variation: 'solid' | 'outline' = 'outline';
 	let svgpath: string;
 	let svgoutline = `<path d="M7 4.5H8M10 7.5H11M7 7.5H8M7 10.5H8M4 7.5H5M1.5 1.5H13.5V13.5H1.5V1.5Z" stroke="black"/> `;
@@ -15,6 +14,7 @@
 		default:
 			svgpath = svgoutline;
 	}
+	export let ariaLabel = 'border outer';
 </script>
 
 <svg

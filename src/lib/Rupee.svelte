@@ -1,6 +1,5 @@
 <script lang="ts">
 	export let size = '15';
-	export let ariaLabel = '360';
 	export let variation: 'solid' | 'outline' = 'outline';
 	let svgpath: string;
 	let svgoutline = `<path d="M2.5 8.5V8C2.29076 8 2.10365 8.13029 2.03106 8.32653C1.95846 8.52277 2.01574 8.74346 2.1746 8.87963L2.5 8.5ZM2 1H13V0H2V1ZM2.5 9H5.5V8H2.5V9ZM5.5 0H2.5V1H5.5V0ZM2.1746 8.87963L9.1746 14.8796L9.8254 14.1204L2.8254 8.12037L2.1746 8.87963ZM10 4.5C10 2.01472 7.98528 0 5.5 0V1C7.433 1 9 2.567 9 4.5H10ZM5.5 9C7.98528 9 10 6.98528 10 4.5H9C9 6.433 7.433 8 5.5 8V9ZM2 5H13V4H2V5Z" fill="black"/> `;
@@ -15,6 +14,7 @@
 		default:
 			svgpath = svgoutline;
 	}
+	export let ariaLabel = 'rupee';
 </script>
 
 <svg
