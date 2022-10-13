@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/shinokada/svelte-teenyicons/compare/v0.2.5...v0.3.0) (2022-10-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* add color and add img to README
+
+### Features
+
+* add color and add img to README ([86f30f7](https://github.com/shinokada/svelte-teenyicons/commit/86f30f7f8199d2e3021252df67b5cc4e829ff882))
+
 ### [0.2.5](https://github.com/shinokada/svelte-teenyicons/compare/v0.2.4...v0.2.5) (2022-06-01)
 
 ### Bug Fixes
