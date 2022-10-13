@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.2.5](https://github.com/shinokada/svelte-teenyicons/compare/v0.2.4...v0.2.5) (2022-06-01)
 
-
 ### Bug Fixes
 
-* removed ariaLabel=360 and add ariaLabel=file name ([8612c8d](https://github.com/shinokada/svelte-teenyicons/commit/8612c8dc0caded2e568604f8e7b743819ec2500b))
+- removed ariaLabel=360 and add ariaLabel=file name ([8612c8d](https://github.com/shinokada/svelte-teenyicons/commit/8612c8dc0caded2e568604f8e7b743819ec2500b))
 
 ### [0.2.4](https://github.com/shinokada/svelte-teenyicons/compare/v0.2.3...v0.2.4) (2022-05-31)
 

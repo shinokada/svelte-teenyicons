@@ -7,6 +7,8 @@ Monochrome SVG TeenyIcons for Svelte. You can import outline and solid icons wit
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teeny2.webp" />
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teeny3.webp" />
 <img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teeny4.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teeny5.webp" />
+<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teeny6.webp" />
 </p>
 
 ## List of icons
@@ -33,6 +35,7 @@ npm i svelte-teenyicons
 | ---------------------------- | ----------- |
 | size                         | 15          |
 | class                        |             |
+| color | black|
 | ariaLabel                    | <file name> |
 | variation (solid or outline) | outline     |
 

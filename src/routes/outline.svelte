@@ -1,604 +1,608 @@
 <script>
 	import * as Icon from '$lib';
+	const random_hex_color_code = () => {
+		let n = (Math.random() * 0xfffff * 1000000).toString(16);
+		return '#' + n.slice(0, 6);
+	};
 </script>
 
-<Icon.A360 size="30" />
-<Icon.AbTesting size="30" />
-<Icon.Add size="30" />
-<Icon.AddSmall size="30" />
-<Icon.AddressBook size="30" />
-<Icon.AdjustHorizontal size="30" />
-<Icon.AdjustHorizontalAlt size="30" />
-<Icon.AdjustVertical size="30" />
-<Icon.AdjustVerticalAlt size="30" />
-<Icon.Airplay size="30" />
-<Icon.Airpods size="30" />
-<Icon.Alarm size="30" />
-<Icon.Alien size="30" />
-<Icon.AlignBottom size="30" />
-<Icon.AlignCenterHorizontal size="30" />
-<Icon.AlignCenterVertical size="30" />
-<Icon.AlignLeft size="30" />
-<Icon.AlignRight size="30" />
-<Icon.AlignTextCenter size="30" />
-<Icon.AlignTextJustify size="30" />
-<Icon.AlignTextLeft size="30" />
-<Icon.AlignTextRight size="30" />
-<Icon.AlignTop size="30" />
-<Icon.Anchor size="30" />
-<Icon.Android size="30" />
-<Icon.Angular size="30" />
-<Icon.Anja size="30" />
-<Icon.AntiClockwise size="30" />
-<Icon.Apple size="30" />
-<Icon.Appointments size="30" />
-<Icon.Archive size="30" />
-<Icon.AreaChart size="30" />
-<Icon.AreaChartAlt size="30" />
-<Icon.Arrow size="30" />
-<Icon.ArrowDown size="30" />
-<Icon.ArrowDownCircle size="30" />
-<Icon.ArrowDownSmall size="30" />
-<Icon.ArrowLeft size="30" />
-<Icon.ArrowLeftCircle size="30" />
-<Icon.ArrowLeftSmall size="30" />
-<Icon.ArrowRight size="30" />
-<Icon.ArrowRightCircle size="30" />
-<Icon.ArrowRightSmall size="30" />
-<Icon.ArrowUp size="30" />
-<Icon.ArrowUpCircle size="30" />
-<Icon.ArrowUpSmall size="30" />
-<Icon.Artboard size="30" />
-<Icon.At size="30" />
-<Icon.Attach size="30" />
-<Icon.Attachment size="30" />
-<Icon.AudioCable size="30" />
-<Icon.AudioDocument size="30" />
-<Icon.Azure size="30" />
-<Icon.Backspace size="30" />
-<Icon.Bag size="30" />
-<Icon.BagAlt size="30" />
-<Icon.BagMinus size="30" />
-<Icon.BagPlus size="30" />
-<Icon.Bank size="30" />
-<Icon.BarChart size="30" />
-<Icon.Barcode size="30" />
-<Icon.Basket size="30" />
-<Icon.BasketMinus size="30" />
-<Icon.BasketPlus size="30" />
-<Icon.Bath size="30" />
-<Icon.Battery0 size="30" />
-<Icon.Battery1 size="30" />
-<Icon.Battery2 size="30" />
-<Icon.Battery3 size="30" />
-<Icon.Battery4 size="30" />
-<Icon.Battery5 size="30" />
-<Icon.BatteryCharge size="30" />
-<Icon.BedDouble size="30" />
-<Icon.BedSingle size="30" />
-<Icon.Behance size="30" />
-<Icon.Bell size="30" />
-<Icon.Bin size="30" />
-<Icon.Bitbucket size="30" />
-<Icon.Bitcoin size="30" />
-<Icon.Bluetooth size="30" />
-<Icon.Bold size="30" />
-<Icon.Book size="30" />
-<Icon.Bookmark size="30" />
-<Icon.BorderAll size="30" />
-<Icon.BorderBottom size="30" />
-<Icon.BorderHorizontal size="30" />
-<Icon.BorderInner size="30" />
-<Icon.BorderLeft size="30" />
-<Icon.BorderNone size="30" />
-<Icon.BorderOuter size="30" />
-<Icon.BorderRadius size="30" />
-<Icon.BorderRight size="30" />
-<Icon.BorderTop size="30" />
-<Icon.BorderVertical size="30" />
-<Icon.BottomLeft size="30" />
-<Icon.BottomRight size="30" />
-<Icon.Box size="30" />
-<Icon.Bracket size="30" />
-<Icon.Briefcase size="30" />
-<Icon.BriefcaseAlt size="30" />
-<Icon.Brush size="30" />
-<Icon.Bug size="30" />
-<Icon.Building size="30" />
-<Icon.BulbOff size="30" />
-<Icon.BulbOn size="30" />
-<Icon.Button size="30" />
-<Icon.C size="30" />
-<Icon.CSharp size="30" />
-<Icon.Calculator size="30" />
-<Icon.Calendar size="30" />
-<Icon.CalendarMinus size="30" />
-<Icon.CalendarNoAccess size="30" />
-<Icon.CalendarPlus size="30" />
-<Icon.CalendarTick size="30" />
-<Icon.CalendarX size="30" />
-<Icon.Camera size="30" />
-<Icon.CandleChart size="30" />
-<Icon.Car size="30" />
-<Icon.CaretVertical size="30" />
-<Icon.CaretVerticalCircle size="30" />
-<Icon.CaretVerticalSmall size="30" />
-<Icon.Cart size="30" />
-<Icon.CartMinus size="30" />
-<Icon.CartPlus size="30" />
-<Icon.Certificate size="30" />
-<Icon.Chat size="30" />
-<Icon.ChatTyping size="30" />
-<Icon.ChatTypingAlt size="30" />
-<Icon.Chatbot size="30" />
-<Icon.Chrome size="30" />
-<Icon.Church size="30" />
-<Icon.Circle size="30" />
-<Icon.Clipboard size="30" />
-<Icon.ClipboardMinus size="30" />
-<Icon.ClipboardNoAccess size="30" />
-<Icon.ClipboardPlus size="30" />
-<Icon.ClipboardTick size="30" />
-<Icon.ClipboardX size="30" />
-<Icon.Clock size="30" />
-<Icon.Clockwise size="30" />
-<Icon.Code size="30" />
-<Icon.Codepen size="30" />
-<Icon.Cog size="30" />
-<Icon.Compass size="30" />
-<Icon.Computer size="30" />
-<Icon.Contact size="30" />
-<Icon.Contract size="30" />
-<Icon.CostEstimate size="30" />
-<Icon.Cplusplus size="30" />
-<Icon.CreditCard size="30" />
-<Icon.Crop size="30" />
-<Icon.Css3 size="30" />
-<Icon.Csv size="30" />
-<Icon.Cup size="30" />
-<Icon.CurvedConnector size="30" />
-<Icon.D3 size="30" />
-<Icon.Database size="30" />
-<Icon.Denied size="30" />
-<Icon.Deno size="30" />
-<Icon.DepthChart size="30" />
-<Icon.Desklamp size="30" />
-<Icon.Diamond size="30" />
-<Icon.Direction size="30" />
-<Icon.Discord size="30" />
-<Icon.Discount size="30" />
-<Icon.DistributeHorizontal size="30" />
-<Icon.DistributeVertical size="30" />
-<Icon.DividerLine size="30" />
-<Icon.Doc size="30" />
-<Icon.Docker size="30" />
-<Icon.Documents size="30" />
-<Icon.Dollar size="30" />
-<Icon.DonutChart size="30" />
-<Icon.DoubleCaretDown size="30" />
-<Icon.DoubleCaretDownCircle size="30" />
-<Icon.DoubleCaretDownSmall size="30" />
-<Icon.DoubleCaretLeft size="30" />
-<Icon.DoubleCaretLeftCircle size="30" />
-<Icon.DoubleCaretLeftSmall size="30" />
-<Icon.DoubleCaretRight size="30" />
-<Icon.DoubleCaretRightCircle size="30" />
-<Icon.DoubleCaretRightSmall size="30" />
-<Icon.DoubleCaretUp size="30" />
-<Icon.DoubleCaretUpCircle size="30" />
-<Icon.DoubleCaretUpSmall size="30" />
-<Icon.Down size="30" />
-<Icon.DownCircle size="30" />
-<Icon.DownSmall size="30" />
-<Icon.Download size="30" />
-<Icon.Drag size="30" />
-<Icon.DragHorizontal size="30" />
-<Icon.DragVertical size="30" />
-<Icon.Dribbble size="30" />
-<Icon.Drop size="30" />
-<Icon.Dropper size="30" />
-<Icon.Edge size="30" />
-<Icon.Edit size="30" />
-<Icon.Edit1 size="30" />
-<Icon.EditCircle size="30" />
-<Icon.EditSmall size="30" />
-<Icon.ElbowConnector size="30" />
-<Icon.Envelope size="30" />
-<Icon.EnvelopeOpen size="30" />
-<Icon.Eps size="30" />
-<Icon.Eslint size="30" />
-<Icon.Ethereum size="30" />
-<Icon.Euro size="30" />
-<Icon.Exclamation size="30" />
-<Icon.ExclamationCircle size="30" />
-<Icon.ExclamationSmall size="30" />
-<Icon.Expand size="30" />
-<Icon.ExpandAlt size="30" />
-<Icon.Eye size="30" />
-<Icon.EyeClosed size="30" />
-<Icon.FaceId size="30" />
-<Icon.Facebook size="30" />
-<Icon.Figma size="30" />
-<Icon.File size="30" />
-<Icon.FileMinus size="30" />
-<Icon.FileNoAccess size="30" />
-<Icon.FilePlus size="30" />
-<Icon.FileTick size="30" />
-<Icon.FileX size="30" />
-<Icon.Filter size="30" />
-<Icon.Fingerprint size="30" />
-<Icon.Firebase size="30" />
-<Icon.Flag size="30" />
-<Icon.FlagAlt size="30" />
-<Icon.FlipHorizontal size="30" />
-<Icon.FlipVertical size="30" />
-<Icon.FloatCenter size="30" />
-<Icon.FloatLeft size="30" />
-<Icon.FloatRight size="30" />
-<Icon.Floorplan size="30" />
-<Icon.Folder size="30" />
-<Icon.FolderMinus size="30" />
-<Icon.FolderNoAccess size="30" />
-<Icon.FolderPlus size="30" />
-<Icon.FolderTick size="30" />
-<Icon.FolderX size="30" />
-<Icon.Folders size="30" />
-<Icon.Forward size="30" />
-<Icon.ForwardCircle size="30" />
-<Icon.ForwardSmall size="30" />
-<Icon.Frame size="30" />
-<Icon.Framer size="30" />
-<Icon.GameController size="30" />
-<Icon.GameControllerRetro size="30" />
-<Icon.GanttChart size="30" />
-<Icon.Garage size="30" />
-<Icon.Gatsbyjs size="30" />
-<Icon.Gba size="30" />
-<Icon.Gbc size="30" />
-<Icon.Ghost size="30" />
-<Icon.Gif size="30" />
-<Icon.Gift size="30" />
-<Icon.Git size="30" />
-<Icon.GitBranch size="30" />
-<Icon.GitCommit size="30" />
-<Icon.GitCompare size="30" />
-<Icon.GitFork size="30" />
-<Icon.GitMerge size="30" />
-<Icon.GitPull size="30" />
-<Icon.Github size="30" />
-<Icon.Gitlab size="30" />
-<Icon.Globe size="30" />
-<Icon.GlobeAfrica size="30" />
-<Icon.GlobeAmericas size="30" />
-<Icon.Google size="30" />
-<Icon.GoogleAd size="30" />
-<Icon.GoogleDrive size="30" />
-<Icon.GooglePlayStore size="30" />
-<Icon.GoogleStreetview size="30" />
-<Icon.Graphql size="30" />
-<Icon.GridLayout size="30" />
-<Icon.Hashtag size="30" />
-<Icon.HdScreen size="30" />
-<Icon.HdmiCable size="30" />
-<Icon.Headphones size="30" />
-<Icon.Headset size="30" />
-<Icon.Heart size="30" />
-<Icon.HeartCircle size="30" />
-<Icon.HeartSmall size="30" />
-<Icon.Hexagon size="30" />
-<Icon.History size="30" />
-<Icon.Home size="30" />
-<Icon.HomeAlt size="30" />
-<Icon.Hospital size="30" />
-<Icon.Hourglass size="30" />
-<Icon.House size="30" />
-<Icon.Html5 size="30" />
-<Icon.Id size="30" />
-<Icon.Imac size="30" />
-<Icon.Image size="30" />
-<Icon.ImageAlt size="30" />
-<Icon.ImageDocument size="30" />
-<Icon.InEarHeadphones size="30" />
-<Icon.Inbox size="30" />
-<Icon.IndentDecrease size="30" />
-<Icon.IndentIncrease size="30" />
-<Icon.Info size="30" />
-<Icon.InfoCircle size="30" />
-<Icon.InfoSmall size="30" />
-<Icon.Instagram size="30" />
-<Icon.Invoice size="30" />
-<Icon.Italic size="30" />
-<Icon.Javascript size="30" />
-<Icon.Joystick size="30" />
-<Icon.Jpg size="30" />
-<Icon.Kanban size="30" />
-<Icon.Key size="30" />
-<Icon.Keyboard size="30" />
-<Icon.LanCable size="30" />
-<Icon.Laptop size="30" />
-<Icon.Laravel size="30" />
-<Icon.Layers size="30" />
-<Icon.LayersDifference size="30" />
-<Icon.LayersIntersect size="30" />
-<Icon.LayersSubtract size="30" />
-<Icon.LayersUnion size="30" />
-<Icon.Left size="30" />
-<Icon.LeftCircle size="30" />
-<Icon.LeftSmall size="30" />
-<Icon.Lego size="30" />
-<Icon.Lifebuoy size="30" />
-<Icon.LightningCable size="30" />
-<Icon.Line size="30" />
-<Icon.Link size="30" />
-<Icon.LinkRemove size="30" />
-<Icon.Linkedin size="30" />
-<Icon.Linux size="30" />
-<Icon.LinuxAlt size="30" />
-<Icon.ListLayout size="30" />
-<Icon.ListOrdered size="30" />
-<Icon.ListUnordered size="30" />
-<Icon.Litecoin size="30" />
-<Icon.Loader size="30" />
-<Icon.Location size="30" />
-<Icon.Lock size="30" />
-<Icon.LockCircle size="30" />
-<Icon.LockSmall size="30" />
-<Icon.Logout size="30" />
-<Icon.Loop size="30" />
-<Icon.Magsafe size="30" />
-<Icon.Markdown size="30" />
-<Icon.Medium size="30" />
-<Icon.Menu size="30" />
-<Icon.Message size="30" />
-<Icon.MessageMinus size="30" />
-<Icon.MessageNoAccess size="30" />
-<Icon.MessagePlus size="30" />
-<Icon.MessageText size="30" />
-<Icon.MessageTextAlt size="30" />
-<Icon.MessageTick size="30" />
-<Icon.MessageX size="30" />
-<Icon.Messenger size="30" />
-<Icon.MicroSdCard size="30" />
-<Icon.Microphone size="30" />
-<Icon.Minimise size="30" />
-<Icon.MinimiseAlt size="30" />
-<Icon.Minus size="30" />
-<Icon.MinusCircle size="30" />
-<Icon.MinusSmall size="30" />
-<Icon.Mobile size="30" />
-<Icon.Money size="30" />
-<Icon.MoneyStack size="30" />
-<Icon.Mongodb size="30" />
-<Icon.MoodFlat size="30" />
-<Icon.MoodFrown size="30" />
-<Icon.MoodLaugh size="30" />
-<Icon.MoodSad size="30" />
-<Icon.MoodSmile size="30" />
-<Icon.MoodSurprised size="30" />
-<Icon.MoodTongue size="30" />
-<Icon.Moon size="30" />
-<Icon.MoreHorizontal size="30" />
-<Icon.MoreVertical size="30" />
-<Icon.Mouse size="30" />
-<Icon.Mov size="30" />
-<Icon.Mp3 size="30" />
-<Icon.Mp4 size="30" />
-<Icon.MsExcel size="30" />
-<Icon.MsPowerpoint size="30" />
-<Icon.MsWord size="30" />
-<Icon.N64 size="30" />
-<Icon.Nes size="30" />
-<Icon.Netlify size="30" />
-<Icon.Next size="30" />
-<Icon.NextCircle size="30" />
-<Icon.NextSmall size="30" />
-<Icon.Nextjs size="30" />
-<Icon.Ngc size="30" />
-<Icon.NintendoSwitch size="30" />
-<Icon.Nodejs size="30" />
-<Icon.Note size="30" />
-<Icon.Npm size="30" />
-<Icon.Nuxtjs size="30" />
-<Icon.Omega size="30" />
-<Icon.Opera size="30" />
-<Icon.Otp size="30" />
-<Icon.PageBreak size="30" />
-<Icon.PageNumber size="30" />
-<Icon.Paintbrush size="30" />
-<Icon.Paintbucket size="30" />
-<Icon.Paragraph size="30" />
-<Icon.Password size="30" />
-<Icon.Patreon size="30" />
-<Icon.Pause size="30" />
-<Icon.PauseCircle size="30" />
-<Icon.PauseSmall size="30" />
-<Icon.Paw size="30" />
-<Icon.Paws size="30" />
-<Icon.Paypal size="30" />
-<Icon.Pdf size="30" />
-<Icon.Pen size="30" />
-<Icon.Phone size="30" />
-<Icon.Phonecall size="30" />
-<Icon.PhonecallBlocked size="30" />
-<Icon.PhonecallReceive size="30" />
-<Icon.PieChart size="30" />
-<Icon.PieChartAlt size="30" />
-<Icon.Pin size="30" />
-<Icon.PinAlt size="30" />
-<Icon.Pinterest size="30" />
-<Icon.Plant size="30" />
-<Icon.Play size="30" />
-<Icon.PlayCircle size="30" />
-<Icon.PlaySmall size="30" />
-<Icon.Plug size="30" />
-<Icon.PlusCircle size="30" />
-<Icon.Png size="30" />
-<Icon.Pool size="30" />
-<Icon.Pound size="30" />
-<Icon.Power size="30" />
-<Icon.Ppt size="30" />
-<Icon.Print size="30" />
-<Icon.Python size="30" />
-<Icon.QrCode size="30" />
-<Icon.Question size="30" />
-<Icon.QuestionCircle size="30" />
-<Icon.QuestionSmall size="30" />
-<Icon.Quote size="30" />
-<Icon.Rand size="30" />
-<Icon.React size="30" />
-<Icon.Receipt size="30" />
-<Icon.Reddit size="30" />
-<Icon.Redwoodjs size="30" />
-<Icon.Refresh size="30" />
-<Icon.RefreshAlt size="30" />
-<Icon.Rewind size="30" />
-<Icon.RewindCircle size="30" />
-<Icon.RewindSmall size="30" />
-<Icon.Right size="30" />
-<Icon.RightCircle size="30" />
-<Icon.RightSmall size="30" />
-<Icon.Ripple size="30" />
-<Icon.Robot size="30" />
-<Icon.Roller size="30" />
-<Icon.Rollupjs size="30" />
-<Icon.Router size="30" />
-<Icon.Rss size="30" />
-<Icon.Ruby size="30" />
-<Icon.Rupee size="30" />
-<Icon.Rust size="30" />
-<Icon.Safari size="30" />
-<Icon.Safe size="30" />
-<Icon.Save size="30" />
-<Icon.Scan size="30" />
-<Icon.School size="30" />
-<Icon.Screen size="30" />
-<Icon.ScreenAlt size="30" />
-<Icon.ScreenAlt2 size="30" />
-<Icon.Scribble size="30" />
-<Icon.SdCard size="30" />
-<Icon.Search size="30" />
-<Icon.SearchCircle size="30" />
-<Icon.SearchProperty size="30" />
-<Icon.SearchSmall size="30" />
-<Icon.SectionAdd size="30" />
-<Icon.SectionRemove size="30" />
-<Icon.Send size="30" />
-<Icon.SendDown size="30" />
-<Icon.SendLeft size="30" />
-<Icon.SendRight size="30" />
-<Icon.SendUp size="30" />
-<Icon.Servers size="30" />
-<Icon.Share size="30" />
-<Icon.Shield size="30" />
-<Icon.ShieldTick size="30" />
-<Icon.ShieldX size="30" />
-<Icon.Shop size="30" />
-<Icon.Sign size="30" />
-<Icon.Signin size="30" />
-<Icon.Sim size="30" />
-<Icon.Simohamed size="30" />
-<Icon.Skull size="30" />
-<Icon.Skype size="30" />
-<Icon.Slack size="30" />
-<Icon.Snapchat size="30" />
-<Icon.Snes size="30" />
-<Icon.SortAlphabetically size="30" />
-<Icon.SortDown size="30" />
-<Icon.SortHighToLow size="30" />
-<Icon.SortLowToHigh size="30" />
-<Icon.SortReverseAlphabetically size="30" />
-<Icon.SortUp size="30" />
-<Icon.SoundOff size="30" />
-<Icon.SoundOn size="30" />
-<Icon.Spotify size="30" />
-<Icon.Spreadsheet size="30" />
-<Icon.Square size="30" />
-<Icon.Stackoverflow size="30" />
-<Icon.Stamp size="30" />
-<Icon.Star size="30" />
-<Icon.StarCircle size="30" />
-<Icon.StarSmall size="30" />
-<Icon.Stop size="30" />
-<Icon.StopCircle size="30" />
-<Icon.StopSmall size="30" />
-<Icon.Stopwatch size="30" />
-<Icon.Strikethrough size="30" />
-<Icon.Subscript size="30" />
-<Icon.Sun size="30" />
-<Icon.Superscript size="30" />
-<Icon.Svelte size="30" />
-<Icon.Svg size="30" />
-<Icon.Table size="30" />
-<Icon.Tablet size="30" />
-<Icon.Tag size="30" />
-<Icon.Tailwind size="30" />
-<Icon.Target size="30" />
-<Icon.Telegram size="30" />
-<Icon.Terminal size="30" />
-<Icon.Text size="30" />
-<Icon.TextDocument size="30" />
-<Icon.TextDocumentAlt size="30" />
-<Icon.ThumbDown size="30" />
-<Icon.ThumbUp size="30" />
-<Icon.Thumbtack size="30" />
-<Icon.Tick size="30" />
-<Icon.TickCircle size="30" />
-<Icon.TickSmall size="30" />
-<Icon.Tiktok size="30" />
-<Icon.Toggle size="30" />
-<Icon.TopLeft size="30" />
-<Icon.TopRight size="30" />
-<Icon.TrendDown size="30" />
-<Icon.TrendUp size="30" />
-<Icon.Triangle size="30" />
-<Icon.Trophy size="30" />
-<Icon.Tv size="30" />
-<Icon.Twitch size="30" />
-<Icon.Twitter size="30" />
-<Icon.Typescript size="30" />
-<Icon.Underline size="30" />
-<Icon.Unlock size="30" />
-<Icon.UnlockCircle size="30" />
-<Icon.UnlockSmall size="30" />
-<Icon.Up size="30" />
-<Icon.UpCircle size="30" />
-<Icon.UpSmall size="30" />
-<Icon.Upload size="30" />
-<Icon.UsbCable size="30" />
-<Icon.User size="30" />
-<Icon.UserCircle size="30" />
-<Icon.UserMinus size="30" />
-<Icon.UserPlus size="30" />
-<Icon.UserSquare size="30" />
-<Icon.Users size="30" />
-<Icon.VectorDocument size="30" />
-<Icon.VennDiagram size="30" />
-<Icon.ViewColumn size="30" />
-<Icon.ViewGrid size="30" />
-<Icon.Vim size="30" />
-<Icon.Volume1 size="30" />
-<Icon.Volume2 size="30" />
-<Icon.Volume3 size="30" />
-<Icon.VrHeadset size="30" />
-<Icon.Vue size="30" />
-<Icon.Wallet size="30" />
-<Icon.WalletAlt size="30" />
-<Icon.Wan size="30" />
-<Icon.Wand size="30" />
-<Icon.Watch size="30" />
-<Icon.Webpack size="30" />
-<Icon.Whatsapp size="30" />
-<Icon.WifiFull size="30" />
-<Icon.WifiLow size="30" />
-<Icon.WifiNone size="30" />
-<Icon.Windows size="30" />
-<Icon.Wordpress size="30" />
-<Icon.X size="30" />
-<Icon.XCircle size="30" />
-<Icon.XSmall size="30" />
-<Icon.Xls size="30" />
-<Icon.Yen size="30" />
-<Icon.Youtube size="30" />
-<Icon.Zip size="30" />
-<Icon.ZoomIn size="30" />
-<Icon.ZoomOut size="30" />
+<Icon.A360 size="40" color={random_hex_color_code()} />
+<Icon.AbTesting size="40" color={random_hex_color_code()} />
+<Icon.Add size="40" color={random_hex_color_code()} />
+<Icon.AddSmall size="40" color={random_hex_color_code()} />
+<Icon.AddressBook size="40" color={random_hex_color_code()} />
+<Icon.AdjustHorizontal size="40" color={random_hex_color_code()} />
+<Icon.AdjustHorizontalAlt size="40" color={random_hex_color_code()} />
+<Icon.AdjustVertical size="40" color={random_hex_color_code()} />
+<Icon.AdjustVerticalAlt size="40" color={random_hex_color_code()} />
+<Icon.Airplay size="40" color={random_hex_color_code()} />
+<Icon.Airpods size="40" color={random_hex_color_code()} />
+<Icon.Alarm size="40" color={random_hex_color_code()} />
+<Icon.Alien size="40" color={random_hex_color_code()} />
+<Icon.AlignBottom size="40" color={random_hex_color_code()} />
+<Icon.AlignCenterHorizontal size="40" color={random_hex_color_code()} />
+<Icon.AlignCenterVertical size="40" color={random_hex_color_code()} />
+<Icon.AlignLeft size="40" color={random_hex_color_code()} />
+<Icon.AlignRight size="40" color={random_hex_color_code()} />
+<Icon.AlignTextCenter size="40" color={random_hex_color_code()} />
+<Icon.AlignTextJustify size="40" color={random_hex_color_code()} />
+<Icon.AlignTextLeft size="40" color={random_hex_color_code()} />
+<Icon.AlignTextRight size="40" color={random_hex_color_code()} />
+<Icon.AlignTop size="40" color={random_hex_color_code()} />
+<Icon.Anchor size="40" color={random_hex_color_code()} />
+<Icon.Android size="40" color={random_hex_color_code()} />
+<Icon.Angular size="40" color={random_hex_color_code()} />
+<Icon.Anja size="40" color={random_hex_color_code()} />
+<Icon.AntiClockwise size="40" color={random_hex_color_code()} />
+<Icon.Apple size="40" color={random_hex_color_code()} />
+<Icon.Appointments size="40" color={random_hex_color_code()} />
+<Icon.Archive size="40" color={random_hex_color_code()} />
+<Icon.AreaChart size="40" color={random_hex_color_code()} />
+<Icon.AreaChartAlt size="40" color={random_hex_color_code()} />
+<Icon.Arrow size="40" color={random_hex_color_code()} />
+<Icon.ArrowDown size="40" color={random_hex_color_code()} />
+<Icon.ArrowDownCircle size="40" color={random_hex_color_code()} />
+<Icon.ArrowDownSmall size="40" color={random_hex_color_code()} />
+<Icon.ArrowLeft size="40" color={random_hex_color_code()} />
+<Icon.ArrowLeftCircle size="40" color={random_hex_color_code()} />
+<Icon.ArrowLeftSmall size="40" color={random_hex_color_code()} />
+<Icon.ArrowRight size="40" color={random_hex_color_code()} />
+<Icon.ArrowRightCircle size="40" color={random_hex_color_code()} />
+<Icon.ArrowRightSmall size="40" color={random_hex_color_code()} />
+<Icon.ArrowUp size="40" color={random_hex_color_code()} />
+<Icon.ArrowUpCircle size="40" color={random_hex_color_code()} />
+<Icon.ArrowUpSmall size="40" color={random_hex_color_code()} />
+<Icon.Artboard size="40" color={random_hex_color_code()} />
+<Icon.At size="40" color={random_hex_color_code()} />
+<Icon.Attach size="40" color={random_hex_color_code()} />
+<Icon.Attachment size="40" color={random_hex_color_code()} />
+<Icon.AudioCable size="40" color={random_hex_color_code()} />
+<Icon.AudioDocument size="40" color={random_hex_color_code()} />
+<Icon.Azure size="40" color={random_hex_color_code()} />
+<Icon.Backspace size="40" color={random_hex_color_code()} />
+<Icon.Bag size="40" color={random_hex_color_code()} />
+<Icon.BagAlt size="40" color={random_hex_color_code()} />
+<Icon.BagMinus size="40" color={random_hex_color_code()} />
+<Icon.BagPlus size="40" color={random_hex_color_code()} />
+<Icon.Bank size="40" color={random_hex_color_code()} />
+<Icon.BarChart size="40" color={random_hex_color_code()} />
+<Icon.Barcode size="40" color={random_hex_color_code()} />
+<Icon.Basket size="40" color={random_hex_color_code()} />
+<Icon.BasketMinus size="40" color={random_hex_color_code()} />
+<Icon.BasketPlus size="40" color={random_hex_color_code()} />
+<Icon.Bath size="40" color={random_hex_color_code()} />
+<Icon.Battery0 size="40" color={random_hex_color_code()} />
+<Icon.Battery1 size="40" color={random_hex_color_code()} />
+<Icon.Battery2 size="40" color={random_hex_color_code()} />
+<Icon.Battery3 size="40" color={random_hex_color_code()} />
+<Icon.Battery4 size="40" color={random_hex_color_code()} />
+<Icon.Battery5 size="40" color={random_hex_color_code()} />
+<Icon.BatteryCharge size="40" color={random_hex_color_code()} />
+<Icon.BedDouble size="40" color={random_hex_color_code()} />
+<Icon.BedSingle size="40" color={random_hex_color_code()} />
+<Icon.Behance size="40" color={random_hex_color_code()} />
+<Icon.Bell size="40" color={random_hex_color_code()} />
+<Icon.Bin size="40" color={random_hex_color_code()} />
+<Icon.Bitbucket size="40" color={random_hex_color_code()} />
+<Icon.Bitcoin size="40" color={random_hex_color_code()} />
+<Icon.Bluetooth size="40" color={random_hex_color_code()} />
+<Icon.Bold size="40" color={random_hex_color_code()} />
+<Icon.Book size="40" color={random_hex_color_code()} />
+<Icon.Bookmark size="40" color={random_hex_color_code()} />
+<Icon.BorderAll size="40" color={random_hex_color_code()} />
+<Icon.BorderBottom size="40" color={random_hex_color_code()} />
+<Icon.BorderHorizontal size="40" color={random_hex_color_code()} />
+<Icon.BorderInner size="40" color={random_hex_color_code()} />
+<Icon.BorderLeft size="40" color={random_hex_color_code()} />
+<Icon.BorderNone size="40" color={random_hex_color_code()} />
+<Icon.BorderOuter size="40" color={random_hex_color_code()} />
+<Icon.BorderRadius size="40" color={random_hex_color_code()} />
+<Icon.BorderRight size="40" color={random_hex_color_code()} />
+<Icon.BorderTop size="40" color={random_hex_color_code()} />
+<Icon.BorderVertical size="40" color={random_hex_color_code()} />
+<Icon.BottomLeft size="40" color={random_hex_color_code()} />
+<Icon.BottomRight size="40" color={random_hex_color_code()} />
+<Icon.Box size="40" color={random_hex_color_code()} />
+<Icon.Bracket size="40" color={random_hex_color_code()} />
+<Icon.Briefcase size="40" color={random_hex_color_code()} />
+<Icon.BriefcaseAlt size="40" color={random_hex_color_code()} />
+<Icon.Brush size="40" color={random_hex_color_code()} />
+<Icon.Bug size="40" color={random_hex_color_code()} />
+<Icon.Building size="40" color={random_hex_color_code()} />
+<Icon.BulbOff size="40" color={random_hex_color_code()} />
+<Icon.BulbOn size="40" color={random_hex_color_code()} />
+<Icon.Button size="40" color={random_hex_color_code()} />
+<Icon.C size="40" color={random_hex_color_code()} />
+<Icon.CSharp size="40" color={random_hex_color_code()} />
+<Icon.Calculator size="40" color={random_hex_color_code()} />
+<Icon.Calendar size="40" color={random_hex_color_code()} />
+<Icon.CalendarMinus size="40" color={random_hex_color_code()} />
+<Icon.CalendarNoAccess size="40" color={random_hex_color_code()} />
+<Icon.CalendarPlus size="40" color={random_hex_color_code()} />
+<Icon.CalendarTick size="40" color={random_hex_color_code()} />
+<Icon.CalendarX size="40" color={random_hex_color_code()} />
+<Icon.Camera size="40" color={random_hex_color_code()} />
+<Icon.CandleChart size="40" color={random_hex_color_code()} />
+<Icon.Car size="40" color={random_hex_color_code()} />
+<Icon.CaretVertical size="40" color={random_hex_color_code()} />
+<Icon.CaretVerticalCircle size="40" color={random_hex_color_code()} />
+<Icon.CaretVerticalSmall size="40" color={random_hex_color_code()} />
+<Icon.Cart size="40" color={random_hex_color_code()} />
+<Icon.CartMinus size="40" color={random_hex_color_code()} />
+<Icon.CartPlus size="40" color={random_hex_color_code()} />
+<Icon.Certificate size="40" color={random_hex_color_code()} />
+<Icon.Chat size="40" color={random_hex_color_code()} />
+<Icon.ChatTyping size="40" color={random_hex_color_code()} />
+<Icon.ChatTypingAlt size="40" color={random_hex_color_code()} />
+<Icon.Chatbot size="40" color={random_hex_color_code()} />
+<Icon.Chrome size="40" color={random_hex_color_code()} />
+<Icon.Church size="40" color={random_hex_color_code()} />
+<Icon.Circle size="40" color={random_hex_color_code()} />
+<Icon.Clipboard size="40" color={random_hex_color_code()} />
+<Icon.ClipboardMinus size="40" color={random_hex_color_code()} />
+<Icon.ClipboardNoAccess size="40" color={random_hex_color_code()} />
+<Icon.ClipboardPlus size="40" color={random_hex_color_code()} />
+<Icon.ClipboardTick size="40" color={random_hex_color_code()} />
+<Icon.ClipboardX size="40" color={random_hex_color_code()} />
+<Icon.Clock size="40" color={random_hex_color_code()} />
+<Icon.Clockwise size="40" color={random_hex_color_code()} />
+<Icon.Code size="40" color={random_hex_color_code()} />
+<Icon.Codepen size="40" color={random_hex_color_code()} />
+<Icon.Cog size="40" color={random_hex_color_code()} />
+<Icon.Compass size="40" color={random_hex_color_code()} />
+<Icon.Computer size="40" color={random_hex_color_code()} />
+<Icon.Contact size="40" color={random_hex_color_code()} />
+<Icon.Contract size="40" color={random_hex_color_code()} />
+<Icon.CostEstimate size="40" color={random_hex_color_code()} />
+<Icon.Cplusplus size="40" color={random_hex_color_code()} />
+<Icon.CreditCard size="40" color={random_hex_color_code()} />
+<Icon.Crop size="40" color={random_hex_color_code()} />
+<Icon.Css3 size="40" color={random_hex_color_code()} />
+<Icon.Csv size="40" color={random_hex_color_code()} />
+<Icon.Cup size="40" color={random_hex_color_code()} />
+<Icon.CurvedConnector size="40" color={random_hex_color_code()} />
+<Icon.D3 size="40" color={random_hex_color_code()} />
+<Icon.Database size="40" color={random_hex_color_code()} />
+<Icon.Denied size="40" color={random_hex_color_code()} />
+<Icon.Deno size="40" color={random_hex_color_code()} />
+<Icon.DepthChart size="40" color={random_hex_color_code()} />
+<Icon.Desklamp size="40" color={random_hex_color_code()} />
+<Icon.Diamond size="40" color={random_hex_color_code()} />
+<Icon.Direction size="40" color={random_hex_color_code()} />
+<Icon.Discord size="40" color={random_hex_color_code()} />
+<Icon.Discount size="40" color={random_hex_color_code()} />
+<Icon.DistributeHorizontal size="40" color={random_hex_color_code()} />
+<Icon.DistributeVertical size="40" color={random_hex_color_code()} />
+<Icon.DividerLine size="40" color={random_hex_color_code()} />
+<Icon.Doc size="40" color={random_hex_color_code()} />
+<Icon.Docker size="40" color={random_hex_color_code()} />
+<Icon.Documents size="40" color={random_hex_color_code()} />
+<Icon.Dollar size="40" color={random_hex_color_code()} />
+<Icon.DonutChart size="40" color={random_hex_color_code()} />
+<Icon.DoubleCaretDown size="40" color={random_hex_color_code()} />
+<Icon.DoubleCaretDownCircle size="40" color={random_hex_color_code()} />
+<Icon.DoubleCaretDownSmall size="40" color={random_hex_color_code()} />
+<Icon.DoubleCaretLeft size="40" color={random_hex_color_code()} />
+<Icon.DoubleCaretLeftCircle size="40" color={random_hex_color_code()} />
+<Icon.DoubleCaretLeftSmall size="40" color={random_hex_color_code()} />
+<Icon.DoubleCaretRight size="40" color={random_hex_color_code()} />
+<Icon.DoubleCaretRightCircle size="40" color={random_hex_color_code()} />
+<Icon.DoubleCaretRightSmall size="40" color={random_hex_color_code()} />
+<Icon.DoubleCaretUp size="40" color={random_hex_color_code()} />
+<Icon.DoubleCaretUpCircle size="40" color={random_hex_color_code()} />
+<Icon.DoubleCaretUpSmall size="40" color={random_hex_color_code()} />
+<Icon.Down size="40" color={random_hex_color_code()} />
+<Icon.DownCircle size="40" color={random_hex_color_code()} />
+<Icon.DownSmall size="40" color={random_hex_color_code()} />
+<Icon.Download size="40" color={random_hex_color_code()} />
+<Icon.Drag size="40" color={random_hex_color_code()} />
+<Icon.DragHorizontal size="40" color={random_hex_color_code()} />
+<Icon.DragVertical size="40" color={random_hex_color_code()} />
+<Icon.Dribbble size="40" color={random_hex_color_code()} />
+<Icon.Drop size="40" color={random_hex_color_code()} />
+<Icon.Dropper size="40" color={random_hex_color_code()} />
+<Icon.Edge size="40" color={random_hex_color_code()} />
+<Icon.Edit size="40" color={random_hex_color_code()} />
+<Icon.Edit1 size="40" color={random_hex_color_code()} />
+<Icon.EditCircle size="40" color={random_hex_color_code()} />
+<Icon.EditSmall size="40" color={random_hex_color_code()} />
+<Icon.ElbowConnector size="40" color={random_hex_color_code()} />
+<Icon.Envelope size="40" color={random_hex_color_code()} />
+<Icon.EnvelopeOpen size="40" color={random_hex_color_code()} />
+<Icon.Eps size="40" color={random_hex_color_code()} />
+<Icon.Eslint size="40" color={random_hex_color_code()} />
+<Icon.Ethereum size="40" color={random_hex_color_code()} />
+<Icon.Euro size="40" color={random_hex_color_code()} />
+<Icon.Exclamation size="40" color={random_hex_color_code()} />
+<Icon.ExclamationCircle size="40" color={random_hex_color_code()} />
+<Icon.ExclamationSmall size="40" color={random_hex_color_code()} />
+<Icon.Expand size="40" color={random_hex_color_code()} />
+<Icon.ExpandAlt size="40" color={random_hex_color_code()} />
+<Icon.Eye size="40" color={random_hex_color_code()} />
+<Icon.EyeClosed size="40" color={random_hex_color_code()} />
+<Icon.FaceId size="40" color={random_hex_color_code()} />
+<Icon.Facebook size="40" color={random_hex_color_code()} />
+<Icon.Figma size="40" color={random_hex_color_code()} />
+<Icon.File size="40" color={random_hex_color_code()} />
+<Icon.FileMinus size="40" color={random_hex_color_code()} />
+<Icon.FileNoAccess size="40" color={random_hex_color_code()} />
+<Icon.FilePlus size="40" color={random_hex_color_code()} />
+<Icon.FileTick size="40" color={random_hex_color_code()} />
+<Icon.FileX size="40" color={random_hex_color_code()} />
+<Icon.Filter size="40" color={random_hex_color_code()} />
+<Icon.Fingerprint size="40" color={random_hex_color_code()} />
+<Icon.Firebase size="40" color={random_hex_color_code()} />
+<Icon.Flag size="40" color={random_hex_color_code()} />
+<Icon.FlagAlt size="40" color={random_hex_color_code()} />
+<Icon.FlipHorizontal size="40" color={random_hex_color_code()} />
+<Icon.FlipVertical size="40" color={random_hex_color_code()} />
+<Icon.FloatCenter size="40" color={random_hex_color_code()} />
+<Icon.FloatLeft size="40" color={random_hex_color_code()} />
+<Icon.FloatRight size="40" color={random_hex_color_code()} />
+<Icon.Floorplan size="40" color={random_hex_color_code()} />
+<Icon.Folder size="40" color={random_hex_color_code()} />
+<Icon.FolderMinus size="40" color={random_hex_color_code()} />
+<Icon.FolderNoAccess size="40" color={random_hex_color_code()} />
+<Icon.FolderPlus size="40" color={random_hex_color_code()} />
+<Icon.FolderTick size="40" color={random_hex_color_code()} />
+<Icon.FolderX size="40" color={random_hex_color_code()} />
+<Icon.Folders size="40" color={random_hex_color_code()} />
+<Icon.Forward size="40" color={random_hex_color_code()} />
+<Icon.ForwardCircle size="40" color={random_hex_color_code()} />
+<Icon.ForwardSmall size="40" color={random_hex_color_code()} />
+<Icon.Frame size="40" color={random_hex_color_code()} />
+<Icon.Framer size="40" color={random_hex_color_code()} />
+<Icon.GameController size="40" color={random_hex_color_code()} />
+<Icon.GameControllerRetro size="40" color={random_hex_color_code()} />
+<Icon.GanttChart size="40" color={random_hex_color_code()} />
+<Icon.Garage size="40" color={random_hex_color_code()} />
+<Icon.Gatsbyjs size="40" color={random_hex_color_code()} />
+<Icon.Gba size="40" color={random_hex_color_code()} />
+<Icon.Gbc size="40" color={random_hex_color_code()} />
+<Icon.Ghost size="40" color={random_hex_color_code()} />
+<Icon.Gif size="40" color={random_hex_color_code()} />
+<Icon.Gift size="40" color={random_hex_color_code()} />
+<Icon.Git size="40" color={random_hex_color_code()} />
+<Icon.GitBranch size="40" color={random_hex_color_code()} />
+<Icon.GitCommit size="40" color={random_hex_color_code()} />
+<Icon.GitCompare size="40" color={random_hex_color_code()} />
+<Icon.GitFork size="40" color={random_hex_color_code()} />
+<Icon.GitMerge size="40" color={random_hex_color_code()} />
+<Icon.GitPull size="40" color={random_hex_color_code()} />
+<Icon.Github size="40" color={random_hex_color_code()} />
+<Icon.Gitlab size="40" color={random_hex_color_code()} />
+<Icon.Globe size="40" color={random_hex_color_code()} />
+<Icon.GlobeAfrica size="40" color={random_hex_color_code()} />
+<Icon.GlobeAmericas size="40" color={random_hex_color_code()} />
+<Icon.Google size="40" color={random_hex_color_code()} />
+<Icon.GoogleAd size="40" color={random_hex_color_code()} />
+<Icon.GoogleDrive size="40" color={random_hex_color_code()} />
+<Icon.GooglePlayStore size="40" color={random_hex_color_code()} />
+<Icon.GoogleStreetview size="40" color={random_hex_color_code()} />
+<Icon.Graphql size="40" color={random_hex_color_code()} />
+<Icon.GridLayout size="40" color={random_hex_color_code()} />
+<Icon.Hashtag size="40" color={random_hex_color_code()} />
+<Icon.HdScreen size="40" color={random_hex_color_code()} />
+<Icon.HdmiCable size="40" color={random_hex_color_code()} />
+<Icon.Headphones size="40" color={random_hex_color_code()} />
+<Icon.Headset size="40" color={random_hex_color_code()} />
+<Icon.Heart size="40" color={random_hex_color_code()} />
+<Icon.HeartCircle size="40" color={random_hex_color_code()} />
+<Icon.HeartSmall size="40" color={random_hex_color_code()} />
+<Icon.Hexagon size="40" color={random_hex_color_code()} />
+<Icon.History size="40" color={random_hex_color_code()} />
+<Icon.Home size="40" color={random_hex_color_code()} />
+<Icon.HomeAlt size="40" color={random_hex_color_code()} />
+<Icon.Hospital size="40" color={random_hex_color_code()} />
+<Icon.Hourglass size="40" color={random_hex_color_code()} />
+<Icon.House size="40" color={random_hex_color_code()} />
+<Icon.Html5 size="40" color={random_hex_color_code()} />
+<Icon.Id size="40" color={random_hex_color_code()} />
+<Icon.Imac size="40" color={random_hex_color_code()} />
+<Icon.Image size="40" color={random_hex_color_code()} />
+<Icon.ImageAlt size="40" color={random_hex_color_code()} />
+<Icon.ImageDocument size="40" color={random_hex_color_code()} />
+<Icon.InEarHeadphones size="40" color={random_hex_color_code()} />
+<Icon.Inbox size="40" color={random_hex_color_code()} />
+<Icon.IndentDecrease size="40" color={random_hex_color_code()} />
+<Icon.IndentIncrease size="40" color={random_hex_color_code()} />
+<Icon.Info size="40" color={random_hex_color_code()} />
+<Icon.InfoCircle size="40" color={random_hex_color_code()} />
+<Icon.InfoSmall size="40" color={random_hex_color_code()} />
+<Icon.Instagram size="40" color={random_hex_color_code()} />
+<Icon.Invoice size="40" color={random_hex_color_code()} />
+<Icon.Italic size="40" color={random_hex_color_code()} />
+<Icon.Javascript size="40" color={random_hex_color_code()} />
+<Icon.Joystick size="40" color={random_hex_color_code()} />
+<Icon.Jpg size="40" color={random_hex_color_code()} />
+<Icon.Kanban size="40" color={random_hex_color_code()} />
+<Icon.Key size="40" color={random_hex_color_code()} />
+<Icon.Keyboard size="40" color={random_hex_color_code()} />
+<Icon.LanCable size="40" color={random_hex_color_code()} />
+<Icon.Laptop size="40" color={random_hex_color_code()} />
+<Icon.Laravel size="40" color={random_hex_color_code()} />
+<Icon.Layers size="40" color={random_hex_color_code()} />
+<Icon.LayersDifference size="40" color={random_hex_color_code()} />
+<Icon.LayersIntersect size="40" color={random_hex_color_code()} />
+<Icon.LayersSubtract size="40" color={random_hex_color_code()} />
+<Icon.LayersUnion size="40" color={random_hex_color_code()} />
+<Icon.Left size="40" color={random_hex_color_code()} />
+<Icon.LeftCircle size="40" color={random_hex_color_code()} />
+<Icon.LeftSmall size="40" color={random_hex_color_code()} />
+<Icon.Lego size="40" color={random_hex_color_code()} />
+<Icon.Lifebuoy size="40" color={random_hex_color_code()} />
+<Icon.LightningCable size="40" color={random_hex_color_code()} />
+<Icon.Line size="40" color={random_hex_color_code()} />
+<Icon.Link size="40" color={random_hex_color_code()} />
+<Icon.LinkRemove size="40" color={random_hex_color_code()} />
+<Icon.Linkedin size="40" color={random_hex_color_code()} />
+<Icon.Linux size="40" color={random_hex_color_code()} />
+<Icon.LinuxAlt size="40" color={random_hex_color_code()} />
+<Icon.ListLayout size="40" color={random_hex_color_code()} />
+<Icon.ListOrdered size="40" color={random_hex_color_code()} />
+<Icon.ListUnordered size="40" color={random_hex_color_code()} />
+<Icon.Litecoin size="40" color={random_hex_color_code()} />
+<Icon.Loader size="40" color={random_hex_color_code()} />
+<Icon.Location size="40" color={random_hex_color_code()} />
+<Icon.Lock size="40" color={random_hex_color_code()} />
+<Icon.LockCircle size="40" color={random_hex_color_code()} />
+<Icon.LockSmall size="40" color={random_hex_color_code()} />
+<Icon.Logout size="40" color={random_hex_color_code()} />
+<Icon.Loop size="40" color={random_hex_color_code()} />
+<Icon.Magsafe size="40" color={random_hex_color_code()} />
+<Icon.Markdown size="40" color={random_hex_color_code()} />
+<Icon.Medium size="40" color={random_hex_color_code()} />
+<Icon.Menu size="40" color={random_hex_color_code()} />
+<Icon.Message size="40" color={random_hex_color_code()} />
+<Icon.MessageMinus size="40" color={random_hex_color_code()} />
+<Icon.MessageNoAccess size="40" color={random_hex_color_code()} />
+<Icon.MessagePlus size="40" color={random_hex_color_code()} />
+<Icon.MessageText size="40" color={random_hex_color_code()} />
+<Icon.MessageTextAlt size="40" color={random_hex_color_code()} />
+<Icon.MessageTick size="40" color={random_hex_color_code()} />
+<Icon.MessageX size="40" color={random_hex_color_code()} />
+<Icon.Messenger size="40" color={random_hex_color_code()} />
+<Icon.MicroSdCard size="40" color={random_hex_color_code()} />
+<Icon.Microphone size="40" color={random_hex_color_code()} />
+<Icon.Minimise size="40" color={random_hex_color_code()} />
+<Icon.MinimiseAlt size="40" color={random_hex_color_code()} />
+<Icon.Minus size="40" color={random_hex_color_code()} />
+<Icon.MinusCircle size="40" color={random_hex_color_code()} />
+<Icon.MinusSmall size="40" color={random_hex_color_code()} />
+<Icon.Mobile size="40" color={random_hex_color_code()} />
+<Icon.Money size="40" color={random_hex_color_code()} />
+<Icon.MoneyStack size="40" color={random_hex_color_code()} />
+<Icon.Mongodb size="40" color={random_hex_color_code()} />
+<Icon.MoodFlat size="40" color={random_hex_color_code()} />
+<Icon.MoodFrown size="40" color={random_hex_color_code()} />
+<Icon.MoodLaugh size="40" color={random_hex_color_code()} />
+<Icon.MoodSad size="40" color={random_hex_color_code()} />
+<Icon.MoodSmile size="40" color={random_hex_color_code()} />
+<Icon.MoodSurprised size="40" color={random_hex_color_code()} />
+<Icon.MoodTongue size="40" color={random_hex_color_code()} />
+<Icon.Moon size="40" color={random_hex_color_code()} />
+<Icon.MoreHorizontal size="40" color={random_hex_color_code()} />
+<Icon.MoreVertical size="40" color={random_hex_color_code()} />
+<Icon.Mouse size="40" color={random_hex_color_code()} />
+<Icon.Mov size="40" color={random_hex_color_code()} />
+<Icon.Mp3 size="40" color={random_hex_color_code()} />
+<Icon.Mp4 size="40" color={random_hex_color_code()} />
+<Icon.MsExcel size="40" color={random_hex_color_code()} />
+<Icon.MsPowerpoint size="40" color={random_hex_color_code()} />
+<Icon.MsWord size="40" color={random_hex_color_code()} />
+<Icon.N64 size="40" color={random_hex_color_code()} />
+<Icon.Nes size="40" color={random_hex_color_code()} />
+<Icon.Netlify size="40" color={random_hex_color_code()} />
+<Icon.Next size="40" color={random_hex_color_code()} />
+<Icon.NextCircle size="40" color={random_hex_color_code()} />
+<Icon.NextSmall size="40" color={random_hex_color_code()} />
+<Icon.Nextjs size="40" color={random_hex_color_code()} />
+<Icon.Ngc size="40" color={random_hex_color_code()} />
+<Icon.NintendoSwitch size="40" color={random_hex_color_code()} />
+<Icon.Nodejs size="40" color={random_hex_color_code()} />
+<Icon.Note size="40" color={random_hex_color_code()} />
+<Icon.Npm size="40" color={random_hex_color_code()} />
+<Icon.Nuxtjs size="40" color={random_hex_color_code()} />
+<Icon.Omega size="40" color={random_hex_color_code()} />
+<Icon.Opera size="40" color={random_hex_color_code()} />
+<Icon.Otp size="40" color={random_hex_color_code()} />
+<Icon.PageBreak size="40" color={random_hex_color_code()} />
+<Icon.PageNumber size="40" color={random_hex_color_code()} />
+<Icon.Paintbrush size="40" color={random_hex_color_code()} />
+<Icon.Paintbucket size="40" color={random_hex_color_code()} />
+<Icon.Paragraph size="40" color={random_hex_color_code()} />
+<Icon.Password size="40" color={random_hex_color_code()} />
+<Icon.Patreon size="40" color={random_hex_color_code()} />
+<Icon.Pause size="40" color={random_hex_color_code()} />
+<Icon.PauseCircle size="40" color={random_hex_color_code()} />
+<Icon.PauseSmall size="40" color={random_hex_color_code()} />
+<Icon.Paw size="40" color={random_hex_color_code()} />
+<Icon.Paws size="40" color={random_hex_color_code()} />
+<Icon.Paypal size="40" color={random_hex_color_code()} />
+<Icon.Pdf size="40" color={random_hex_color_code()} />
+<Icon.Pen size="40" color={random_hex_color_code()} />
+<Icon.Phone size="40" color={random_hex_color_code()} />
+<Icon.Phonecall size="40" color={random_hex_color_code()} />
+<Icon.PhonecallBlocked size="40" color={random_hex_color_code()} />
+<Icon.PhonecallReceive size="40" color={random_hex_color_code()} />
+<Icon.PieChart size="40" color={random_hex_color_code()} />
+<Icon.PieChartAlt size="40" color={random_hex_color_code()} />
+<Icon.Pin size="40" color={random_hex_color_code()} />
+<Icon.PinAlt size="40" color={random_hex_color_code()} />
+<Icon.Pinterest size="40" color={random_hex_color_code()} />
+<Icon.Plant size="40" color={random_hex_color_code()} />
+<Icon.Play size="40" color={random_hex_color_code()} />
+<Icon.PlayCircle size="40" color={random_hex_color_code()} />
+<Icon.PlaySmall size="40" color={random_hex_color_code()} />
+<Icon.Plug size="40" color={random_hex_color_code()} />
+<Icon.PlusCircle size="40" color={random_hex_color_code()} />
+<Icon.Png size="40" color={random_hex_color_code()} />
+<Icon.Pool size="40" color={random_hex_color_code()} />
+<Icon.Pound size="40" color={random_hex_color_code()} />
+<Icon.Power size="40" color={random_hex_color_code()} />
+<Icon.Ppt size="40" color={random_hex_color_code()} />
+<Icon.Print size="40" color={random_hex_color_code()} />
+<Icon.Python size="40" color={random_hex_color_code()} />
+<Icon.QrCode size="40" color={random_hex_color_code()} />
+<Icon.Question size="40" color={random_hex_color_code()} />
+<Icon.QuestionCircle size="40" color={random_hex_color_code()} />
+<Icon.QuestionSmall size="40" color={random_hex_color_code()} />
+<Icon.Quote size="40" color={random_hex_color_code()} />
+<Icon.Rand size="40" color={random_hex_color_code()} />
+<Icon.React size="40" color={random_hex_color_code()} />
+<Icon.Receipt size="40" color={random_hex_color_code()} />
+<Icon.Reddit size="40" color={random_hex_color_code()} />
+<Icon.Redwoodjs size="40" color={random_hex_color_code()} />
+<Icon.Refresh size="40" color={random_hex_color_code()} />
+<Icon.RefreshAlt size="40" color={random_hex_color_code()} />
+<Icon.Rewind size="40" color={random_hex_color_code()} />
+<Icon.RewindCircle size="40" color={random_hex_color_code()} />
+<Icon.RewindSmall size="40" color={random_hex_color_code()} />
+<Icon.Right size="40" color={random_hex_color_code()} />
+<Icon.RightCircle size="40" color={random_hex_color_code()} />
+<Icon.RightSmall size="40" color={random_hex_color_code()} />
+<Icon.Ripple size="40" color={random_hex_color_code()} />
+<Icon.Robot size="40" color={random_hex_color_code()} />
+<Icon.Roller size="40" color={random_hex_color_code()} />
+<Icon.Rollupjs size="40" color={random_hex_color_code()} />
+<Icon.Router size="40" color={random_hex_color_code()} />
+<Icon.Rss size="40" color={random_hex_color_code()} />
+<Icon.Ruby size="40" color={random_hex_color_code()} />
+<Icon.Rupee size="40" color={random_hex_color_code()} />
+<Icon.Rust size="40" color={random_hex_color_code()} />
+<Icon.Safari size="40" color={random_hex_color_code()} />
+<Icon.Safe size="40" color={random_hex_color_code()} />
+<Icon.Save size="40" color={random_hex_color_code()} />
+<Icon.Scan size="40" color={random_hex_color_code()} />
+<Icon.School size="40" color={random_hex_color_code()} />
+<Icon.Screen size="40" color={random_hex_color_code()} />
+<Icon.ScreenAlt size="40" color={random_hex_color_code()} />
+<Icon.ScreenAlt2 size="40" color={random_hex_color_code()} />
+<Icon.Scribble size="40" color={random_hex_color_code()} />
+<Icon.SdCard size="40" color={random_hex_color_code()} />
+<Icon.Search size="40" color={random_hex_color_code()} />
+<Icon.SearchCircle size="40" color={random_hex_color_code()} />
+<Icon.SearchProperty size="40" color={random_hex_color_code()} />
+<Icon.SearchSmall size="40" color={random_hex_color_code()} />
+<Icon.SectionAdd size="40" color={random_hex_color_code()} />
+<Icon.SectionRemove size="40" color={random_hex_color_code()} />
+<Icon.Send size="40" color={random_hex_color_code()} />
+<Icon.SendDown size="40" color={random_hex_color_code()} />
+<Icon.SendLeft size="40" color={random_hex_color_code()} />
+<Icon.SendRight size="40" color={random_hex_color_code()} />
+<Icon.SendUp size="40" color={random_hex_color_code()} />
+<Icon.Servers size="40" color={random_hex_color_code()} />
+<Icon.Share size="40" color={random_hex_color_code()} />
+<Icon.Shield size="40" color={random_hex_color_code()} />
+<Icon.ShieldTick size="40" color={random_hex_color_code()} />
+<Icon.ShieldX size="40" color={random_hex_color_code()} />
+<Icon.Shop size="40" color={random_hex_color_code()} />
+<Icon.Sign size="40" color={random_hex_color_code()} />
+<Icon.Signin size="40" color={random_hex_color_code()} />
+<Icon.Sim size="40" color={random_hex_color_code()} />
+<Icon.Simohamed size="40" color={random_hex_color_code()} />
+<Icon.Skull size="40" color={random_hex_color_code()} />
+<Icon.Skype size="40" color={random_hex_color_code()} />
+<Icon.Slack size="40" color={random_hex_color_code()} />
+<Icon.Snapchat size="40" color={random_hex_color_code()} />
+<Icon.Snes size="40" color={random_hex_color_code()} />
+<Icon.SortAlphabetically size="40" color={random_hex_color_code()} />
+<Icon.SortDown size="40" color={random_hex_color_code()} />
+<Icon.SortHighToLow size="40" color={random_hex_color_code()} />
+<Icon.SortLowToHigh size="40" color={random_hex_color_code()} />
+<Icon.SortReverseAlphabetically size="40" color={random_hex_color_code()} />
+<Icon.SortUp size="40" color={random_hex_color_code()} />
+<Icon.SoundOff size="40" color={random_hex_color_code()} />
+<Icon.SoundOn size="40" color={random_hex_color_code()} />
+<Icon.Spotify size="40" color={random_hex_color_code()} />
+<Icon.Spreadsheet size="40" color={random_hex_color_code()} />
+<Icon.Square size="40" color={random_hex_color_code()} />
+<Icon.Stackoverflow size="40" color={random_hex_color_code()} />
+<Icon.Stamp size="40" color={random_hex_color_code()} />
+<Icon.Star size="40" color={random_hex_color_code()} />
+<Icon.StarCircle size="40" color={random_hex_color_code()} />
+<Icon.StarSmall size="40" color={random_hex_color_code()} />
+<Icon.Stop size="40" color={random_hex_color_code()} />
+<Icon.StopCircle size="40" color={random_hex_color_code()} />
+<Icon.StopSmall size="40" color={random_hex_color_code()} />
+<Icon.Stopwatch size="40" color={random_hex_color_code()} />
+<Icon.Strikethrough size="40" color={random_hex_color_code()} />
+<Icon.Subscript size="40" color={random_hex_color_code()} />
+<Icon.Sun size="40" color={random_hex_color_code()} />
+<Icon.Superscript size="40" color={random_hex_color_code()} />
+<Icon.Svelte size="40" color={random_hex_color_code()} />
+<Icon.Svg size="40" color={random_hex_color_code()} />
+<Icon.Table size="40" color={random_hex_color_code()} />
+<Icon.Tablet size="40" color={random_hex_color_code()} />
+<Icon.Tag size="40" color={random_hex_color_code()} />
+<Icon.Tailwind size="40" color={random_hex_color_code()} />
+<Icon.Target size="40" color={random_hex_color_code()} />
+<Icon.Telegram size="40" color={random_hex_color_code()} />
+<Icon.Terminal size="40" color={random_hex_color_code()} />
+<Icon.Text size="40" color={random_hex_color_code()} />
+<Icon.TextDocument size="40" color={random_hex_color_code()} />
+<Icon.TextDocumentAlt size="40" color={random_hex_color_code()} />
+<Icon.ThumbDown size="40" color={random_hex_color_code()} />
+<Icon.ThumbUp size="40" color={random_hex_color_code()} />
+<Icon.Thumbtack size="40" color={random_hex_color_code()} />
+<Icon.Tick size="40" color={random_hex_color_code()} />
+<Icon.TickCircle size="40" color={random_hex_color_code()} />
+<Icon.TickSmall size="40" color={random_hex_color_code()} />
+<Icon.Tiktok size="40" color={random_hex_color_code()} />
+<Icon.Toggle size="40" color={random_hex_color_code()} />
+<Icon.TopLeft size="40" color={random_hex_color_code()} />
+<Icon.TopRight size="40" color={random_hex_color_code()} />
+<Icon.TrendDown size="40" color={random_hex_color_code()} />
+<Icon.TrendUp size="40" color={random_hex_color_code()} />
+<Icon.Triangle size="40" color={random_hex_color_code()} />
+<Icon.Trophy size="40" color={random_hex_color_code()} />
+<Icon.Tv size="40" color={random_hex_color_code()} />
+<Icon.Twitch size="40" color={random_hex_color_code()} />
+<Icon.Twitter size="40" color={random_hex_color_code()} />
+<Icon.Typescript size="40" color={random_hex_color_code()} />
+<Icon.Underline size="40" color={random_hex_color_code()} />
+<Icon.Unlock size="40" color={random_hex_color_code()} />
+<Icon.UnlockCircle size="40" color={random_hex_color_code()} />
+<Icon.UnlockSmall size="40" color={random_hex_color_code()} />
+<Icon.Up size="40" color={random_hex_color_code()} />
+<Icon.UpCircle size="40" color={random_hex_color_code()} />
+<Icon.UpSmall size="40" color={random_hex_color_code()} />
+<Icon.Upload size="40" color={random_hex_color_code()} />
+<Icon.UsbCable size="40" color={random_hex_color_code()} />
+<Icon.User size="40" color={random_hex_color_code()} />
+<Icon.UserCircle size="40" color={random_hex_color_code()} />
+<Icon.UserMinus size="40" color={random_hex_color_code()} />
+<Icon.UserPlus size="40" color={random_hex_color_code()} />
+<Icon.UserSquare size="40" color={random_hex_color_code()} />
+<Icon.Users size="40" color={random_hex_color_code()} />
+<Icon.VectorDocument size="40" color={random_hex_color_code()} />
+<Icon.VennDiagram size="40" color={random_hex_color_code()} />
+<Icon.ViewColumn size="40" color={random_hex_color_code()} />
+<Icon.ViewGrid size="40" color={random_hex_color_code()} />
+<Icon.Vim size="40" color={random_hex_color_code()} />
+<Icon.Volume1 size="40" color={random_hex_color_code()} />
+<Icon.Volume2 size="40" color={random_hex_color_code()} />
+<Icon.Volume3 size="40" color={random_hex_color_code()} />
+<Icon.VrHeadset size="40" color={random_hex_color_code()} />
+<Icon.Vue size="40" color={random_hex_color_code()} />
+<Icon.Wallet size="40" color={random_hex_color_code()} />
+<Icon.WalletAlt size="40" color={random_hex_color_code()} />
+<Icon.Wan size="40" color={random_hex_color_code()} />
+<Icon.Wand size="40" color={random_hex_color_code()} />
+<Icon.Watch size="40" color={random_hex_color_code()} />
+<Icon.Webpack size="40" color={random_hex_color_code()} />
+<Icon.Whatsapp size="40" color={random_hex_color_code()} />
+<Icon.WifiFull size="40" color={random_hex_color_code()} />
+<Icon.WifiLow size="40" color={random_hex_color_code()} />
+<Icon.WifiNone size="40" color={random_hex_color_code()} />
+<Icon.Windows size="40" color={random_hex_color_code()} />
+<Icon.Wordpress size="40" color={random_hex_color_code()} />
+<Icon.X size="40" color={random_hex_color_code()} />
+<Icon.XCircle size="40" color={random_hex_color_code()} />
+<Icon.XSmall size="40" color={random_hex_color_code()} />
+<Icon.Xls size="40" color={random_hex_color_code()} />
+<Icon.Yen size="40" color={random_hex_color_code()} />
+<Icon.Youtube size="40" color={random_hex_color_code()} />
+<Icon.Zip size="40" color={random_hex_color_code()} />
+<Icon.ZoomIn size="40" color={random_hex_color_code()} />
+<Icon.ZoomOut size="40" color={random_hex_color_code()} />
