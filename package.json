@@ -8,7 +8,7 @@
     "url": "https://blog.codewithshin.com"
   },
   "bugs": "https://github.com/shinokada/svelte-teenyicons/issues",
-  "homepage": "https://github.com/shinokada/svelte-teenyicons",
+  "homepage": "https://shinokada.github.io/svelte-teenyicons",
   "license": "MIT",
   "scripts": {
     "dev": "vite dev",

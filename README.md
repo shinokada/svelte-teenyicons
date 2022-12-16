@@ -28,7 +28,6 @@ SVG TeenyIcons for Svelte. You can import outline and solid icons without name c
 npm i svelte-teenyicons
 ```
 
-
 ## List of icons
 
 [Icon names](https://github.com/shinokada/svelte-teenyicons/blob/main/icon-list.md)
@@ -106,7 +105,7 @@ Use `import * as Icon from 'svelte-teenyicons`.
 
 ```html
 <script>
-	import * as Icon from 'svelte-teenyicons';
+  import * as Icon from 'svelte-teenyicons';
 </script>
 
 <Icon.AbTesting size="30" class="mx-2" />

@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.3.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.3.0...v0.3.1) (2022-12-16)
 
-
 ### Features
 
-* add docsify ([b4e0ccb](https://github.com/shinokada/svelte-teenyicons/commit/b4e0ccbaa8fd378b4500a479a3a73fb1f37333be))
+- add docsify ([b4e0ccb](https://github.com/shinokada/svelte-teenyicons/commit/b4e0ccbaa8fd378b4500a479a3a73fb1f37333be))
 
 ## [0.3.0](https://github.com/shinokada/svelte-teenyicons/compare/v0.2.5...v0.3.0) (2022-10-13)
 

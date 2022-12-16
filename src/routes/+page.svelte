@@ -1,5 +1,5 @@
 <script>
-	import * as Icon from '$lib';
+  import * as Icon from '$lib';
 </script>
 
 <Icon.A360 size="40" />
