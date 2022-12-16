@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.2](https://github.com/shinokada/svelte-teenyicons/compare/v0.3.1...v0.3.2) (2022-12-16)
+
+
+### Bug Fixes
+
+* update homepage in package.json ([7106d5e](https://github.com/shinokada/svelte-teenyicons/commit/7106d5e7c627d0975731b0fd28847bb0115ea8c7))
+
 ### [0.3.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.3.0...v0.3.1) (2022-12-16)
 
 ### Features
