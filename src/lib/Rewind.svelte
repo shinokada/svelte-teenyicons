@@ -1,31 +1,32 @@
 <script lang="ts">
-  export let size: string = "15";
-  export let color: string = "black" 
-  export let variation: "solid" | "outline" = "outline";
-  let svgpath: string;
-  let svgoutline = `<path d="M14.5 12.5V2.5L7.5 7.5L14.5 12.5Z" stroke="${color}" stroke-linejoin="round"/> <path d="M7.5 12.5V2.5L0.5 7.5L7.5 12.5Z" stroke="${color}" stroke-linejoin="round"/> `;
-  let svgsolid = `<path d="M8 2.5C8 2.31271 7.89533 2.14112 7.72879 2.05542C7.56226 1.96972 7.36179 1.98427 7.20938 2.09314L0.209381 7.09314C0.0779829 7.18699 0 7.33853 0 7.5C0 7.66148 0.0779829 7.81301 0.209381 7.90687L7.20938 12.9069C7.36179 13.0157 7.56226 13.0303 7.72879 12.9446C7.89533 12.8589 8 12.6873 8 12.5V8.4716L14.2094 12.9069C14.3618 13.0157 14.5623 13.0303 14.7288 12.9446C14.8953 12.8589 15 12.6873 15 12.5V2.5C15 2.31271 14.8953 2.14112 14.7288 2.05542C14.5623 1.96972 14.3618 1.98427 14.2094 2.09314L8 6.52841V2.5Z" fill="${color}"/> `;
-  switch (variation) {
-    case "outline":
-      svgpath = svgoutline;
-      break;
-    case "solid":
-      svgpath = svgsolid;
-      break;
-    default:
-      svgpath = svgoutline;
-  }
-export let ariaLabel="rewind" </script>
+	export let size: string = '15';
+	export let color: string = 'black';
+	export let variation: 'solid' | 'outline' = 'outline';
+	let svgpath: string;
+	let svgoutline = `<path d="M14.5 12.5V2.5L7.5 7.5L14.5 12.5Z" stroke="${color}" stroke-linejoin="round"/> <path d="M7.5 12.5V2.5L0.5 7.5L7.5 12.5Z" stroke="${color}" stroke-linejoin="round"/> `;
+	let svgsolid = `<path d="M8 2.5C8 2.31271 7.89533 2.14112 7.72879 2.05542C7.56226 1.96972 7.36179 1.98427 7.20938 2.09314L0.209381 7.09314C0.0779829 7.18699 0 7.33853 0 7.5C0 7.66148 0.0779829 7.81301 0.209381 7.90687L7.20938 12.9069C7.36179 13.0157 7.56226 13.0303 7.72879 12.9446C7.89533 12.8589 8 12.6873 8 12.5V8.4716L14.2094 12.9069C14.3618 13.0157 14.5623 13.0303 14.7288 12.9446C14.8953 12.8589 15 12.6873 15 12.5V2.5C15 2.31271 14.8953 2.14112 14.7288 2.05542C14.5623 1.96972 14.3618 1.98427 14.2094 2.09314L8 6.52841V2.5Z" fill="${color}"/> `;
+	switch (variation) {
+		case 'outline':
+			svgpath = svgoutline;
+			break;
+		case 'solid':
+			svgpath = svgsolid;
+			break;
+		default:
+			svgpath = svgoutline;
+	}
+	export let ariaLabel = 'rewind';
+</script>
 
 <svg
-  xmlns="http://www.w3.org/2000/svg"
-  width={size}
-  height={size}
-  fill="none"
-  class={$$props.class}
-  {...$$restProps}
-  aria-label={ariaLabel}
-  viewBox="0 0 15 15"
+	xmlns="http://www.w3.org/2000/svg"
+	width={size}
+	height={size}
+	fill="none"
+	class={$$props.class}
+	{...$$restProps}
+	aria-label={ariaLabel}
+	viewBox="0 0 15 15"
 >
-  {@html svgpath}
+	{@html svgpath}
 </svg>
