@@ -1,7 +1,7 @@
 <h1 align="center">Svelte-Teenyicons</h1>
 
 <p align="center">
-<a href="https://shinokada.github.io/svelte-teenyicons/">Svelte-Teenyicons</a>
+<a href="https://svelte-teenyicons.codewithshin.com/">Svelte-Teenyicons</a>
 </p>
 
 <p align="center">
