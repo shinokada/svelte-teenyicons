@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.5](https://github.com/shinokada/svelte-teenyicons/compare/v0.3.4...v0.3.5) (2023-02-01)
+
+
+### Bug Fixes
+
+* badges target, height, and add links to crossOriginLinks ([74f7c42](https://github.com/shinokada/svelte-teenyicons/commit/74f7c42b798ce81169fb48ad2d8e327178e2fe9b))
+
 ### [0.3.4](https://github.com/shinokada/svelte-teenyicons/compare/v0.3.3...v0.3.4) (2023-02-01)
 
 ### Features
