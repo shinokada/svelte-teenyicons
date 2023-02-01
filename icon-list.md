@@ -600,3 +600,7 @@
 - Zip
 - ZoomIn
 - ZoomOut
+
+## Back to Home
+
+[Back to Home](/)

@@ -1,10 +1,11 @@
-<h1 align="center">Svelte-Teenyicons</h1>
+<h1 align="center">Svelte Teenyicons</h1>
 
 <p align="center">
 <a href="https://svelte-teenyicons.codewithshin.com/">Svelte-Teenyicons</a>
 </p>
 
 <p align="center">
+<a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"><img src="https://img.shields.io/badge/PWA-enabled-brightgreen" alt="PWA Shield"></a>
 <a href="https://www.npmjs.com/package/svelte-teenyicons" rel="nofollow"><img src="https://img.shields.io/npm/v/svelte-teenyicons" alt="npm"></a>
 <a href="https://twitter.com/shinokada" rel="nofollow"><img src="https://img.shields.io/badge/created%20by-@shinokada-4BBAAB.svg" alt="Created by Shin Okada"></a>
 <a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://img.shields.io/github/license/shinokada/svelte-teenyicons" alt="License"></a>
@@ -14,12 +15,7 @@
 SVG TeenyIcons for Svelte. You can import outline and solid icons without name conflict. Svlete-Teenyicons support major CSS framework. You can add additional CSS using the `class` props.
 
 <p align="center">
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teeny1.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teeny2.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teeny3.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teeny4.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teeny5.webp" />
-<img width="450" src="https://raw.githubusercontent.com/shinokada/svelte-teenyicons/main/static/images/teeny6.webp" />
+<img width="650" src="/static/images/teeny-outline-optimized-650-1050.png" />
 </p>
 
 ## Installation
@@ -28,9 +24,13 @@ SVG TeenyIcons for Svelte. You can import outline and solid icons without name c
 npm i svelte-teenyicons
 ```
 
-## List of icons
+## Icon names
 
-[Icon names](https://github.com/shinokada/svelte-teenyicons/blob/main/icon-list.md)
+[Icon names](/icon-list.md)
+
+## Icon images
+
+[Icon images](/icon-images.md)
 
 ## Usage
 
@@ -118,3 +118,9 @@ Use `import * as Icon from 'svelte-teenyicons`.
 ## Other icons
 
 - [Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+
+## PWA: Fast & Offline
+
+This website can be downloaded and installed on your device for offline access as a Progressive Web App.
+
+To install a PWA, look for the "Add to Home Screen" option in the browser's menu or settings. On most mobile devices, this option can be found by visiting the website, then selecting the "Options" or "Menu" button in the browser, and looking for the "Add to Home Screen" option. On some desktop browsers, right-click on the page and select "Install".
