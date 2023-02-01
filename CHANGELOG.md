@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.4](https://github.com/shinokada/svelte-teenyicons/compare/v0.3.3...v0.3.4) (2023-02-01)
+
+
+### Features
+
+* add pwa ([f1e7146](https://github.com/shinokada/svelte-teenyicons/commit/f1e7146754d9832cf5c7c00777a4d95786fae3bc))
+
 ### [0.3.3](https://github.com/shinokada/svelte-teenyicons/compare/v0.3.2...v0.3.3) (2022-12-25)
 
 ### Bug Fixes
