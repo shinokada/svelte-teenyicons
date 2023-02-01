@@ -6,7 +6,6 @@
   };
 </script>
 
-
 <Icon.A360 size="40" color={random_hex_color_code()} />
 <Icon.AbTesting size="40" color={random_hex_color_code()} />
 <Icon.Add size="40" color={random_hex_color_code()} />

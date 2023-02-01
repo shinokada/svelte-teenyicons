@@ -6,6 +6,10 @@
   };
 </script>
 
+<svelte:head>
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+</svelte:head>
+
 <Icon.A360 size="40" color={random_hex_color_code()} variation="solid" />
 <Icon.AbTesting size="40" color={random_hex_color_code()} variation="solid" />
 <Icon.Add size="40" color={random_hex_color_code()} variation="solid" />
