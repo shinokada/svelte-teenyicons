@@ -1,22 +1,21 @@
 <script lang="ts">
-  export let size: string = '15';
-  export let color: string = 'black';
-  export let variation: 'solid' | 'outline' = 'outline';
+  export let size: string = "15";
+  export let color: string = "black" 
+  export let variation: "solid" | "outline" = "outline";
   let svgpath: string;
   let svgoutline = `<path d="M15 3.5H0M10 7.5H5M12 11.5H3" stroke="${color}"/> `;
   let svgsolid = `<path fill-rule="evenodd" clip-rule="evenodd" d="M0 3H15V4H0V3ZM5 7H10V8H5V7ZM3 11H12V12H3V11Z" fill="${color}"/> `;
   switch (variation) {
-    case 'outline':
+    case "outline":
       svgpath = svgoutline;
       break;
-    case 'solid':
+    case "solid":
       svgpath = svgsolid;
       break;
     default:
       svgpath = svgoutline;
   }
-  export let ariaLabel = 'align text center';
-</script>
+export let ariaLabel="align text center" </script>
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
