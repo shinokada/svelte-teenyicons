@@ -1,21 +1,22 @@
 <script lang="ts">
-  export let size: string = "15";
-  export let color: string = "black" 
-  export let variation: "solid" | "outline" = "outline";
+  export let size: string = '15';
+  export let color: string = 'black';
+  export let variation: 'solid' | 'outline' = 'outline';
   let svgpath: string;
   let svgoutline = `<path d="M1 10L7.5 3L14 10" stroke="${color}" stroke-linecap="square"/> `;
   let svgsolid = `<path d="M7.5 3L15 11H0L7.5 3Z" fill="${color}"/> `;
   switch (variation) {
-    case "outline":
+    case 'outline':
       svgpath = svgoutline;
       break;
-    case "solid":
+    case 'solid':
       svgpath = svgsolid;
       break;
     default:
       svgpath = svgoutline;
   }
-export let ariaLabel="up" </script>
+  export let ariaLabel = 'up';
+</script>
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
