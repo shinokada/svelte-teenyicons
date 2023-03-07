@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.4.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.3.6...v0.4.1) (2023-02-22)
 
-
 ### Features
 
-* add microsoft webmaster tools meta tag ([2ccc0d6](https://github.com/shinokada/svelte-teenyicons/commit/2ccc0d6b83708a2fe99bf838b4f83df6491f1d73))
-* new svelte packaging system ([3c8eace](https://github.com/shinokada/svelte-teenyicons/commit/3c8eace2bafcefcceaac27bdcf2b021b2be67d91))
-
+- add microsoft webmaster tools meta tag ([2ccc0d6](https://github.com/shinokada/svelte-teenyicons/commit/2ccc0d6b83708a2fe99bf838b4f83df6491f1d73))
+- new svelte packaging system ([3c8eace](https://github.com/shinokada/svelte-teenyicons/commit/3c8eace2bafcefcceaac27bdcf2b021b2be67d91))
 
 ### Bug Fixes
 
-* format ([7023d95](https://github.com/shinokada/svelte-teenyicons/commit/7023d95796f65bed2fe23729081b8f7d4f837395))
-* update index.html ([6ba6fbd](https://github.com/shinokada/svelte-teenyicons/commit/6ba6fbdfdf61a50dd9f99250e003fcc089ea69c6))
+- format ([7023d95](https://github.com/shinokada/svelte-teenyicons/commit/7023d95796f65bed2fe23729081b8f7d4f837395))
+- update index.html ([6ba6fbd](https://github.com/shinokada/svelte-teenyicons/commit/6ba6fbdfdf61a50dd9f99250e003fcc089ea69c6))
 
 ### [0.3.6](https://github.com/shinokada/svelte-teenyicons/compare/v0.3.5...v0.3.6) (2023-02-03)
 
