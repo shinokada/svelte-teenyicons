@@ -1,600 +1,600 @@
-<Icon.A360 size="40" />
-<Icon.AbTesting size="40" />
-<Icon.Add size="40" />
-<Icon.AddSmall size="40" />
-<Icon.AddressBook size="40" />
-<Icon.AdjustHorizontal size="40" />
-<Icon.AdjustHorizontalAlt size="40" />
-<Icon.AdjustVertical size="40" />
-<Icon.AdjustVerticalAlt size="40" />
-<Icon.Airplay size="40" />
-<Icon.Airpods size="40" />
-<Icon.Alarm size="40" />
-<Icon.Alien size="40" />
-<Icon.AlignBottom size="40" />
-<Icon.AlignCenterHorizontal size="40" />
-<Icon.AlignCenterVertical size="40" />
-<Icon.AlignLeft size="40" />
-<Icon.AlignRight size="40" />
-<Icon.AlignTextCenter size="40" />
-<Icon.AlignTextJustify size="40" />
-<Icon.AlignTextLeft size="40" />
-<Icon.AlignTextRight size="40" />
-<Icon.AlignTop size="40" />
-<Icon.Anchor size="40" />
-<Icon.Android size="40" />
-<Icon.Angular size="40" />
-<Icon.Anja size="40" />
-<Icon.AntiClockwise size="40" />
-<Icon.Apple size="40" />
-<Icon.Appointments size="40" />
-<Icon.Archive size="40" />
-<Icon.AreaChart size="40" />
-<Icon.AreaChartAlt size="40" />
-<Icon.Arrow size="40" />
-<Icon.ArrowDown size="40" />
-<Icon.ArrowDownCircle size="40" />
-<Icon.ArrowDownSmall size="40" />
-<Icon.ArrowLeft size="40" />
-<Icon.ArrowLeftCircle size="40" />
-<Icon.ArrowLeftSmall size="40" />
-<Icon.ArrowRight size="40" />
-<Icon.ArrowRightCircle size="40" />
-<Icon.ArrowRightSmall size="40" />
-<Icon.ArrowUp size="40" />
-<Icon.ArrowUpCircle size="40" />
-<Icon.ArrowUpSmall size="40" />
-<Icon.Artboard size="40" />
-<Icon.At size="40" />
-<Icon.Attach size="40" />
-<Icon.Attachment size="40" />
-<Icon.AudioCable size="40" />
-<Icon.AudioDocument size="40" />
-<Icon.Azure size="40" />
-<Icon.Backspace size="40" />
-<Icon.Bag size="40" />
-<Icon.BagAlt size="40" />
-<Icon.BagMinus size="40" />
-<Icon.BagPlus size="40" />
-<Icon.Bank size="40" />
-<Icon.BarChart size="40" />
-<Icon.Barcode size="40" />
-<Icon.Basket size="40" />
-<Icon.BasketMinus size="40" />
-<Icon.BasketPlus size="40" />
-<Icon.Bath size="40" />
-<Icon.Battery0 size="40" />
-<Icon.Battery1 size="40" />
-<Icon.Battery2 size="40" />
-<Icon.Battery3 size="40" />
-<Icon.Battery4 size="40" />
-<Icon.Battery5 size="40" />
-<Icon.BatteryCharge size="40" />
-<Icon.BedDouble size="40" />
-<Icon.BedSingle size="40" />
-<Icon.Behance size="40" />
-<Icon.Bell size="40" />
-<Icon.Bin size="40" />
-<Icon.Bitbucket size="40" />
-<Icon.Bitcoin size="40" />
-<Icon.Bluetooth size="40" />
-<Icon.Bold size="40" />
-<Icon.Book size="40" />
-<Icon.Bookmark size="40" />
-<Icon.BorderAll size="40" />
-<Icon.BorderBottom size="40" />
-<Icon.BorderHorizontal size="40" />
-<Icon.BorderInner size="40" />
-<Icon.BorderLeft size="40" />
-<Icon.BorderNone size="40" />
-<Icon.BorderOuter size="40" />
-<Icon.BorderRadius size="40" />
-<Icon.BorderRight size="40" />
-<Icon.BorderTop size="40" />
-<Icon.BorderVertical size="40" />
-<Icon.BottomLeft size="40" />
-<Icon.BottomRight size="40" />
-<Icon.Box size="40" />
-<Icon.Bracket size="40" />
-<Icon.Briefcase size="40" />
-<Icon.BriefcaseAlt size="40" />
-<Icon.Brush size="40" />
-<Icon.Bug size="40" />
-<Icon.Building size="40" />
-<Icon.BulbOff size="40" />
-<Icon.BulbOn size="40" />
-<Icon.Button size="40" />
-<Icon.C size="40" />
-<Icon.CSharp size="40" />
-<Icon.Calculator size="40" />
-<Icon.Calendar size="40" />
-<Icon.CalendarMinus size="40" />
-<Icon.CalendarNoAccess size="40" />
-<Icon.CalendarPlus size="40" />
-<Icon.CalendarTick size="40" />
-<Icon.CalendarX size="40" />
-<Icon.Camera size="40" />
-<Icon.CandleChart size="40" />
-<Icon.Car size="40" />
-<Icon.CaretVertical size="40" />
-<Icon.CaretVerticalCircle size="40" />
-<Icon.CaretVerticalSmall size="40" />
-<Icon.Cart size="40" />
-<Icon.CartMinus size="40" />
-<Icon.CartPlus size="40" />
-<Icon.Certificate size="40" />
-<Icon.Chat size="40" />
-<Icon.ChatTyping size="40" />
-<Icon.ChatTypingAlt size="40" />
-<Icon.Chatbot size="40" />
-<Icon.Chrome size="40" />
-<Icon.Church size="40" />
-<Icon.Circle size="40" />
-<Icon.Clipboard size="40" />
-<Icon.ClipboardMinus size="40" />
-<Icon.ClipboardNoAccess size="40" />
-<Icon.ClipboardPlus size="40" />
-<Icon.ClipboardTick size="40" />
-<Icon.ClipboardX size="40" />
-<Icon.Clock size="40" />
-<Icon.Clockwise size="40" />
-<Icon.Code size="40" />
-<Icon.Codepen size="40" />
-<Icon.Cog size="40" />
-<Icon.Compass size="40" />
-<Icon.Computer size="40" />
-<Icon.Contact size="40" />
-<Icon.Contract size="40" />
-<Icon.CostEstimate size="40" />
-<Icon.Cplusplus size="40" />
-<Icon.CreditCard size="40" />
-<Icon.Crop size="40" />
-<Icon.Css3 size="40" />
-<Icon.Csv size="40" />
-<Icon.Cup size="40" />
-<Icon.CurvedConnector size="40" />
-<Icon.D3 size="40" />
-<Icon.Database size="40" />
-<Icon.Denied size="40" />
-<Icon.Deno size="40" />
-<Icon.DepthChart size="40" />
-<Icon.Desklamp size="40" />
-<Icon.Diamond size="40" />
-<Icon.Direction size="40" />
-<Icon.Discord size="40" />
-<Icon.Discount size="40" />
-<Icon.DistributeHorizontal size="40" />
-<Icon.DistributeVertical size="40" />
-<Icon.DividerLine size="40" />
-<Icon.Doc size="40" />
-<Icon.Docker size="40" />
-<Icon.Documents size="40" />
-<Icon.Dollar size="40" />
-<Icon.DonutChart size="40" />
-<Icon.DoubleCaretDown size="40" />
-<Icon.DoubleCaretDownCircle size="40" />
-<Icon.DoubleCaretDownSmall size="40" />
-<Icon.DoubleCaretLeft size="40" />
-<Icon.DoubleCaretLeftCircle size="40" />
-<Icon.DoubleCaretLeftSmall size="40" />
-<Icon.DoubleCaretRight size="40" />
-<Icon.DoubleCaretRightCircle size="40" />
-<Icon.DoubleCaretRightSmall size="40" />
-<Icon.DoubleCaretUp size="40" />
-<Icon.DoubleCaretUpCircle size="40" />
-<Icon.DoubleCaretUpSmall size="40" />
-<Icon.Down size="40" />
-<Icon.DownCircle size="40" />
-<Icon.DownSmall size="40" />
-<Icon.Download size="40" />
-<Icon.Drag size="40" />
-<Icon.DragHorizontal size="40" />
-<Icon.DragVertical size="40" />
-<Icon.Dribbble size="40" />
-<Icon.Drop size="40" />
-<Icon.Dropper size="40" />
-<Icon.Edge size="40" />
-<Icon.Edit size="40" />
-<Icon.Edit1 size="40" />
-<Icon.EditCircle size="40" />
-<Icon.EditSmall size="40" />
-<Icon.ElbowConnector size="40" />
-<Icon.Envelope size="40" />
-<Icon.EnvelopeOpen size="40" />
-<Icon.Eps size="40" />
-<Icon.Eslint size="40" />
-<Icon.Ethereum size="40" />
-<Icon.Euro size="40" />
-<Icon.Exclamation size="40" />
-<Icon.ExclamationCircle size="40" />
-<Icon.ExclamationSmall size="40" />
-<Icon.Expand size="40" />
-<Icon.ExpandAlt size="40" />
-<Icon.Eye size="40" />
-<Icon.EyeClosed size="40" />
-<Icon.FaceId size="40" />
-<Icon.Facebook size="40" />
-<Icon.Figma size="40" />
-<Icon.File size="40" />
-<Icon.FileMinus size="40" />
-<Icon.FileNoAccess size="40" />
-<Icon.FilePlus size="40" />
-<Icon.FileTick size="40" />
-<Icon.FileX size="40" />
-<Icon.Filter size="40" />
-<Icon.Fingerprint size="40" />
-<Icon.Firebase size="40" />
-<Icon.Flag size="40" />
-<Icon.FlagAlt size="40" />
-<Icon.FlipHorizontal size="40" />
-<Icon.FlipVertical size="40" />
-<Icon.FloatCenter size="40" />
-<Icon.FloatLeft size="40" />
-<Icon.FloatRight size="40" />
-<Icon.Floorplan size="40" />
-<Icon.Folder size="40" />
-<Icon.FolderMinus size="40" />
-<Icon.FolderNoAccess size="40" />
-<Icon.FolderPlus size="40" />
-<Icon.FolderTick size="40" />
-<Icon.FolderX size="40" />
-<Icon.Folders size="40" />
-<Icon.Forward size="40" />
-<Icon.ForwardCircle size="40" />
-<Icon.ForwardSmall size="40" />
-<Icon.Frame size="40" />
-<Icon.Framer size="40" />
-<Icon.GameController size="40" />
-<Icon.GameControllerRetro size="40" />
-<Icon.GanttChart size="40" />
-<Icon.Garage size="40" />
-<Icon.Gatsbyjs size="40" />
-<Icon.Gba size="40" />
-<Icon.Gbc size="40" />
-<Icon.Ghost size="40" />
-<Icon.Gif size="40" />
-<Icon.Gift size="40" />
-<Icon.Git size="40" />
-<Icon.GitBranch size="40" />
-<Icon.GitCommit size="40" />
-<Icon.GitCompare size="40" />
-<Icon.GitFork size="40" />
-<Icon.GitMerge size="40" />
-<Icon.GitPull size="40" />
-<Icon.Github size="40" />
-<Icon.Gitlab size="40" />
-<Icon.Globe size="40" />
-<Icon.GlobeAfrica size="40" />
-<Icon.GlobeAmericas size="40" />
-<Icon.Google size="40" />
-<Icon.GoogleAd size="40" />
-<Icon.GoogleDrive size="40" />
-<Icon.GooglePlayStore size="40" />
-<Icon.GoogleStreetview size="40" />
-<Icon.Graphql size="40" />
-<Icon.GridLayout size="40" />
-<Icon.Hashtag size="40" />
-<Icon.HdScreen size="40" />
-<Icon.HdmiCable size="40" />
-<Icon.Headphones size="40" />
-<Icon.Headset size="40" />
-<Icon.Heart size="40" />
-<Icon.HeartCircle size="40" />
-<Icon.HeartSmall size="40" />
-<Icon.Hexagon size="40" />
-<Icon.History size="40" />
-<Icon.Home size="40" />
-<Icon.HomeAlt size="40" />
-<Icon.Hospital size="40" />
-<Icon.Hourglass size="40" />
-<Icon.House size="40" />
-<Icon.Html5 size="40" />
-<Icon.Id size="40" />
-<Icon.Imac size="40" />
-<Icon.Image size="40" />
-<Icon.ImageAlt size="40" />
-<Icon.ImageDocument size="40" />
-<Icon.InEarHeadphones size="40" />
-<Icon.Inbox size="40" />
-<Icon.IndentDecrease size="40" />
-<Icon.IndentIncrease size="40" />
-<Icon.Info size="40" />
-<Icon.InfoCircle size="40" />
-<Icon.InfoSmall size="40" />
-<Icon.Instagram size="40" />
-<Icon.Invoice size="40" />
-<Icon.Italic size="40" />
-<Icon.Javascript size="40" />
-<Icon.Joystick size="40" />
-<Icon.Jpg size="40" />
-<Icon.Kanban size="40" />
-<Icon.Key size="40" />
-<Icon.Keyboard size="40" />
-<Icon.LanCable size="40" />
-<Icon.Laptop size="40" />
-<Icon.Laravel size="40" />
-<Icon.Layers size="40" />
-<Icon.LayersDifference size="40" />
-<Icon.LayersIntersect size="40" />
-<Icon.LayersSubtract size="40" />
-<Icon.LayersUnion size="40" />
-<Icon.Left size="40" />
-<Icon.LeftCircle size="40" />
-<Icon.LeftSmall size="40" />
-<Icon.Lego size="40" />
-<Icon.Lifebuoy size="40" />
-<Icon.LightningCable size="40" />
-<Icon.Line size="40" />
-<Icon.Link size="40" />
-<Icon.LinkRemove size="40" />
-<Icon.Linkedin size="40" />
-<Icon.Linux size="40" />
-<Icon.LinuxAlt size="40" />
-<Icon.ListLayout size="40" />
-<Icon.ListOrdered size="40" />
-<Icon.ListUnordered size="40" />
-<Icon.Litecoin size="40" />
-<Icon.Loader size="40" />
-<Icon.Location size="40" />
-<Icon.Lock size="40" />
-<Icon.LockCircle size="40" />
-<Icon.LockSmall size="40" />
-<Icon.Logout size="40" />
-<Icon.Loop size="40" />
-<Icon.Magsafe size="40" />
-<Icon.Markdown size="40" />
-<Icon.Medium size="40" />
-<Icon.Menu size="40" />
-<Icon.Message size="40" />
-<Icon.MessageMinus size="40" />
-<Icon.MessageNoAccess size="40" />
-<Icon.MessagePlus size="40" />
-<Icon.MessageText size="40" />
-<Icon.MessageTextAlt size="40" />
-<Icon.MessageTick size="40" />
-<Icon.MessageX size="40" />
-<Icon.Messenger size="40" />
-<Icon.MicroSdCard size="40" />
-<Icon.Microphone size="40" />
-<Icon.Minimise size="40" />
-<Icon.MinimiseAlt size="40" />
-<Icon.Minus size="40" />
-<Icon.MinusCircle size="40" />
-<Icon.MinusSmall size="40" />
-<Icon.Mobile size="40" />
-<Icon.Money size="40" />
-<Icon.MoneyStack size="40" />
-<Icon.Mongodb size="40" />
-<Icon.MoodFlat size="40" />
-<Icon.MoodFrown size="40" />
-<Icon.MoodLaugh size="40" />
-<Icon.MoodSad size="40" />
-<Icon.MoodSmile size="40" />
-<Icon.MoodSurprised size="40" />
-<Icon.MoodTongue size="40" />
-<Icon.Moon size="40" />
-<Icon.MoreHorizontal size="40" />
-<Icon.MoreVertical size="40" />
-<Icon.Mouse size="40" />
-<Icon.Mov size="40" />
-<Icon.Mp3 size="40" />
-<Icon.Mp4 size="40" />
-<Icon.MsExcel size="40" />
-<Icon.MsPowerpoint size="40" />
-<Icon.MsWord size="40" />
-<Icon.N64 size="40" />
-<Icon.Nes size="40" />
-<Icon.Netlify size="40" />
-<Icon.Next size="40" />
-<Icon.NextCircle size="40" />
-<Icon.NextSmall size="40" />
-<Icon.Nextjs size="40" />
-<Icon.Ngc size="40" />
-<Icon.NintendoSwitch size="40" />
-<Icon.Nodejs size="40" />
-<Icon.Note size="40" />
-<Icon.Npm size="40" />
-<Icon.Nuxtjs size="40" />
-<Icon.Omega size="40" />
-<Icon.Opera size="40" />
-<Icon.Otp size="40" />
-<Icon.PageBreak size="40" />
-<Icon.PageNumber size="40" />
-<Icon.Paintbrush size="40" />
-<Icon.Paintbucket size="40" />
-<Icon.Paragraph size="40" />
-<Icon.Password size="40" />
-<Icon.Patreon size="40" />
-<Icon.Pause size="40" />
-<Icon.PauseCircle size="40" />
-<Icon.PauseSmall size="40" />
-<Icon.Paw size="40" />
-<Icon.Paws size="40" />
-<Icon.Paypal size="40" />
-<Icon.Pdf size="40" />
-<Icon.Pen size="40" />
-<Icon.Phone size="40" />
-<Icon.Phonecall size="40" />
-<Icon.PhonecallBlocked size="40" />
-<Icon.PhonecallReceive size="40" />
-<Icon.PieChart size="40" />
-<Icon.PieChartAlt size="40" />
-<Icon.Pin size="40" />
-<Icon.PinAlt size="40" />
-<Icon.Pinterest size="40" />
-<Icon.Plant size="40" />
-<Icon.Play size="40" />
-<Icon.PlayCircle size="40" />
-<Icon.PlaySmall size="40" />
-<Icon.Plug size="40" />
-<Icon.PlusCircle size="40" />
-<Icon.Png size="40" />
-<Icon.Pool size="40" />
-<Icon.Pound size="40" />
-<Icon.Power size="40" />
-<Icon.Ppt size="40" />
-<Icon.Print size="40" />
-<Icon.Python size="40" />
-<Icon.QrCode size="40" />
-<Icon.Question size="40" />
-<Icon.QuestionCircle size="40" />
-<Icon.QuestionSmall size="40" />
-<Icon.Quote size="40" />
-<Icon.Rand size="40" />
-<Icon.React size="40" />
-<Icon.Receipt size="40" />
-<Icon.Reddit size="40" />
-<Icon.Redwoodjs size="40" />
-<Icon.Refresh size="40" />
-<Icon.RefreshAlt size="40" />
-<Icon.Rewind size="40" />
-<Icon.RewindCircle size="40" />
-<Icon.RewindSmall size="40" />
-<Icon.Right size="40" />
-<Icon.RightCircle size="40" />
-<Icon.RightSmall size="40" />
-<Icon.Ripple size="40" />
-<Icon.Robot size="40" />
-<Icon.Roller size="40" />
-<Icon.Rollupjs size="40" />
-<Icon.Router size="40" />
-<Icon.Rss size="40" />
-<Icon.Ruby size="40" />
-<Icon.Rupee size="40" />
-<Icon.Rust size="40" />
-<Icon.Safari size="40" />
-<Icon.Safe size="40" />
-<Icon.Save size="40" />
-<Icon.Scan size="40" />
-<Icon.School size="40" />
-<Icon.Screen size="40" />
-<Icon.ScreenAlt size="40" />
-<Icon.ScreenAlt2 size="40" />
-<Icon.Scribble size="40" />
-<Icon.SdCard size="40" />
-<Icon.Search size="40" />
-<Icon.SearchCircle size="40" />
-<Icon.SearchProperty size="40" />
-<Icon.SearchSmall size="40" />
-<Icon.SectionAdd size="40" />
-<Icon.SectionRemove size="40" />
-<Icon.Send size="40" />
-<Icon.SendDown size="40" />
-<Icon.SendLeft size="40" />
-<Icon.SendRight size="40" />
-<Icon.SendUp size="40" />
-<Icon.Servers size="40" />
-<Icon.Share size="40" />
-<Icon.Shield size="40" />
-<Icon.ShieldTick size="40" />
-<Icon.ShieldX size="40" />
-<Icon.Shop size="40" />
-<Icon.Sign size="40" />
-<Icon.Signin size="40" />
-<Icon.Sim size="40" />
-<Icon.Simohamed size="40" />
-<Icon.Skull size="40" />
-<Icon.Skype size="40" />
-<Icon.Slack size="40" />
-<Icon.Snapchat size="40" />
-<Icon.Snes size="40" />
-<Icon.SortAlphabetically size="40" />
-<Icon.SortDown size="40" />
-<Icon.SortHighToLow size="40" />
-<Icon.SortLowToHigh size="40" />
-<Icon.SortReverseAlphabetically size="40" />
-<Icon.SortUp size="40" />
-<Icon.SoundOff size="40" />
-<Icon.SoundOn size="40" />
-<Icon.Spotify size="40" />
-<Icon.Spreadsheet size="40" />
-<Icon.Square size="40" />
-<Icon.Stackoverflow size="40" />
-<Icon.Stamp size="40" />
-<Icon.Star size="40" />
-<Icon.StarCircle size="40" />
-<Icon.StarSmall size="40" />
-<Icon.Stop size="40" />
-<Icon.StopCircle size="40" />
-<Icon.StopSmall size="40" />
-<Icon.Stopwatch size="40" />
-<Icon.Strikethrough size="40" />
-<Icon.Subscript size="40" />
-<Icon.Sun size="40" />
-<Icon.Superscript size="40" />
-<Icon.Svelte size="40" />
-<Icon.Svg size="40" />
-<Icon.Table size="40" />
-<Icon.Tablet size="40" />
-<Icon.Tag size="40" />
-<Icon.Tailwind size="40" />
-<Icon.Target size="40" />
-<Icon.Telegram size="40" />
-<Icon.Terminal size="40" />
-<Icon.Text size="40" />
-<Icon.TextDocument size="40" />
-<Icon.TextDocumentAlt size="40" />
-<Icon.ThumbDown size="40" />
-<Icon.ThumbUp size="40" />
-<Icon.Thumbtack size="40" />
-<Icon.Tick size="40" />
-<Icon.TickCircle size="40" />
-<Icon.TickSmall size="40" />
-<Icon.Tiktok size="40" />
-<Icon.Toggle size="40" />
-<Icon.TopLeft size="40" />
-<Icon.TopRight size="40" />
-<Icon.TrendDown size="40" />
-<Icon.TrendUp size="40" />
-<Icon.Triangle size="40" />
-<Icon.Trophy size="40" />
-<Icon.Tv size="40" />
-<Icon.Twitch size="40" />
-<Icon.Twitter size="40" />
-<Icon.Typescript size="40" />
-<Icon.Underline size="40" />
-<Icon.Unlock size="40" />
-<Icon.UnlockCircle size="40" />
-<Icon.UnlockSmall size="40" />
-<Icon.Up size="40" />
-<Icon.UpCircle size="40" />
-<Icon.UpSmall size="40" />
-<Icon.Upload size="40" />
-<Icon.UsbCable size="40" />
-<Icon.User size="40" />
-<Icon.UserCircle size="40" />
-<Icon.UserMinus size="40" />
-<Icon.UserPlus size="40" />
-<Icon.UserSquare size="40" />
-<Icon.Users size="40" />
-<Icon.VectorDocument size="40" />
-<Icon.VennDiagram size="40" />
-<Icon.ViewColumn size="40" />
-<Icon.ViewGrid size="40" />
-<Icon.Vim size="40" />
-<Icon.Volume1 size="40" />
-<Icon.Volume2 size="40" />
-<Icon.Volume3 size="40" />
-<Icon.VrHeadset size="40" />
-<Icon.Vue size="40" />
-<Icon.Wallet size="40" />
-<Icon.WalletAlt size="40" />
-<Icon.Wan size="40" />
-<Icon.Wand size="40" />
-<Icon.Watch size="40" />
-<Icon.Webpack size="40" />
-<Icon.Whatsapp size="40" />
-<Icon.WifiFull size="40" />
-<Icon.WifiLow size="40" />
-<Icon.WifiNone size="40" />
-<Icon.Windows size="40" />
-<Icon.Wordpress size="40" />
-<Icon.X size="40" />
-<Icon.XCircle size="40" />
-<Icon.XSmall size="40" />
-<Icon.Xls size="40" />
-<Icon.Yen size="40" />
-<Icon.Youtube size="40" />
-<Icon.Zip size="40" />
-<Icon.ZoomIn size="40" />
-<Icon.ZoomOut size="40" />
+- A360.svelte
+- AbTesting.svelte
+- Add.svelte
+- AddSmall.svelte
+- AddressBook.svelte
+- AdjustHorizontal.svelte
+- AdjustHorizontalAlt.svelte
+- AdjustVertical.svelte
+- AdjustVerticalAlt.svelte
+- Airplay.svelte
+- Airpods.svelte
+- Alarm.svelte
+- Alien.svelte
+- AlignBottom.svelte
+- AlignCenterHorizontal.svelte
+- AlignCenterVertical.svelte
+- AlignLeft.svelte
+- AlignRight.svelte
+- AlignTextCenter.svelte
+- AlignTextJustify.svelte
+- AlignTextLeft.svelte
+- AlignTextRight.svelte
+- AlignTop.svelte
+- Anchor.svelte
+- Android.svelte
+- Angular.svelte
+- Anja.svelte
+- AntiClockwise.svelte
+- Apple.svelte
+- Appointments.svelte
+- Archive.svelte
+- AreaChart.svelte
+- AreaChartAlt.svelte
+- Arrow.svelte
+- ArrowDown.svelte
+- ArrowDownCircle.svelte
+- ArrowDownSmall.svelte
+- ArrowLeft.svelte
+- ArrowLeftCircle.svelte
+- ArrowLeftSmall.svelte
+- ArrowRight.svelte
+- ArrowRightCircle.svelte
+- ArrowRightSmall.svelte
+- ArrowUp.svelte
+- ArrowUpCircle.svelte
+- ArrowUpSmall.svelte
+- Artboard.svelte
+- At.svelte
+- Attach.svelte
+- Attachment.svelte
+- AudioCable.svelte
+- AudioDocument.svelte
+- Azure.svelte
+- Backspace.svelte
+- Bag.svelte
+- BagAlt.svelte
+- BagMinus.svelte
+- BagPlus.svelte
+- Bank.svelte
+- BarChart.svelte
+- Barcode.svelte
+- Basket.svelte
+- BasketMinus.svelte
+- BasketPlus.svelte
+- Bath.svelte
+- Battery0.svelte
+- Battery1.svelte
+- Battery2.svelte
+- Battery3.svelte
+- Battery4.svelte
+- Battery5.svelte
+- BatteryCharge.svelte
+- BedDouble.svelte
+- BedSingle.svelte
+- Behance.svelte
+- Bell.svelte
+- Bin.svelte
+- Bitbucket.svelte
+- Bitcoin.svelte
+- Bluetooth.svelte
+- Bold.svelte
+- Book.svelte
+- Bookmark.svelte
+- BorderAll.svelte
+- BorderBottom.svelte
+- BorderHorizontal.svelte
+- BorderInner.svelte
+- BorderLeft.svelte
+- BorderNone.svelte
+- BorderOuter.svelte
+- BorderRadius.svelte
+- BorderRight.svelte
+- BorderTop.svelte
+- BorderVertical.svelte
+- BottomLeft.svelte
+- BottomRight.svelte
+- Box.svelte
+- Bracket.svelte
+- Briefcase.svelte
+- BriefcaseAlt.svelte
+- Brush.svelte
+- Bug.svelte
+- Building.svelte
+- BulbOff.svelte
+- BulbOn.svelte
+- Button.svelte
+- C.svelte
+- CSharp.svelte
+- Calculator.svelte
+- Calendar.svelte
+- CalendarMinus.svelte
+- CalendarNoAccess.svelte
+- CalendarPlus.svelte
+- CalendarTick.svelte
+- CalendarX.svelte
+- Camera.svelte
+- CandleChart.svelte
+- Car.svelte
+- CaretVertical.svelte
+- CaretVerticalCircle.svelte
+- CaretVerticalSmall.svelte
+- Cart.svelte
+- CartMinus.svelte
+- CartPlus.svelte
+- Certificate.svelte
+- Chat.svelte
+- ChatTyping.svelte
+- ChatTypingAlt.svelte
+- Chatbot.svelte
+- Chrome.svelte
+- Church.svelte
+- Circle.svelte
+- Clipboard.svelte
+- ClipboardMinus.svelte
+- ClipboardNoAccess.svelte
+- ClipboardPlus.svelte
+- ClipboardTick.svelte
+- ClipboardX.svelte
+- Clock.svelte
+- Clockwise.svelte
+- Code.svelte
+- Codepen.svelte
+- Cog.svelte
+- Compass.svelte
+- Computer.svelte
+- Contact.svelte
+- Contract.svelte
+- CostEstimate.svelte
+- Cplusplus.svelte
+- CreditCard.svelte
+- Crop.svelte
+- Css3.svelte
+- Csv.svelte
+- Cup.svelte
+- CurvedConnector.svelte
+- D3.svelte
+- Database.svelte
+- Denied.svelte
+- Deno.svelte
+- DepthChart.svelte
+- Desklamp.svelte
+- Diamond.svelte
+- Direction.svelte
+- Discord.svelte
+- Discount.svelte
+- DistributeHorizontal.svelte
+- DistributeVertical.svelte
+- DividerLine.svelte
+- Doc.svelte
+- Docker.svelte
+- Documents.svelte
+- Dollar.svelte
+- DonutChart.svelte
+- DoubleCaretDown.svelte
+- DoubleCaretDownCircle.svelte
+- DoubleCaretDownSmall.svelte
+- DoubleCaretLeft.svelte
+- DoubleCaretLeftCircle.svelte
+- DoubleCaretLeftSmall.svelte
+- DoubleCaretRight.svelte
+- DoubleCaretRightCircle.svelte
+- DoubleCaretRightSmall.svelte
+- DoubleCaretUp.svelte
+- DoubleCaretUpCircle.svelte
+- DoubleCaretUpSmall.svelte
+- Down.svelte
+- DownCircle.svelte
+- DownSmall.svelte
+- Download.svelte
+- Drag.svelte
+- DragHorizontal.svelte
+- DragVertical.svelte
+- Dribbble.svelte
+- Drop.svelte
+- Dropper.svelte
+- Edge.svelte
+- Edit.svelte
+- Edit1.svelte
+- EditCircle.svelte
+- EditSmall.svelte
+- ElbowConnector.svelte
+- Envelope.svelte
+- EnvelopeOpen.svelte
+- Eps.svelte
+- Eslint.svelte
+- Ethereum.svelte
+- Euro.svelte
+- Exclamation.svelte
+- ExclamationCircle.svelte
+- ExclamationSmall.svelte
+- Expand.svelte
+- ExpandAlt.svelte
+- Eye.svelte
+- EyeClosed.svelte
+- FaceId.svelte
+- Facebook.svelte
+- Figma.svelte
+- File.svelte
+- FileMinus.svelte
+- FileNoAccess.svelte
+- FilePlus.svelte
+- FileTick.svelte
+- FileX.svelte
+- Filter.svelte
+- Fingerprint.svelte
+- Firebase.svelte
+- Flag.svelte
+- FlagAlt.svelte
+- FlipHorizontal.svelte
+- FlipVertical.svelte
+- FloatCenter.svelte
+- FloatLeft.svelte
+- FloatRight.svelte
+- Floorplan.svelte
+- Folder.svelte
+- FolderMinus.svelte
+- FolderNoAccess.svelte
+- FolderPlus.svelte
+- FolderTick.svelte
+- FolderX.svelte
+- Folders.svelte
+- Forward.svelte
+- ForwardCircle.svelte
+- ForwardSmall.svelte
+- Frame.svelte
+- Framer.svelte
+- GameController.svelte
+- GameControllerRetro.svelte
+- GanttChart.svelte
+- Garage.svelte
+- Gatsbyjs.svelte
+- Gba.svelte
+- Gbc.svelte
+- Ghost.svelte
+- Gif.svelte
+- Gift.svelte
+- Git.svelte
+- GitBranch.svelte
+- GitCommit.svelte
+- GitCompare.svelte
+- GitFork.svelte
+- GitMerge.svelte
+- GitPull.svelte
+- Github.svelte
+- Gitlab.svelte
+- Globe.svelte
+- GlobeAfrica.svelte
+- GlobeAmericas.svelte
+- Google.svelte
+- GoogleAd.svelte
+- GoogleDrive.svelte
+- GooglePlayStore.svelte
+- GoogleStreetview.svelte
+- Graphql.svelte
+- GridLayout.svelte
+- Hashtag.svelte
+- HdScreen.svelte
+- HdmiCable.svelte
+- Headphones.svelte
+- Headset.svelte
+- Heart.svelte
+- HeartCircle.svelte
+- HeartSmall.svelte
+- Hexagon.svelte
+- History.svelte
+- Home.svelte
+- HomeAlt.svelte
+- Hospital.svelte
+- Hourglass.svelte
+- House.svelte
+- Html5.svelte
+- Id.svelte
+- Imac.svelte
+- Image.svelte
+- ImageAlt.svelte
+- ImageDocument.svelte
+- InEarHeadphones.svelte
+- Inbox.svelte
+- IndentDecrease.svelte
+- IndentIncrease.svelte
+- Info.svelte
+- InfoCircle.svelte
+- InfoSmall.svelte
+- Instagram.svelte
+- Invoice.svelte
+- Italic.svelte
+- Javascript.svelte
+- Joystick.svelte
+- Jpg.svelte
+- Kanban.svelte
+- Key.svelte
+- Keyboard.svelte
+- LanCable.svelte
+- Laptop.svelte
+- Laravel.svelte
+- Layers.svelte
+- LayersDifference.svelte
+- LayersIntersect.svelte
+- LayersSubtract.svelte
+- LayersUnion.svelte
+- Left.svelte
+- LeftCircle.svelte
+- LeftSmall.svelte
+- Lego.svelte
+- Lifebuoy.svelte
+- LightningCable.svelte
+- Line.svelte
+- Link.svelte
+- LinkRemove.svelte
+- Linkedin.svelte
+- Linux.svelte
+- LinuxAlt.svelte
+- ListLayout.svelte
+- ListOrdered.svelte
+- ListUnordered.svelte
+- Litecoin.svelte
+- Loader.svelte
+- Location.svelte
+- Lock.svelte
+- LockCircle.svelte
+- LockSmall.svelte
+- Logout.svelte
+- Loop.svelte
+- Magsafe.svelte
+- Markdown.svelte
+- Medium.svelte
+- Menu.svelte
+- Message.svelte
+- MessageMinus.svelte
+- MessageNoAccess.svelte
+- MessagePlus.svelte
+- MessageText.svelte
+- MessageTextAlt.svelte
+- MessageTick.svelte
+- MessageX.svelte
+- Messenger.svelte
+- MicroSdCard.svelte
+- Microphone.svelte
+- Minimise.svelte
+- MinimiseAlt.svelte
+- Minus.svelte
+- MinusCircle.svelte
+- MinusSmall.svelte
+- Mobile.svelte
+- Money.svelte
+- MoneyStack.svelte
+- Mongodb.svelte
+- MoodFlat.svelte
+- MoodFrown.svelte
+- MoodLaugh.svelte
+- MoodSad.svelte
+- MoodSmile.svelte
+- MoodSurprised.svelte
+- MoodTongue.svelte
+- Moon.svelte
+- MoreHorizontal.svelte
+- MoreVertical.svelte
+- Mouse.svelte
+- Mov.svelte
+- Mp3.svelte
+- Mp4.svelte
+- MsExcel.svelte
+- MsPowerpoint.svelte
+- MsWord.svelte
+- N64.svelte
+- Nes.svelte
+- Netlify.svelte
+- Next.svelte
+- NextCircle.svelte
+- NextSmall.svelte
+- Nextjs.svelte
+- Ngc.svelte
+- NintendoSwitch.svelte
+- Nodejs.svelte
+- Note.svelte
+- Npm.svelte
+- Nuxtjs.svelte
+- Omega.svelte
+- Opera.svelte
+- Otp.svelte
+- PageBreak.svelte
+- PageNumber.svelte
+- Paintbrush.svelte
+- Paintbucket.svelte
+- Paragraph.svelte
+- Password.svelte
+- Patreon.svelte
+- Pause.svelte
+- PauseCircle.svelte
+- PauseSmall.svelte
+- Paw.svelte
+- Paws.svelte
+- Paypal.svelte
+- Pdf.svelte
+- Pen.svelte
+- Phone.svelte
+- Phonecall.svelte
+- PhonecallBlocked.svelte
+- PhonecallReceive.svelte
+- PieChart.svelte
+- PieChartAlt.svelte
+- Pin.svelte
+- PinAlt.svelte
+- Pinterest.svelte
+- Plant.svelte
+- Play.svelte
+- PlayCircle.svelte
+- PlaySmall.svelte
+- Plug.svelte
+- PlusCircle.svelte
+- Png.svelte
+- Pool.svelte
+- Pound.svelte
+- Power.svelte
+- Ppt.svelte
+- Print.svelte
+- Python.svelte
+- QrCode.svelte
+- Question.svelte
+- QuestionCircle.svelte
+- QuestionSmall.svelte
+- Quote.svelte
+- Rand.svelte
+- React.svelte
+- Receipt.svelte
+- Reddit.svelte
+- Redwoodjs.svelte
+- Refresh.svelte
+- RefreshAlt.svelte
+- Rewind.svelte
+- RewindCircle.svelte
+- RewindSmall.svelte
+- Right.svelte
+- RightCircle.svelte
+- RightSmall.svelte
+- Ripple.svelte
+- Robot.svelte
+- Roller.svelte
+- Rollupjs.svelte
+- Router.svelte
+- Rss.svelte
+- Ruby.svelte
+- Rupee.svelte
+- Rust.svelte
+- Safari.svelte
+- Safe.svelte
+- Save.svelte
+- Scan.svelte
+- School.svelte
+- Screen.svelte
+- ScreenAlt.svelte
+- ScreenAlt2.svelte
+- Scribble.svelte
+- SdCard.svelte
+- Search.svelte
+- SearchCircle.svelte
+- SearchProperty.svelte
+- SearchSmall.svelte
+- SectionAdd.svelte
+- SectionRemove.svelte
+- Send.svelte
+- SendDown.svelte
+- SendLeft.svelte
+- SendRight.svelte
+- SendUp.svelte
+- Servers.svelte
+- Share.svelte
+- Shield.svelte
+- ShieldTick.svelte
+- ShieldX.svelte
+- Shop.svelte
+- Sign.svelte
+- Signin.svelte
+- Sim.svelte
+- Simohamed.svelte
+- Skull.svelte
+- Skype.svelte
+- Slack.svelte
+- Snapchat.svelte
+- Snes.svelte
+- SortAlphabetically.svelte
+- SortDown.svelte
+- SortHighToLow.svelte
+- SortLowToHigh.svelte
+- SortReverseAlphabetically.svelte
+- SortUp.svelte
+- SoundOff.svelte
+- SoundOn.svelte
+- Spotify.svelte
+- Spreadsheet.svelte
+- Square.svelte
+- Stackoverflow.svelte
+- Stamp.svelte
+- Star.svelte
+- StarCircle.svelte
+- StarSmall.svelte
+- Stop.svelte
+- StopCircle.svelte
+- StopSmall.svelte
+- Stopwatch.svelte
+- Strikethrough.svelte
+- Subscript.svelte
+- Sun.svelte
+- Superscript.svelte
+- Svelte.svelte
+- Svg.svelte
+- Table.svelte
+- Tablet.svelte
+- Tag.svelte
+- Tailwind.svelte
+- Target.svelte
+- Telegram.svelte
+- Terminal.svelte
+- Text.svelte
+- TextDocument.svelte
+- TextDocumentAlt.svelte
+- ThumbDown.svelte
+- ThumbUp.svelte
+- Thumbtack.svelte
+- Tick.svelte
+- TickCircle.svelte
+- TickSmall.svelte
+- Tiktok.svelte
+- Toggle.svelte
+- TopLeft.svelte
+- TopRight.svelte
+- TrendDown.svelte
+- TrendUp.svelte
+- Triangle.svelte
+- Trophy.svelte
+- Tv.svelte
+- Twitch.svelte
+- Twitter.svelte
+- Typescript.svelte
+- Underline.svelte
+- Unlock.svelte
+- UnlockCircle.svelte
+- UnlockSmall.svelte
+- Up.svelte
+- UpCircle.svelte
+- UpSmall.svelte
+- Upload.svelte
+- UsbCable.svelte
+- User.svelte
+- UserCircle.svelte
+- UserMinus.svelte
+- UserPlus.svelte
+- UserSquare.svelte
+- Users.svelte
+- VectorDocument.svelte
+- VennDiagram.svelte
+- ViewColumn.svelte
+- ViewGrid.svelte
+- Vim.svelte
+- Volume1.svelte
+- Volume2.svelte
+- Volume3.svelte
+- VrHeadset.svelte
+- Vue.svelte
+- Wallet.svelte
+- WalletAlt.svelte
+- Wan.svelte
+- Wand.svelte
+- Watch.svelte
+- Webpack.svelte
+- Whatsapp.svelte
+- WifiFull.svelte
+- WifiLow.svelte
+- WifiNone.svelte
+- Windows.svelte
+- Wordpress.svelte
+- X.svelte
+- XCircle.svelte
+- XSmall.svelte
+- Xls.svelte
+- Yen.svelte
+- Youtube.svelte
+- Zip.svelte
+- ZoomIn.svelte
+- ZoomOut.svelte
