@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.4.2...v0.5.1) (2023-05-12)
+
+
+### Features
+
+* add events ([2bc41f7](https://github.com/shinokada/svelte-teenyicons/commit/2bc41f7e40d4049a365b400d36a9a5e0c28f6743))
+
 ### [0.4.2](https://github.com/shinokada/svelte-teenyicons/compare/v0.4.1...v0.4.2) (2023-03-07)
 
 
