@@ -2,19 +2,6 @@
   export let size: string = "15";
   export let color: string = "black" 
   export let variation: "solid" | "outline" = "outline";
-  let svgpath: string;
-  let svgoutline = `<path d="M6.5 9.5V5.5L3 7.5L6.5 9.5Z" stroke="${color}" stroke-linejoin="round"/> <path d="M10.5 9.5V5.5L7 7.5L10.5 9.5Z" stroke="${color}" stroke-linejoin="round"/> `;
-  let svgsolid = `<path d="M7 5.5C7 5.32176 6.90512 5.15701 6.75096 5.06754C6.59681 4.97808 6.40668 4.97745 6.25193 5.06588L2.75193 7.06588C2.59614 7.1549 2.5 7.32057 2.5 7.5C2.5 7.67943 2.59614 7.8451 2.75193 7.93412L6.25193 9.93412C6.40668 10.0226 6.59681 10.0219 6.75096 9.93246C6.90512 9.84299 7 9.67824 7 9.5V8.07588L10.2519 9.93412C10.4067 10.0226 10.5968 10.0219 10.751 9.93246C10.9051 9.84299 11 9.67824 11 9.5V5.5C11 5.32176 10.9051 5.15701 10.751 5.06754C10.5968 4.97808 10.4067 4.97745 10.2519 5.06588L7 6.92412V5.5Z" fill="${color}"/> `;
-  switch (variation) {
-    case "outline":
-      svgpath = svgoutline;
-      break;
-    case "solid":
-      svgpath = svgsolid;
-      break;
-    default:
-      svgpath = svgoutline;
-  }
 export let ariaLabel="rewind small" </script>
 
 <svg
@@ -26,7 +13,7 @@ export let ariaLabel="rewind small" </script>
   {...$$restProps}
   aria-label={ariaLabel}
   viewBox="0 0 15 15"
-  on:click 
+  on:click
   on:mouseenter 
   on:mouseleave 
   on:mouseover 
@@ -34,5 +21,9 @@ export let ariaLabel="rewind small" </script>
   on:blur 
   on:focus 
 >
-  {@html svgpath}
+  {#if variation === 'outline'}
+    <path d="M6.5 9.5V5.5L3 7.5L6.5 9.5Z" stroke="{color}" stroke-linejoin="round"/> <path d="M10.5 9.5V5.5L7 7.5L10.5 9.5Z" stroke="{color}" stroke-linejoin="round"/> 
+  {:else}
+    <path d="M7 5.5C7 5.32176 6.90512 5.15701 6.75096 5.06754C6.59681 4.97808 6.40668 4.97745 6.25193 5.06588L2.75193 7.06588C2.59614 7.1549 2.5 7.32057 2.5 7.5C2.5 7.67943 2.59614 7.8451 2.75193 7.93412L6.25193 9.93412C6.40668 10.0226 6.59681 10.0219 6.75096 9.93246C6.90512 9.84299 7 9.67824 7 9.5V8.07588L10.2519 9.93412C10.4067 10.0226 10.5968 10.0219 10.751 9.93246C10.9051 9.84299 11 9.67824 11 9.5V5.5C11 5.32176 10.9051 5.15701 10.751 5.06754C10.5968 4.97808 10.4067 4.97745 10.2519 5.06588L7 6.92412V5.5Z" fill="{color}"/> 
+  {/if}
 </svg>

@@ -2,19 +2,6 @@
   export let size: string = "15";
   export let color: string = "black" 
   export let variation: "solid" | "outline" = "outline";
-  let svgpath: string;
-  let svgoutline = `<path d="M15 3.5H0M15 11.5H6M15 7.5H9" stroke="${color}"/> `;
-  let svgsolid = `<path fill-rule="evenodd" clip-rule="evenodd" d="M0 3H15V4H0V3ZM9 7H15V8H9V7ZM6 11H15V12H6V11Z" fill="${color}"/> `;
-  switch (variation) {
-    case "outline":
-      svgpath = svgoutline;
-      break;
-    case "solid":
-      svgpath = svgsolid;
-      break;
-    default:
-      svgpath = svgoutline;
-  }
 export let ariaLabel="align text right" </script>
 
 <svg
@@ -26,7 +13,7 @@ export let ariaLabel="align text right" </script>
   {...$$restProps}
   aria-label={ariaLabel}
   viewBox="0 0 15 15"
-  on:click 
+  on:click
   on:mouseenter 
   on:mouseleave 
   on:mouseover 
@@ -34,5 +21,9 @@ export let ariaLabel="align text right" </script>
   on:blur 
   on:focus 
 >
-  {@html svgpath}
+  {#if variation === 'outline'}
+    <path d="M15 3.5H0M15 11.5H6M15 7.5H9" stroke="{color}"/> 
+  {:else}
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 3H15V4H0V3ZM9 7H15V8H9V7ZM6 11H15V12H6V11Z" fill="{color}"/> 
+  {/if}
 </svg>

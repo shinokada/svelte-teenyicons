@@ -2,19 +2,6 @@
   export let size: string = "15";
   export let color: string = "black" 
   export let variation: "solid" | "outline" = "outline";
-  let svgpath: string;
-  let svgoutline = `<path d="M10.5 10.5V13.5C10.5 14.0523 10.0523 14.5 9.5 14.5H1.5C0.947715 14.5 0.5 14.0523 0.5 13.5V5.5C0.5 4.94772 0.947715 4.5 1.5 4.5H4.5M4.5 1.5V9.5C4.5 10.0523 4.94772 10.5 5.5 10.5H13.5C14.0523 10.5 14.5 10.0523 14.5 9.5V1.5C14.5 0.947716 14.0523 0.5 13.5 0.5H5.5C4.94772 0.5 4.5 0.947715 4.5 1.5Z" stroke="${color}"/> `;
-  let svgsolid = `<path fill-rule="evenodd" clip-rule="evenodd" d="M4 4H1.5C0.671573 4 0 4.67157 0 5.5V13.5C0 14.3284 0.671573 15 1.5 15H9.5C10.3284 15 11 14.3284 11 13.5V11H13.5C14.3284 11 15 10.3284 15 9.5V1.5C15 0.671573 14.3284 0 13.5 0H5.5C4.67157 0 4 0.671573 4 1.5V4ZM5 1.5C5 1.22386 5.22386 1 5.5 1H13.5C13.7761 1 14 1.22386 14 1.5V9.5C14 9.77614 13.7761 10 13.5 10H5.5C5.22386 10 5 9.77614 5 9.5V1.5Z" fill="${color}"/> `;
-  switch (variation) {
-    case "outline":
-      svgpath = svgoutline;
-      break;
-    case "solid":
-      svgpath = svgsolid;
-      break;
-    default:
-      svgpath = svgoutline;
-  }
 export let ariaLabel="layers subtract" </script>
 
 <svg
@@ -26,7 +13,7 @@ export let ariaLabel="layers subtract" </script>
   {...$$restProps}
   aria-label={ariaLabel}
   viewBox="0 0 15 15"
-  on:click 
+  on:click
   on:mouseenter 
   on:mouseleave 
   on:mouseover 
@@ -34,5 +21,9 @@ export let ariaLabel="layers subtract" </script>
   on:blur 
   on:focus 
 >
-  {@html svgpath}
+  {#if variation === 'outline'}
+    <path d="M10.5 10.5V13.5C10.5 14.0523 10.0523 14.5 9.5 14.5H1.5C0.947715 14.5 0.5 14.0523 0.5 13.5V5.5C0.5 4.94772 0.947715 4.5 1.5 4.5H4.5M4.5 1.5V9.5C4.5 10.0523 4.94772 10.5 5.5 10.5H13.5C14.0523 10.5 14.5 10.0523 14.5 9.5V1.5C14.5 0.947716 14.0523 0.5 13.5 0.5H5.5C4.94772 0.5 4.5 0.947715 4.5 1.5Z" stroke="{color}"/> 
+  {:else}
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 4H1.5C0.671573 4 0 4.67157 0 5.5V13.5C0 14.3284 0.671573 15 1.5 15H9.5C10.3284 15 11 14.3284 11 13.5V11H13.5C14.3284 11 15 10.3284 15 9.5V1.5C15 0.671573 14.3284 0 13.5 0H5.5C4.67157 0 4 0.671573 4 1.5V4ZM5 1.5C5 1.22386 5.22386 1 5.5 1H13.5C13.7761 1 14 1.22386 14 1.5V9.5C14 9.77614 13.7761 10 13.5 10H5.5C5.22386 10 5 9.77614 5 9.5V1.5Z" fill="{color}"/> 
+  {/if}
 </svg>

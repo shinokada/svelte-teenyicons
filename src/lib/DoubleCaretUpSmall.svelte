@@ -2,19 +2,6 @@
   export let size: string = "15";
   export let color: string = "black" 
   export let variation: "solid" | "outline" = "outline";
-  let svgpath: string;
-  let svgoutline = `<path d="M5.5 6.5L7.5 4.5L9.5 6.5M5.5 9.5L7.5 7.5L9.5 9.5" stroke="${color}" stroke-linecap="square"/> `;
-  let svgsolid = `<path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 3.79291L10.2071 6.50001L9.5 7.20712L7.5 5.20712L5.5 7.20712L4.79289 6.50001L7.5 3.79291ZM7.5 6.79291L10.2071 9.50001L9.5 10.2071L7.5 8.20712L5.5 10.2071L4.79289 9.50001L7.5 6.79291Z" fill="${color}"/> `;
-  switch (variation) {
-    case "outline":
-      svgpath = svgoutline;
-      break;
-    case "solid":
-      svgpath = svgsolid;
-      break;
-    default:
-      svgpath = svgoutline;
-  }
 export let ariaLabel="double caret up small" </script>
 
 <svg
@@ -26,7 +13,7 @@ export let ariaLabel="double caret up small" </script>
   {...$$restProps}
   aria-label={ariaLabel}
   viewBox="0 0 15 15"
-  on:click 
+  on:click
   on:mouseenter 
   on:mouseleave 
   on:mouseover 
@@ -34,5 +21,9 @@ export let ariaLabel="double caret up small" </script>
   on:blur 
   on:focus 
 >
-  {@html svgpath}
+  {#if variation === 'outline'}
+    <path d="M5.5 6.5L7.5 4.5L9.5 6.5M5.5 9.5L7.5 7.5L9.5 9.5" stroke="{color}" stroke-linecap="square"/> 
+  {:else}
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 3.79291L10.2071 6.50001L9.5 7.20712L7.5 5.20712L5.5 7.20712L4.79289 6.50001L7.5 3.79291ZM7.5 6.79291L10.2071 9.50001L9.5 10.2071L7.5 8.20712L5.5 10.2071L4.79289 9.50001L7.5 6.79291Z" fill="{color}"/> 
+  {/if}
 </svg>
