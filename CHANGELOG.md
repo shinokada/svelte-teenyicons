@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.5.1...v0.6.1) (2023-05-28)
+
+
+### Features
+
+* without backticks for XSS ([a6d7bf5](https://github.com/shinokada/svelte-teenyicons/commit/a6d7bf5d90064cb7d7d38aa9551101a13c4cd30c))
+
+
+### Bug Fixes
+
+* package update ([b9d5432](https://github.com/shinokada/svelte-teenyicons/commit/b9d543209d1d23337b44fbd84d675532f9c47133))
+
 ### [0.5.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.4.2...v0.5.1) (2023-05-12)
 
 
