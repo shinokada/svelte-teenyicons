@@ -27,3 +27,14 @@ export let ariaLabel="up" </script>
     <path d="M7.5 3L15 11H0L7.5 3Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

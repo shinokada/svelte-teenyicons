@@ -27,3 +27,14 @@ export let ariaLabel="hdmi cable" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M3 0H12V5H3V0ZM6 3H5V2H6V3ZM10 3H9V2H10V3Z" fill="{color}"/> <path d="M2 6H13V9.80902L11 10.809V13L10 13V15H9V13H6V15H5V13L4 13V10.809L2 9.80902V6Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

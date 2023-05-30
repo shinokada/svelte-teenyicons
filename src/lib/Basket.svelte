@@ -27,3 +27,14 @@ export let ariaLabel="basket" </script>
     <path d="M6.92878 0.757233L4.38313 4.99998H10.6169L8.07129 0.757233L8.92878 0.242737L11.7831 4.99998H14.2968C14.6852 4.99998 15 5.31482 15 5.70318V6.14194C15 9.08554 14.3147 11.9887 12.9982 14.6215C12.8823 14.8535 12.6452 15 12.3859 15H2.61409C2.35478 15 2.11773 14.8535 2.00176 14.6215C0.685346 11.9887 0 9.08554 0 6.14194V5.70318C0 5.31482 0.314831 4.99998 0.703196 4.99998H3.21694L6.07129 0.242737L6.92878 0.757233Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

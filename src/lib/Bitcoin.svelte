@@ -27,3 +27,14 @@ export let ariaLabel="bitcoin" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M3 1V0H4V1H7V0H8V1H8.5C10.433 1 12 2.567 12 4.5C12 5.59515 11.497 6.57282 10.7095 7.2146C12.0464 7.70695 13 8.99212 13 10.5C13 12.433 11.433 14 9.5 14H8V15H7V14H4V15H3V14H2V13H3V8H2V7H3V2H2V1H3ZM4 2V7H8.5C9.88071 7 11 5.88071 11 4.5C11 3.11929 9.88071 2 8.5 2H4ZM4 8H9.5C10.8807 8 12 9.11929 12 10.5C12 11.8807 10.8807 13 9.5 13H4V8Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

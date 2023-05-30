@@ -27,3 +27,14 @@ export let ariaLabel="divider line" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2H3V1H12V2ZM10 5H3V4H10V5ZM15 8H0V7H15V8ZM12 11H3V10H12V11ZM10 14H3V13H10V14Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

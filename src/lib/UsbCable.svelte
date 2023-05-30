@@ -27,3 +27,14 @@ export let ariaLabel="usb cable" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0H4V6H11V0ZM6 4V2H7V4H6ZM8 4V2H9V4H8Z" fill="{color}"/> <path d="M12 7H3V10.5C3 11.3284 3.67157 12 4.5 12H5V14H6V15H7V14H8V15H9V14H10V12H10.5C11.3284 12 12 11.3284 12 10.5V7Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

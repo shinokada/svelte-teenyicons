@@ -27,3 +27,14 @@ export let ariaLabel="litecoin" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M3.71354 6.58419L5.0149 1.37872L5.98504 1.62126L4.89157 5.99518L6.77637 5.05278L7.22358 5.9472L4.57213 7.27293L3.14036 13H13V14H1.85959L3.3941 7.86195L1.22358 8.9472L0.776367 8.05278L3.71354 6.58419Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

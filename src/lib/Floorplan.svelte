@@ -27,3 +27,14 @@ export let ariaLabel="floorplan" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H4.65139L7.77735 2.08397L7.22265 2.91603L4.34861 1H1V14H6V8H4V7H9V8H7V14H14V8H12V7H14V1H10V0H15V15H0V0Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

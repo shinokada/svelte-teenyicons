@@ -27,3 +27,14 @@ export let ariaLabel="bitbucket" </script>
     <path d="M0.500003 0C0.355058 0 0.217245 0.0628994 0.122276 0.172399C0.0273076 0.281899 -0.0154699 0.427222 0.00502854 0.570711L2.00503 14.5707C2.04022 14.817 2.25118 15 2.5 15H12.5C12.7488 15 12.9598 14.817 12.995 14.5707L14.2194 6H9.37332L9.03999 10H5.96012L5.54346 5H14.3622L14.995 0.570711C15.0155 0.427222 14.9727 0.281899 14.8777 0.172399C14.7828 0.0628994 14.6449 0 14.5 0H0.500003Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

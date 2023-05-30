@@ -27,3 +27,14 @@ export let ariaLabel="exclamation" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M7 11V1H8V11H7ZM8 13V14.01H7V13H8Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

@@ -27,3 +27,14 @@ export let ariaLabel="caret vertical" </script>
     <path d="M7.49991 1.33563L2.16919 6.00002H12.8306L7.49991 1.33563Z" fill="{color}"/> <path d="M7.50009 13.6644L12.8308 9.00002H2.16936L7.50009 13.6644Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

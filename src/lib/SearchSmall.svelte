@@ -27,3 +27,14 @@ export let ariaLabel="search small" </script>
     <path d="M7 4C5.34315 4 4 5.34315 4 7C4 8.65685 5.34315 10 7 10C7.64792 10 8.24786 9.7946 8.73827 9.44537L10.1464 10.8536L10.8536 10.1464L9.44537 8.73827C9.7946 8.24786 10 7.64792 10 7C10 5.34315 8.65685 4 7 4Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

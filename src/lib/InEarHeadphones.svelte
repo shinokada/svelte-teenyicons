@@ -27,3 +27,14 @@ export let ariaLabel="in ear headphones" </script>
     <path d="M6 1.65385C6 0.740453 5.25955 0 4.34615 0H3.5C1.567 0 0 1.567 0 3.5V13H1V15H2V13H3V7H4C5.10457 7 6 6.10457 6 5V1.65385Z" fill="{color}"/> <path d="M10.6538 0C9.74045 0 9 0.740453 9 1.65385V5C9 6.10457 9.89543 7 11 7H12V13H13V15H14V13H15V3.5C15 1.567 13.433 0 11.5 0H10.6538Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

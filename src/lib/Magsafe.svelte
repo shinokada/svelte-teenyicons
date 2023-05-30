@@ -27,3 +27,14 @@ export let ariaLabel="magsafe" </script>
     <path d="M12 0H3V3H12V0Z" fill="{color}"/> <path d="M14 4H1V10H4V12H5V15H6V12H9V15H10V12H11V10H14V4Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

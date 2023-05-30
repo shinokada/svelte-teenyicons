@@ -27,3 +27,14 @@ export let ariaLabel="anti clockwise" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M8.14547 0.146423L8.85253 0.853584L7.70401 2.00192C11.1985 2.10967 14 4.97581 14 8.49487C14 12.0822 11.0888 14.991 7.5 14.991C3.91117 14.991 1 12.0822 1 8.49487V7.99487H2V8.49487C2 11.5293 4.46283 13.991 7.5 13.991C10.5372 13.991 13 11.5293 13 8.49487C13 5.53117 10.6506 3.11379 7.7113 3.00277L8.85253 4.14382L8.14547 4.85098L5.79284 2.4987L8.14547 0.146423Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

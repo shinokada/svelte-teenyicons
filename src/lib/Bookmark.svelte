@@ -27,3 +27,14 @@ export let ariaLabel="bookmark" </script>
     <path d="M13 1.16229e-05L2 0V14.5C2 14.6922 2.11017 14.8674 2.28341 14.9507C2.45664 15.0339 2.66226 15.0105 2.81235 14.8904L7.5 11.1403L12.1877 14.8904C12.3377 15.0105 12.5434 15.0339 12.7166 14.9507C12.8898 14.8674 13 14.6922 13 14.5V1.16229e-05Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

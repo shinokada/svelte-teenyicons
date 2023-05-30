@@ -27,3 +27,14 @@ export let ariaLabel="mood surprised" </script>
     <path d="M7 8C6.44772 8 6 8.44772 6 9C6 9.55228 6.44772 10 7 10H8C8.55228 10 9 9.55228 9 9C9 8.44772 8.55228 8 8 8H7Z" fill="{color}"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M0 7.5C0 3.35786 3.35786 0 7.5 0C11.6421 0 15 3.35786 15 7.5C15 11.6421 11.6421 15 7.5 15C3.35786 15 0 11.6421 0 7.5ZM4 6H5V5H4V6ZM10 6H11V5H10V6ZM5 9C5 7.89543 5.89543 7 7 7H8C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11H7C5.89543 11 5 10.1046 5 9Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

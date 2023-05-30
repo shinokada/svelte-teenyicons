@@ -27,3 +27,14 @@ export let ariaLabel="mood tongue" </script>
     <path d="M6 10.5V9H9V10.5C9 11.3284 8.32843 12 7.5 12C6.67157 12 6 11.3284 6 10.5Z" fill="{color}"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M0 7.5C0 3.35786 3.35786 0 7.5 0C11.6421 0 15 3.35786 15 7.5C15 11.6421 11.6421 15 7.5 15C3.35786 15 0 11.6421 0 7.5ZM5 6H4V5H5V6ZM11 6H10V5H11V6ZM4 9H5V10.5C5 11.8807 6.11929 13 7.5 13C8.88071 13 10 11.8807 10 10.5V9H11V8H4V9Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

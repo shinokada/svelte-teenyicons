@@ -27,3 +27,14 @@ export let ariaLabel="arrow down small" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00001 4L8.00001 9.29289L9.50001 7.79289L10.2071 8.5L7.50001 11.2071L4.79291 8.5L5.50001 7.79289L7.00001 9.29289L7.00001 4H8.00001Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

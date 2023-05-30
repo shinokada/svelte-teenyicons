@@ -27,3 +27,14 @@ export let ariaLabel="thumb down" </script>
     <path d="M1 10V0H0V10H1Z" fill="{color}"/> <path d="M5.5 0C4.11929 0 3 1.11929 3 2.5V9.6456L5.77577 14.0075C6.3678 14.9379 7.59324 15.2271 8.53883 14.6598C9.45039 14.1129 9.78718 12.9563 9.31176 12.0055L8.30902 10H12.5C13.8807 10 15 8.88071 15 7.5V4.33333L12.5 1C12.0279 0.370486 11.2869 0 10.5 0H5.5Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

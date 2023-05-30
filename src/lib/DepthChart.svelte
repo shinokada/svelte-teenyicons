@@ -27,3 +27,14 @@ export let ariaLabel="depth chart" </script>
     <path d="M1 0H0V15H15V0H14V5H12V7H11V10H9V12H8V11H7V8H5V5H3V4H1V0Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

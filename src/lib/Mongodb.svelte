@@ -27,3 +27,14 @@ export let ariaLabel="mongodb" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.86855 0.162138C7.77385 0.0588232 7.64013 0 7.49998 0C7.35982 0 7.2261 0.0588232 7.1314 0.162138L4.50011 3.03263C2.68016 5.01804 2.56571 8.02932 4.22971 10.1471L7 13.673V15H8V13.6729L10.7702 10.1471C12.4342 8.02932 12.3198 5.01803 10.4998 3.03263L7.86855 0.162138ZM8 3C8 2.72386 7.77614 2.5 7.5 2.5C7.22386 2.5 7 2.72386 7 3V10.5C7 10.7761 7.22386 11 7.5 11C7.77614 11 8 10.7761 8 10.5V3Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

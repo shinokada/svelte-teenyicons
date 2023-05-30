@@ -27,3 +27,14 @@ export let ariaLabel="imac" </script>
     <path d="M13.5 0C14.3284 0 15 0.671573 15 1.5V7H0V1.5C0 0.671573 0.671573 0 1.5 0H13.5Z" fill="{color}"/> <path d="M0 8V9.5C0 10.3284 0.671573 11 1.5 11H7V14H2V15H13V14H8V11H13.5C14.3284 11 15 10.3284 15 9.5V8H0Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

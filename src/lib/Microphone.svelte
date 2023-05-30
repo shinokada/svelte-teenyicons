@@ -27,3 +27,14 @@ export let ariaLabel="microphone" </script>
     <path d="M5 2.5C5 1.11929 6.11929 0 7.5 0C8.88071 0 10 1.11929 10 2.5V6.5C10 7.88071 8.88071 9 7.5 9C6.11929 9 5 7.88071 5 6.5V2.5Z" fill="{color}"/> <path d="M2 4V6.5C2 9.36902 4.19675 11.725 7 11.9776V14H5V15H10V14H8V11.9776C10.8033 11.725 13 9.36902 13 6.5V4H12V6.5C12 8.98528 9.98528 11 7.5 11C5.01472 11 3 8.98528 3 6.5V4H2Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

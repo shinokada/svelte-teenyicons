@@ -27,3 +27,14 @@ export let ariaLabel="calendar tick" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 2H12V0H11V2H4V0H3V2H1.5C0.671573 2 0 2.67157 0 3.5V13.5C0 14.3284 0.671573 15 1.5 15H13.5C14.3284 15 15 14.3284 15 13.5V3.5C15 2.67157 14.3284 2 13.5 2ZM7.02439 11.2315L10.8763 6.82928L10.1237 6.17078L6.97568 9.76857L5.35359 8.14647L4.64648 8.85358L7.02439 11.2315Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

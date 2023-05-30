@@ -27,3 +27,14 @@ export let ariaLabel="minimise alt" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M13.8536 1.85356L10.7071 5.00001L13 5.00001V6.00001L9.00001 6.00001V2.00001H10V4.2929L13.1465 1.14645L13.8536 1.85356ZM2.00001 9.00001L6.00001 9.00001L6.00001 13H5.00001L5.00001 10.7071L1.85356 13.8536L1.14645 13.1465L4.2929 10L2.00001 10L2.00001 9.00001Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

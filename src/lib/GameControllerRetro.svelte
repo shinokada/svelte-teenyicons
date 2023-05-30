@@ -27,3 +27,14 @@ export let ariaLabel="game controller retro" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 2C14.3284 2 15 2.67157 15 3.5V11.5C15 12.3284 14.3284 13 13.5 13L1.5 13C0.671573 13 0 12.3284 0 11.5V3.5C0 2.67157 0.671573 2 1.5 2H13.5ZM10 6H8V5H10V6ZM4 7V6H5V7H6V8H5V9H4V8H3V7H4ZM12 10H10V9H12V10Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

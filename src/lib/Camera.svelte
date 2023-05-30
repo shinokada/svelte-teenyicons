@@ -27,3 +27,14 @@ export let ariaLabel="camera" </script>
     <path d="M2 1H7V2L2 2V1Z" fill="{color}"/> <path d="M8 8.5C8 7.67157 8.67157 7 9.5 7C10.3284 7 11 7.67157 11 8.5C11 9.32843 10.3284 10 9.5 10C8.67157 10 8 9.32843 8 8.5Z" fill="{color}"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12.5C0 13.3284 0.671574 14 1.5 14L13.5 14C14.3284 14 15 13.3284 15 12.5L15 4.5C15 3.67158 14.3284 3 13.5 3H1.5C0.671574 3 0 3.67157 0 4.5V12.5ZM9.5 6C8.11929 6 7 7.11929 7 8.5C7 9.88071 8.11929 11 9.5 11C10.8807 11 12 9.88071 12 8.5C12 7.11929 10.8807 6 9.5 6Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

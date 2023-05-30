@@ -27,3 +27,14 @@ export let ariaLabel="lightning cable" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M5.5 0C4.67157 0 4 0.671573 4 1.5V5H11V1.5C11 0.671573 10.3284 0 9.5 0H5.5ZM6 2H9V3H6V2Z" fill="{color}"/> <path d="M3 6H12V11.5C12 12.3284 11.3284 13 10.5 13L10 13V15H9V13H6V15H5V13L4.5 13C3.67157 13 3 12.3284 3 11.5V6Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

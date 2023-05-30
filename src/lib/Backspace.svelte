@@ -27,3 +27,14 @@ export let ariaLabel="backspace" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M4.10957 2.18765C4.20445 2.06904 4.34811 2 4.5 2H13.5C14.3284 2 15 2.67157 15 3.5V11.5C15 12.3284 14.3284 13 13.5 13H4.5C4.34811 13 4.20445 12.931 4.10957 12.8123L0.109566 7.81235C-0.0365219 7.62974 -0.0365219 7.37026 0.109566 7.18765L4.10957 2.18765ZM10.1465 9.85356L8.50004 8.20711L6.85359 9.85356L6.14648 9.14645L7.79293 7.50001L6.14648 5.85356L6.85359 5.14645L8.50004 6.7929L10.1465 5.14645L10.8536 5.85356L9.20714 7.50001L10.8536 9.14645L10.1465 9.85356Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

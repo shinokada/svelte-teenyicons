@@ -27,3 +27,14 @@ export let ariaLabel="stopwatch" </script>
     <path d="M9 1H6V0H9V1Z" fill="{color}"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 2C3.91015 2 1 4.91015 1 8.5C1 12.0899 3.91015 15 7.5 15C11.0899 15 14 12.0899 14 8.5C14 4.91015 11.0899 2 7.5 2ZM8 8V5H7V9H10V8H8Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

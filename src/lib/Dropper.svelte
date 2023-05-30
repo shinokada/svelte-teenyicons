@@ -27,3 +27,14 @@ export let ariaLabel="dropper" </script>
     <path d="M13.7678 1.06066C12.7915 0.0843534 11.2086 0.0843515 10.2323 1.06066L7.50007 3.7929L6.85359 3.14642L6.14648 3.85353L11.1465 8.85353L11.8536 8.14642L11.2072 7.50001L13.9394 4.76777C14.9157 3.79146 14.9157 2.20855 13.9394 1.23224L13.7678 1.06066Z" fill="{color}"/> <path d="M6.14645 6.14645C6.34171 5.95118 6.65829 5.95118 6.85355 6.14645L8.85355 8.14645C9.04882 8.34171 9.04882 8.65829 8.85355 8.85355L2.70711 15H0.5C0.223858 15 0 14.7761 0 14.5V12.2929L6.14645 6.14645Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

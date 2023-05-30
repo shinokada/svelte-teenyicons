@@ -27,3 +27,14 @@ export let ariaLabel="sd card" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 0H12.5C13.3284 0 14 0.671574 14 1.5V13.5C14 14.3284 13.3284 15 12.5 15H2.5C1.67157 15 1 14.3284 1 13.5V4.29289L5.29289 0ZM6 3V6H7V3H6ZM8 3V6H9V3H8ZM10 6V3H11V6H10Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

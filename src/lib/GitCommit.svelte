@@ -27,3 +27,14 @@ export let ariaLabel="git commit" </script>
     <path d="M4 7.5C4 5.73676 5.30385 4.27806 7 4.03544V0H8V4.03544C9.69615 4.27806 11 5.73676 11 7.5C11 9.26324 9.69615 10.7219 8 10.9646V15H7V10.9646C5.30385 10.7219 4 9.26324 4 7.5Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

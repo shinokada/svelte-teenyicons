@@ -27,3 +27,14 @@ export let ariaLabel="candle chart" </script>
     <path d="M1 0H0V15H15V14H1V0Z" fill="{color}"/> <path d="M8 0V3H7V8H10V3H9V0H8Z" fill="{color}"/> <path d="M3 4V5H2V10H3V12H4V10H5V5H4V4H3Z" fill="{color}"/> <path d="M12 6H13V4H14V6H15V11H14V13H13V11H12V6Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

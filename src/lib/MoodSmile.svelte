@@ -27,3 +27,14 @@ export let ariaLabel="mood smile" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M0 7.5C0 3.35786 3.35786 0 7.5 0C11.6421 0 15 3.35786 15 7.5C15 11.6421 11.6421 15 7.5 15C3.35786 15 0 11.6421 0 7.5ZM4 6H5V5H4V6ZM10 6H11V5H10V6ZM4.9001 8.7C6.2001 10.4333 8.8001 10.4333 10.1001 8.7L10.9001 9.3C9.2001 11.5667 5.8001 11.5667 4.1001 9.3L4.9001 8.7Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

@@ -27,3 +27,14 @@ export let ariaLabel="tick" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7071 3.00001L5.50001 12.2071L0.292908 7.00001L1.00001 6.29291L5.50001 10.7929L14 2.29291L14.7071 3.00001Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

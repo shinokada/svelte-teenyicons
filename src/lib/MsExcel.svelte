@@ -27,3 +27,14 @@ export let ariaLabel="ms excel" </script>
     <path d="M3.79293 7.49998L2.14648 5.85353L2.85359 5.14642L4.50004 6.79287L6.14648 5.14642L6.85359 5.85353L5.20714 7.49998L6.85359 9.14642L6.14648 9.85353L4.50004 8.20708L2.85359 9.85353L2.14648 9.14642L3.79293 7.49998Z" fill="{color}"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5 0C2.67157 0 2 0.671573 2 1.5V3H1.5C0.671573 3 0 3.67157 0 4.5V10.5C0 11.3284 0.671573 12 1.5 12H2V13.5C2 14.3284 2.67157 15 3.5 15H13.5C14.3284 15 15 14.3284 15 13.5V1.5C15 0.671573 14.3284 0 13.5 0H3.5ZM1.5 4C1.22386 4 1 4.22386 1 4.5V10.5C1 10.7761 1.22386 11 1.5 11H7.5C7.77614 11 8 10.7761 8 10.5V4.5C8 4.22386 7.77614 4 7.5 4H1.5Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

@@ -27,3 +27,14 @@ export let ariaLabel="pie chart alt" </script>
     <path d="M6.5 0H6V9H15V8.5C15 3.80558 11.1944 0 6.5 0Z" fill="{color}"/> <path d="M12.8261 10H5V2.17393C2.1333 2.8511 0 5.42642 0 8.5C0 12.0899 2.91015 15 6.5 15C9.57358 15 12.1489 12.8667 12.8261 10Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

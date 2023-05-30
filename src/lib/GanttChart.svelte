@@ -27,3 +27,14 @@ export let ariaLabel="gantt chart" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H1V14H15V15H0V0ZM2 2H5V3H2V2ZM3 5H8V6H3V5ZM5 8H8V9H5V8ZM8 11H15V12H8V11Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

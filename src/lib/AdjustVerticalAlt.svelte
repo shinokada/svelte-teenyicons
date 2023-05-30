@@ -27,3 +27,14 @@ export let ariaLabel="adjust vertical alt" </script>
     <path d="M3 0L3 8.05001C1.85888 8.28164 1 9.29052 1 10.5C1 11.7095 1.85888 12.7184 3 12.95V15H4V12.95C5.14112 12.7184 6 11.7095 6 10.5C6 9.29052 5.14112 8.28164 4 8.05001L4 0H3Z" fill="{color}"/> <path d="M11 0L11 2.05001C9.85888 2.28164 9 3.29052 9 4.5C9 5.70948 9.85888 6.71836 11 6.94999V15H12V6.94999C13.1411 6.71836 14 5.70948 14 4.5C14 3.29052 13.1411 2.28164 12 2.05001L12 0H11Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

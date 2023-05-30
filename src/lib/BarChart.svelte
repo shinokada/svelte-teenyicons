@@ -27,3 +27,14 @@ export let ariaLabel="bar chart" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M13 0H14V12H13V0ZM10 3V12H9V3H10ZM6 6V12H5V6H6ZM1 12V9H2V12H1ZM15 15H0V14H15V15Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

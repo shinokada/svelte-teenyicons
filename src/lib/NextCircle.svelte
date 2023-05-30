@@ -27,3 +27,14 @@ export let ariaLabel="next circle" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M0 7.5C0 3.35786 3.35786 0 7.5 0C11.6421 0 15 3.35786 15 7.5C15 11.6421 11.6421 15 7.5 15C3.35786 15 0 11.6421 0 7.5ZM10 5H11V10H10V5ZM4.74807 5.06588C4.59332 4.97745 4.40319 4.97808 4.24904 5.06754C4.09488 5.15701 4 5.32176 4 5.5V9.5C4 9.67824 4.09488 9.84299 4.24904 9.93246C4.40319 10.0219 4.59332 10.0226 4.74807 9.93412L8.24807 7.93412C8.40386 7.8451 8.5 7.67943 8.5 7.5C8.5 7.32057 8.40386 7.1549 8.24807 7.06588L4.74807 5.06588Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

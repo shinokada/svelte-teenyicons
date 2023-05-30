@@ -27,3 +27,14 @@ export let ariaLabel="lan cable" </script>
     <path d="M7 6.5V5H8V6.5C8 6.77614 7.77614 7 7.5 7C7.22386 7 7 6.77614 7 6.5Z" fill="{color}"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0H11V4H12V7.61803L9.80902 12H9V15H8V12H7V15H6V12H5.19098L3 7.61803V4H4V0H6V3H9V0ZM9 4H6V6.5C6 7.32843 6.67157 8 7.5 8C8.32843 8 9 7.32843 9 6.5V4ZM6 9V10H9V9H6Z" fill="{color}"/> <path d="M8 0H7V2H8V0Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->

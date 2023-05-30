@@ -27,3 +27,14 @@ export let ariaLabel="indent decrease" </script>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M15 4H3V3H15V4ZM1.20711 7.5L2.85355 5.85355L2.14645 5.14645L0.146447 7.14645C-0.0488155 7.34171 -0.0488155 7.65829 0.146447 7.85355L2.14645 9.85355L2.85355 9.14645L1.20711 7.5ZM15 8H7V7H15V8ZM15 12H3V11H15V12Z" fill="{color}"/> 
   {/if}
 </svg>
+
+
+<!--
+  @component
+  [Go to Document](https://svelte-teenyicons.codewithshin.com/)
+
+  ## Props
+  @prop size: string = "15";
+  @prop color: string = "black" 
+  @prop variation: "solid" | "outline" = "outline";
+-->
