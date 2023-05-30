@@ -47,4 +47,13 @@
   @prop size: string = "15";
   @prop color: string = "black" 
   @prop variation: "solid" | "outline" = "outline";
+  @prop ariaLabel = 'icon file name';
+  ## Event
+  - on:click 
+  - on:mouseenter 
+  - on:mouseleave 
+  - on:mouseover 
+  - on:mouseout 
+  - on:blur 
+  - on:focus 
 -->

@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.7.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.6.1...v0.7.1) (2023-05-30)
 
-
 ### Features
 
-* add IDE support for component document ([fd3e8e9](https://github.com/shinokada/svelte-teenyicons/commit/fd3e8e919a4e8555b7bc1213e350936617619a1e))
+- add IDE support for component document ([fd3e8e9](https://github.com/shinokada/svelte-teenyicons/commit/fd3e8e919a4e8555b7bc1213e350936617619a1e))
 
 ### [0.6.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.5.1...v0.6.1) (2023-05-28)
 
