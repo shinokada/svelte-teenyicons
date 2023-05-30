@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.2](https://github.com/shinokada/svelte-teenyicons/compare/v0.7.1...v0.7.2) (2023-05-30)
+
+
+### Features
+
+* add events to component doc ([a5b7093](https://github.com/shinokada/svelte-teenyicons/commit/a5b7093b4e87dbfd9d3a32f38bf254d54d33fb40))
+
 ### [0.7.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.6.1...v0.7.1) (2023-05-30)
 
 ### Features
