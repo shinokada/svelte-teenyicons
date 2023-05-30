@@ -4,29 +4,25 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.6.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.5.1...v0.6.1) (2023-05-28)
 
-
 ### Features
 
-* without backticks for XSS ([a6d7bf5](https://github.com/shinokada/svelte-teenyicons/commit/a6d7bf5d90064cb7d7d38aa9551101a13c4cd30c))
-
+- without backticks for XSS ([a6d7bf5](https://github.com/shinokada/svelte-teenyicons/commit/a6d7bf5d90064cb7d7d38aa9551101a13c4cd30c))
 
 ### Bug Fixes
 
-* package update ([b9d5432](https://github.com/shinokada/svelte-teenyicons/commit/b9d543209d1d23337b44fbd84d675532f9c47133))
+- package update ([b9d5432](https://github.com/shinokada/svelte-teenyicons/commit/b9d543209d1d23337b44fbd84d675532f9c47133))
 
 ### [0.5.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.4.2...v0.5.1) (2023-05-12)
 
-
 ### Features
 
-* add events ([2bc41f7](https://github.com/shinokada/svelte-teenyicons/commit/2bc41f7e40d4049a365b400d36a9a5e0c28f6743))
+- add events ([2bc41f7](https://github.com/shinokada/svelte-teenyicons/commit/2bc41f7e40d4049a365b400d36a9a5e0c28f6743))
 
 ### [0.4.2](https://github.com/shinokada/svelte-teenyicons/compare/v0.4.1...v0.4.2) (2023-03-07)
 
-
 ### Features
 
-* add script add-exports and update README ([37568fe](https://github.com/shinokada/svelte-teenyicons/commit/37568fe80ef21a045cb574ccce8e103db7efde28))
+- add script add-exports and update README ([37568fe](https://github.com/shinokada/svelte-teenyicons/commit/37568fe80ef21a045cb574ccce8e103db7efde28))
 
 ### [0.4.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.3.6...v0.4.1) (2023-02-22)
 

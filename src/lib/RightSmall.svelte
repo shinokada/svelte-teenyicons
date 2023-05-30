@@ -1,8 +1,9 @@
 <script lang="ts">
-  export let size: string = "15";
-  export let color: string = "black" 
-  export let variation: "solid" | "outline" = "outline";
-export let ariaLabel="right small" </script>
+  export let size: string = '15';
+  export let color: string = 'black';
+  export let variation: 'solid' | 'outline' = 'outline';
+  export let ariaLabel = 'right small';
+</script>
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -14,20 +15,19 @@ export let ariaLabel="right small" </script>
   aria-label={ariaLabel}
   viewBox="0 0 15 15"
   on:click
-  on:mouseenter 
-  on:mouseleave 
-  on:mouseover 
-  on:mouseout 
-  on:blur 
-  on:focus 
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  on:blur
+  on:focus
 >
   {#if variation === 'outline'}
-    <path d="M6.5 10.5L9.5 7.5L6.5 4.5" stroke="{color}" stroke-linecap="square"/> 
+    <path d="M6.5 10.5L9.5 7.5L6.5 4.5" stroke={color} stroke-linecap="square" />
   {:else}
-    <path d="M10.2071 7.49995L6 3.29285V11.7071L10.2071 7.49995Z" fill="{color}"/> 
+    <path d="M10.2071 7.49995L6 3.29285V11.7071L10.2071 7.49995Z" fill={color} />
   {/if}
 </svg>
-
 
 <!--
   @component

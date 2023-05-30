@@ -46,7 +46,6 @@ npm i svelte-teenyicons
 <Alarm />
 ```
 
-
 ## Faster compiling
 
 If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
@@ -79,7 +78,6 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 }
 ```
 
-
 ## Props
 
 | Name                         | Default     |
@@ -89,7 +87,6 @@ To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleRe
 | color                        | black       |
 | ariaLabel                    | <file name> |
 | variation (solid or outline) | outline     |
-
 
 ## IDE support
 
@@ -181,7 +178,6 @@ Let's use `dark` for the dark mode class as an example.
 <AbTesting class="text-blue-700 dark:text-red-500" />
 ```
 
-
 ## aria-label
 
 All icons have aria-label. For example `AbTesting` has `aria-label="ab testing"`.
@@ -252,7 +248,6 @@ Use `import * as Icon from 'svelte-teenyicons`.
 <Icon.Minimize size="60" class="mx-2" />
 <Icon.Moon size="100" class="mx-2" tabindex="0" />
 ```
-
 
 ## Other icons
 
