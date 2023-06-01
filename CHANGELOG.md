@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.4](https://github.com/shinokada/svelte-teenyicons/compare/v0.7.3...v0.7.4) (2023-06-01)
+
+
+### Features
+
+* add prop role="img" ([ec649e0](https://github.com/shinokada/svelte-teenyicons/commit/ec649e0e885f3d9b91920fbb874d3a0e456a0c25))
+
 ### [0.7.3](https://github.com/shinokada/svelte-teenyicons/compare/v0.7.2...v0.7.3) (2023-06-01)
 
 ### Features
