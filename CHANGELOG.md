@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.3](https://github.com/shinokada/svelte-teenyicons/compare/v0.7.2...v0.7.3) (2023-06-01)
+
+
+### Features
+
+* add || ^4.0.0 to peerDependencies ([b2fd3e5](https://github.com/shinokada/svelte-teenyicons/commit/b2fd3e5a1f0fee897ecacd286436bb05f2cda9b3))
+
 ### [0.7.2](https://github.com/shinokada/svelte-teenyicons/compare/v0.7.1...v0.7.2) (2023-05-30)
 
 
