@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.7.3](https://github.com/shinokada/svelte-teenyicons/compare/v0.7.2...v0.7.3) (2023-06-01)
 
-
 ### Features
 
-* add || ^4.0.0 to peerDependencies ([b2fd3e5](https://github.com/shinokada/svelte-teenyicons/commit/b2fd3e5a1f0fee897ecacd286436bb05f2cda9b3))
+- add || ^4.0.0 to peerDependencies ([b2fd3e5](https://github.com/shinokada/svelte-teenyicons/commit/b2fd3e5a1f0fee897ecacd286436bb05f2cda9b3))
 
 ### [0.7.2](https://github.com/shinokada/svelte-teenyicons/compare/v0.7.1...v0.7.2) (2023-05-30)
 
-
 ### Features
 
-* add events to component doc ([a5b7093](https://github.com/shinokada/svelte-teenyicons/commit/a5b7093b4e87dbfd9d3a32f38bf254d54d33fb40))
+- add events to component doc ([a5b7093](https://github.com/shinokada/svelte-teenyicons/commit/a5b7093b4e87dbfd9d3a32f38bf254d54d33fb40))
 
 ### [0.7.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.6.1...v0.7.1) (2023-05-30)
 

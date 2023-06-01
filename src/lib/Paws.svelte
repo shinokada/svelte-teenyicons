@@ -1,5 +1,6 @@
 <script lang="ts">
   export let size: string = '15';
+  export let role: string = 'img';
   export let color: string = 'black';
   export let variation: 'solid' | 'outline' = 'outline';
   export let ariaLabel = 'paws';
@@ -10,8 +11,8 @@
   width={size}
   height={size}
   fill="none"
-  class={$$props.class}
   {...$$restProps}
+  {role}
   aria-label={ariaLabel}
   viewBox="0 0 15 15"
   on:click
@@ -80,6 +81,7 @@
 
   ## Props
   @prop size: string = "15";
+  @prop role: string = "icon file name";
   @prop color: string = "black" 
   @prop variation: "solid" | "outline" = "outline";
   @prop ariaLabel = 'icon file name';
