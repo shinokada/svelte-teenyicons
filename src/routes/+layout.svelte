@@ -16,7 +16,8 @@
   $: activeUrl = $page.url.pathname;
   const title = 'Svelte Teenyicons';
   let divClass = 'w-full ml-auto lg:block lg:w-auto order-1 lg:order-none';
-  let ulClass = 'flex flex-col py-3 my-4 lg:flex-row lg:my-0 text-sm font-medium gap-4 dark:lg:bg-transparent lg:bg-white lg:border-0';
+  let ulClass =
+    'flex flex-col py-3 my-4 lg:flex-row lg:my-0 text-sm font-medium gap-4 dark:lg:bg-transparent lg:bg-white lg:border-0';
 </script>
 
 <MetaTags
@@ -65,11 +66,12 @@
       activeClass="md:!pl-3 md:!py-2 lg:!pl-0 lg:text-primary-700 text-white dark:text-white dark:lg:text-primary-500 bg-primary-700 lg:bg-transparent dark:bg-primary-600 lg:dark:bg-transparent cursor-default"
     >
       <NavLi class="lg:px-2 lg:mb-0" active={activeUrl === '/'} href="/">Home</NavLi>
-      <NavLi class="lg:px-2 lg:mb-0" active={activeUrl === '/outline'} href="/outline">Outline</NavLi>
+      <NavLi class="lg:px-2 lg:mb-0" active={activeUrl === '/outline'} href="/outline"
+        >Outline</NavLi
+      >
       <NavLi class="lg:px-2 lg:mb-0" active={activeUrl === '/solid'} href="/solid">Solid</NavLi>
-      <NavLi
-        class="lg:px-2 lg:mb-0"
-        href="https://github.com/shinokada/svelte-teenyicons">GitHub</NavLi
+      <NavLi class="lg:px-2 lg:mb-0" href="https://github.com/shinokada/svelte-teenyicons"
+        >GitHub</NavLi
       >
       <NavLi href="https://svelte-svg-icons.vercel.app/">Icon sets</NavLi>
     </NavUl>
@@ -96,9 +98,8 @@
       <FooterLink class="lg:px-2 lg:mb-0">Home</FooterLink>
       <FooterLink class="lg:px-2 lg:mb-0" href="/outline">Outline</FooterLink>
       <FooterLink class="lg:px-2 lg:mb-0" href="/solid">Solid</FooterLink>
-      <FooterLink
-        class="lg:px-2 lg:mb-0"
-        href="https://github.com/shinokada/svelte-teenyicons">GitHub</FooterLink
+      <FooterLink class="lg:px-2 lg:mb-0" href="https://github.com/shinokada/svelte-teenyicons"
+        >GitHub</FooterLink
       >
       <FooterLink href="https://svelte-svg-icons.vercel.app/">Icon sets</FooterLink>
     </FooterLinkGroup>

@@ -12,7 +12,6 @@
 
 Thank you for considering my open-source package. If you use it in a commercial project, please support me by sponsoring me on [GitHub sponsor](https://github.com/sponsors/shinokada). Your support helps me maintain and improve this package for the benefit of the community.
 
-
 ## Repo
 
 [GitHub Repo](https://github.com/shinokada/svelte-teenyicons)
@@ -56,7 +55,6 @@ If you need only a few icons from this library in your Svelte app, import them d
 ```
 
 If you are a TypeScript user, install **typescript version 5.0.0 or above**.
-
 
 ```sh
 pnpm i -D typescript@beta
