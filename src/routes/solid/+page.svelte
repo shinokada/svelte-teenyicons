@@ -26,7 +26,7 @@
   });
   let size = 24;
 </script>
-
+<h1>Svelte Teenyicons: Solid</h1>
 <TableSearch
   placeholder="Search by icon name"
   hoverable={true}
