@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.7.7](https://github.com/shinokada/svelte-teenyicons/compare/v0.7.6...v0.7.7) (2023-07-20)
+
+
+### Bug Fixes
+
+* bg color ([e2f3ff4](https://github.com/shinokada/svelte-teenyicons/commit/e2f3ff4213f2fcaca384dd09dbb5655441a45415))
+* homepage update ([c2f5f27](https://github.com/shinokada/svelte-teenyicons/commit/c2f5f273e0074f566a615d79d972d905a2bf3115))
+* image sizes ([99b4e7d](https://github.com/shinokada/svelte-teenyicons/commit/99b4e7dbd91ce21ee15d9366c8dab15a02136c25))
+* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([db1e75c](https://github.com/shinokada/svelte-teenyicons/commit/db1e75c193462899b588eed90412f3f87ead98f9))
+
 ### [0.7.6](https://github.com/shinokada/svelte-teenyicons/compare/v0.7.5...v0.7.6) (2023-07-16)
 
 
