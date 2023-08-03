@@ -34,78 +34,40 @@ pnpm i svelte-teenyicons
 
 ## Usage
 
-```js
-<script>
-  import { Alarm } from "svelte-teenyicons";
-</script>
-
-<Alarm />
-```
-
-## Faster compiling
-
-If you need only a few icons from this library in your Svelte app, import them directly. This can optimize compilation speed and improve performance by reducing the amount of code processed during compilation.
-
 ```html
 <script>
-  import Alarm from 'svelte-teenyicons/Alarm.svelte';
+  import { IconSolid, IconOutline } from 'svelte-teenyicons';
 </script>
 
-<Alarm />
-```
-
-If you are a TypeScript user, install **typescript version 5.0.0 or above**.
-
-```sh
-pnpm i -D typescript@beta
-```
-
-To avoid any complaints from the editor, add `node16` or `nodenext` to `moduleResolution` in your tsconfig.json file.
-
-```json
-{
-  //...
-  "compilerOptions": {
-    // ...
-    "moduleResolution": "nodenext"
-  }
-}
+<IconSolid name="align-left-solid" />
+<IconOutline name="align-left-outline" />
 ```
 
 ## Props
 
-- size: string = '15';
-- role: string = 'img';
-- color: string = 'black';
-- variation: 'solid' | 'outline' = 'outline';
-- ariaLabel = 'icon file name';
+- @prop name;
+- @prop width = "24";
+- @prop height = "24";
+- @prop role = 'img';
+- @prop color = 'currentColor'
+- @prop ariaLabel='icon name'
 
 ## IDE support
 
 If you are using an LSP-compatible editor, such as VSCode, Atom, Sublime Text, or Neovim, hovering over a component name will display a documentation link, features, props, events, and an example.
 
-## Variation
-
-The default variation value is outline. Use the `variation` prop to change it to solid.
-
-```html
-<AbTesting variation="solid" /> <AbTesting />
-```
-
 ## Size
 
-Use the `size` prop to change the size of icons.
+Use the `width` and `height` props to change the size of icons.
 
 ```html
-<AbTesting size="30" />
-<AbTesting size="40" />
-<AbTesting size="50" />
+<IconOutline name="align-left-outline" width="100" height="100" />
 ```
 
-If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the `class` prop. For example:
+If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by including the desired classes in the class prop. For example:
 
 ```html
-<AbTesting class="shrink-0 h-20 w-20" />
+<IconOutline name="align-left-outline" class="shrink-0 h-20 w-20" />
 ```
 
 ## CSS HEX Colors
@@ -113,25 +75,23 @@ If you are using Tailwind CSS, you can add a custom size using Tailwind CSS by i
 Use the `color` prop to change colors with HEX color code.
 
 ```html
-<AbTesting color="#c61515" />
-<AbTesting color="#3759e5" />
-<AbTesting color="#3fe537" />
+<IconOutline name="align-left-outline" color="#c61515" />
 ```
 
-## CSS framework support
+## CSS frameworks suport
 
 You can apply CSS framework color and other attributes directly to the icon component or its parent tag using the `class` prop.
 
-For example, Tailwind CSS:
+Tailwind CSS example:
 
 ```html
-<AbTesting class="mr-4" />
+<IconOutline name="align-left-outline" class="text-red-700 inline m-1" />
 ```
 
-Bootstrap example:
+Bootstrap examples:
 
 ```html
-<AbTesting class="position-absolute top-0 px-1" />
+<IconOutline name="align-left-outline" class="position-absolute top-0 px-1" />
 ```
 
 ## Dark mode
@@ -141,16 +101,16 @@ If you are using the dark mode on your website with Tailwind CSS, add your dark 
 Let's use `dark` for the dark mode class as an example.
 
 ```html
-<AbTesting class="text-blue-700 dark:text-red-500" />
+<IconOutline name="align-left-outline"  class="text-blue-700 dark:text-red-500" />
 ```
 
 ## aria-label
 
-All icons have aria-label. For example `AbTesting` has `aria-label="ab testing"`.
+All icons have aria-label. For example `align-left-outline` has `aria-label="align-left-outline`"`.
 Use `ariaLabel` prop to modify the `aria-label` value.
 
 ```html
-<AbTesting ariaLabel="AB testing icon" class="text-red-500" />
+<IconOutline name="align-left-outline" ariaLabel="red align left outline" color="#c61515"/>
 ```
 
 ## Unfocusable icon
@@ -158,71 +118,80 @@ Use `ariaLabel` prop to modify the `aria-label` value.
 If you want to make an icon unfocusable, add `tabindex="-1"`.
 
 ```html
-<AbTesting tabindex="-1" />
+<IconOutline name="align-left-outline"  tabindex="-1" />
 ```
 
 ## Events
 
 All icons have the following events:
 
-```
-on:click
-on:mouseenter
-on:mouseleave
-on:mouseover
-on:mouseout
-on:blur
-on:focus
-```
+- on:click
+- on:keydown
+- on:keyup
+- on:focus
+- on:blur
+- on:mouseenter
+- on:mouseleave
+- on:mouseover
+- on:mouseout
 
 ## Passing down other attributes
 
 You can pass other attibutes as well.
 
 ```html
-<AbTesting tabindex="0"></AbTesting>
+<IconOutline name="align-left-outline"  tabindex="0" />
 ```
 
 ## Using svelte:component
 
 ```html
-<script>
-  import { AbTesting } from 'svelte-teenyicons';
-</script>
-
-<svelte:component this="{AbTesting}" />
+<svelte:component this="{Icon}" name="align-left-outline" />
 ```
 
 ## Using onMount
 
 ```html
 <script>
-  import { AbTesting } from 'svelte-teenyicons';
+  import { IconOutline } from 'svelte-teenyicons';
   import { onMount } from 'svelte';
   const props = {
+    name: 'align-left-outline',
     size: '50',
     color: '#ff0000'
   };
   onMount(() => {
-    const icon = new AbTesting({ target: document.body, props });
+    const icon = new IconOutline({ target: document.body, props });
   });
 </script>
 ```
 
+
 ## Import all
 
-Use `import * as Icon from 'svelte-teenyicons`.
+Use `import { IconOutline, icons } from 'svelte-teenyicons';`.
 
 ```html
 <script>
-  import * as Icon from 'svelte-teenyicons';
+  import { IconOutline, icons } from 'svelte-teenyicons';
+  function filterIconsByKeyword(icons, keyword) {
+    const filteredIcons = {};
+    for (const key in icons) {
+      if (key.includes(keyword)) {
+        filteredIcons[key] = icons[key];
+      }
+    }
+    return filteredIcons;
+  }
+  const outlineIcons = filterIconsByKeyword(icons, '-outline');
 </script>
 
-<Icon.AbTesting size="30" class="mx-2" />
-<Icon.Alarm size="40" class="mx-2" />
-<Icon.MessageX size="50" class="mx-2" />
-<Icon.Minimize size="60" class="mx-2" />
-<Icon.Moon size="100" class="mx-2" tabindex="0" />
+{#each Object.keys(outlineIcons) as name}
+<div class="flex gap-4 items-center text-lg">
+  <IconOutline name={name} class="shrink-0"/>
+  {name}
+</div>
+{/each}
 ```
 
 ## Other icons
