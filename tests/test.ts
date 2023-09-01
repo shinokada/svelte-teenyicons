@@ -14,4 +14,3 @@ test('Solid page has expected h1', async ({ page }) => {
   await page.goto('/solid');
   expect(await page.textContent('h1')).toBe('Svelte Teenyicons: Solid');
 });
-

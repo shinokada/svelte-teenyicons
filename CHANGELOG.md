@@ -4,27 +4,24 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.8.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.7.7...v0.8.1) (2023-08-03)
 
-
 ### Features
 
-* use two files ([4b5b49c](https://github.com/shinokada/svelte-teenyicons/commit/4b5b49c9c362ad16ceec06dba21d9f341f1bbefc))
+- use two files ([4b5b49c](https://github.com/shinokada/svelte-teenyicons/commit/4b5b49c9c362ad16ceec06dba21d9f341f1bbefc))
 
 ### [0.7.7](https://github.com/shinokada/svelte-teenyicons/compare/v0.7.6...v0.7.7) (2023-07-20)
 
-
 ### Bug Fixes
 
-* bg color ([e2f3ff4](https://github.com/shinokada/svelte-teenyicons/commit/e2f3ff4213f2fcaca384dd09dbb5655441a45415))
-* homepage update ([c2f5f27](https://github.com/shinokada/svelte-teenyicons/commit/c2f5f273e0074f566a615d79d972d905a2bf3115))
-* image sizes ([99b4e7d](https://github.com/shinokada/svelte-teenyicons/commit/99b4e7dbd91ce21ee15d9366c8dab15a02136c25))
-* update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([db1e75c](https://github.com/shinokada/svelte-teenyicons/commit/db1e75c193462899b588eed90412f3f87ead98f9))
+- bg color ([e2f3ff4](https://github.com/shinokada/svelte-teenyicons/commit/e2f3ff4213f2fcaca384dd09dbb5655441a45415))
+- homepage update ([c2f5f27](https://github.com/shinokada/svelte-teenyicons/commit/c2f5f273e0074f566a615d79d972d905a2bf3115))
+- image sizes ([99b4e7d](https://github.com/shinokada/svelte-teenyicons/commit/99b4e7dbd91ce21ee15d9366c8dab15a02136c25))
+- update flowbite-svelte v0.40.1, add @floating-ui/dom remove flowbite and popper, add tests ([db1e75c](https://github.com/shinokada/svelte-teenyicons/commit/db1e75c193462899b588eed90412f3f87ead98f9))
 
 ### [0.7.6](https://github.com/shinokada/svelte-teenyicons/compare/v0.7.5...v0.7.6) (2023-07-16)
 
-
 ### Features
 
-* change to currentColor ([f375b42](https://github.com/shinokada/svelte-teenyicons/commit/f375b42d02e8cccc4a7e102483fec2602d989a17))
+- change to currentColor ([f375b42](https://github.com/shinokada/svelte-teenyicons/commit/f375b42d02e8cccc4a7e102483fec2602d989a17))
 
 ### [0.7.5](https://github.com/shinokada/svelte-teenyicons/compare/v0.7.4...v0.7.5) (2023-06-15)
 
