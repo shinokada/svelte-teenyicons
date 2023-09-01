@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.9.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.8.1...v0.9.1) (2023-09-01)
+
+
+### Features
+
+* smaller compiled size and Icon component ([3c208ea](https://github.com/shinokada/svelte-teenyicons/commit/3c208ead3c79adb27140af1a5ed473923d887917))
+
 ### [0.8.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.7.7...v0.8.1) (2023-08-03)
 
 ### Features
