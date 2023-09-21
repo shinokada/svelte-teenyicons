@@ -1,7 +1,16 @@
 <script lang="ts">
-  export let size: string = '15';
-  export let role: string = 'img';
-  export let color: string = 'currentColor';
+  interface CtxType {
+    size?: string;
+    role?: string;
+    color?: string;
+    variation?: 'solid' | 'outline';
+  }
+
+  import { getContext } from 'svelte';
+  const ctx: CtxType = getContext('iconCtx') ?? {};
+  export let size: string = ctx.size || '15';
+  export let role: string = ctx.role || 'img';
+  export let color: string = ctx.color || 'currentColor';
   export let variation: 'solid' | 'outline' = 'outline';
   export let ariaLabel = 'page number';
 </script>
@@ -42,9 +51,9 @@
 @component
 [Go to docs](https://svelte-teenyicons.vercel.app/)
 ## Props
-@prop export let size: string = '15';
-@prop export let role: string = 'img';
-@prop export let color: string = 'currentColor';
+@prop export let size: string = ctx.size || '15';
+@prop export let role: string = ctx.role || 'img';
+@prop export let color: string = ctx.color || 'currentColor';
 @prop export let variation: 'solid' | 'outline' = 'outline';
 @prop export let ariaLabel = 'page number';
 -->
