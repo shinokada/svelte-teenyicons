@@ -1,9 +1,10 @@
 <script lang="ts">
-  export let size: string = "15";
-  export let role: string = "img";
-  export let color: string = "currentColor" 
-  export let variation: "solid" | "outline" = "outline";
-export let ariaLabel="gift" </script>
+  export let size: string = '15';
+  export let role: string = 'img';
+  export let color: string = 'currentColor';
+  export let variation: 'solid' | 'outline' = 'outline';
+  export let ariaLabel = 'gift';
+</script>
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -15,16 +16,36 @@ export let ariaLabel="gift" </script>
   aria-label={ariaLabel}
   viewBox="0 0 15 15"
   on:click
-  on:mouseenter 
-  on:mouseleave 
-  on:mouseover 
-  on:mouseout 
-  on:blur 
-  on:focus 
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  on:blur
+  on:focus
 >
   {#if variation === 'outline'}
-    <path d="M13.5 7.5H1.5M13.5 7.5C14.0523 7.5 14.5 7.05228 14.5 6.5V5.5C14.5 4.94772 14.0523 4.5 13.5 4.5H1.5C0.947715 4.5 0.5 4.94772 0.5 5.5V6.5C0.5 7.05228 0.947716 7.5 1.5 7.5M13.5 7.5V12.5C13.5 13.6046 12.6046 14.5 11.5 14.5H3.5C2.39543 14.5 1.5 13.6046 1.5 12.5L1.5 7.5M7.5 4.5V3.5M7.5 4.5H4.21429C3.26751 4.5 2.5 3.73249 2.5 2.78571V2.5C2.5 1.39543 3.39543 0.5 4.5 0.5C6.15685 0.5 7.5 1.84315 7.5 3.5M7.5 4.5H10.7857C11.7325 4.5 12.5 3.73249 12.5 2.78571V2.5C12.5 1.39543 11.6046 0.5 10.5 0.5C8.84315 0.5 7.5 1.84315 7.5 3.5M7.5 4.5V14.5" stroke="{color}"/> 
+    <path
+      d="M13.5 7.5H1.5M13.5 7.5C14.0523 7.5 14.5 7.05228 14.5 6.5V5.5C14.5 4.94772 14.0523 4.5 13.5 4.5H1.5C0.947715 4.5 0.5 4.94772 0.5 5.5V6.5C0.5 7.05228 0.947716 7.5 1.5 7.5M13.5 7.5V12.5C13.5 13.6046 12.6046 14.5 11.5 14.5H3.5C2.39543 14.5 1.5 13.6046 1.5 12.5L1.5 7.5M7.5 4.5V3.5M7.5 4.5H4.21429C3.26751 4.5 2.5 3.73249 2.5 2.78571V2.5C2.5 1.39543 3.39543 0.5 4.5 0.5C6.15685 0.5 7.5 1.84315 7.5 3.5M7.5 4.5H10.7857C11.7325 4.5 12.5 3.73249 12.5 2.78571V2.5C12.5 1.39543 11.6046 0.5 10.5 0.5C8.84315 0.5 7.5 1.84315 7.5 3.5M7.5 4.5V14.5"
+      stroke={color}
+    />
   {:else}
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 0C3.11929 0 2 1.11929 2 2.5V2.78571C2 3.23408 2.13327 3.65133 2.36235 4H1.5C0.671573 4 0 4.67157 0 5.5V6.5C0 7.32843 0.671573 8 1.5 8H7V4H8V8H13.5C14.3284 8 15 7.32843 15 6.5V5.5C15 4.67157 14.3284 4 13.5 4H12.6377C12.8667 3.65133 13 3.23408 13 2.78571V2.5C13 1.11929 11.8807 0 10.5 0C9.22684 0 8.11245 0.679792 7.5 1.69621C6.88755 0.679792 5.77316 0 4.5 0ZM8 4H10.7857C11.4563 4 12 3.45635 12 2.78571V2.5C12 1.67157 11.3284 1 10.5 1C9.11929 1 8 2.11929 8 3.5V4ZM7 4H4.21429C3.54365 4 3 3.45635 3 2.78571V2.5C3 1.67157 3.67157 1 4.5 1C5.88071 1 7 2.11929 7 3.5V4Z" fill="{color}"/> <path d="M7 9H1V12.5C1 13.8807 2.11929 15 3.5 15H7V9Z" fill="{color}"/> <path d="M8 15H11.5C12.8807 15 14 13.8807 14 12.5V9H8V15Z" fill="{color}"/> 
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M4.5 0C3.11929 0 2 1.11929 2 2.5V2.78571C2 3.23408 2.13327 3.65133 2.36235 4H1.5C0.671573 4 0 4.67157 0 5.5V6.5C0 7.32843 0.671573 8 1.5 8H7V4H8V8H13.5C14.3284 8 15 7.32843 15 6.5V5.5C15 4.67157 14.3284 4 13.5 4H12.6377C12.8667 3.65133 13 3.23408 13 2.78571V2.5C13 1.11929 11.8807 0 10.5 0C9.22684 0 8.11245 0.679792 7.5 1.69621C6.88755 0.679792 5.77316 0 4.5 0ZM8 4H10.7857C11.4563 4 12 3.45635 12 2.78571V2.5C12 1.67157 11.3284 1 10.5 1C9.11929 1 8 2.11929 8 3.5V4ZM7 4H4.21429C3.54365 4 3 3.45635 3 2.78571V2.5C3 1.67157 3.67157 1 4.5 1C5.88071 1 7 2.11929 7 3.5V4Z"
+      fill={color}
+    /> <path d="M7 9H1V12.5C1 13.8807 2.11929 15 3.5 15H7V9Z" fill={color} />
+    <path d="M8 15H11.5C12.8807 15 14 13.8807 14 12.5V9H8V15Z" fill={color} />
   {/if}
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-teenyicons.vercel.app/)
+## Props
+@prop export let size: string = '15';
+@prop export let role: string = 'img';
+@prop export let color: string = 'currentColor';
+@prop export let variation: 'solid' | 'outline' = 'outline';
+@prop export let ariaLabel = 'gift';
+-->

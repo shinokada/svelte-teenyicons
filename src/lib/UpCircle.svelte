@@ -1,9 +1,10 @@
 <script lang="ts">
-  export let size: string = "15";
-  export let role: string = "img";
-  export let color: string = "currentColor" 
-  export let variation: "solid" | "outline" = "outline";
-export let ariaLabel="up circle" </script>
+  export let size: string = '15';
+  export let role: string = 'img';
+  export let color: string = 'currentColor';
+  export let variation: 'solid' | 'outline' = 'outline';
+  export let ariaLabel = 'up circle';
+</script>
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -15,16 +16,35 @@ export let ariaLabel="up circle" </script>
   aria-label={ariaLabel}
   viewBox="0 0 15 15"
   on:click
-  on:mouseenter 
-  on:mouseleave 
-  on:mouseover 
-  on:mouseout 
-  on:blur 
-  on:focus 
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  on:blur
+  on:focus
 >
   {#if variation === 'outline'}
-    <path d="M10.1464 8.85356L10.5 9.20711L11.2071 8.5L10.8536 8.14645L10.1464 8.85356ZM7.5 5.5L7.85355 5.14645L7.5 4.79289L7.14645 5.14645L7.5 5.5ZM4.14645 8.14645L3.79289 8.5L4.5 9.20711L4.85355 8.85356L4.14645 8.14645ZM10.8536 8.14645L7.85355 5.14645L7.14645 5.85355L10.1464 8.85356L10.8536 8.14645ZM7.14645 5.14645L4.14645 8.14645L4.85355 8.85356L7.85355 5.85355L7.14645 5.14645ZM1 7.5C1 3.91015 3.91015 0.999999 7.5 1V0C3.35787 -8.9407e-07 8.9407e-07 3.35786 0 7.5H1ZM7.5 14C3.91015 14 0.999999 11.0898 1 7.5H0C-8.9407e-07 11.6421 3.35786 15 7.5 15V14ZM14 7.5C14 11.0899 11.0898 14 7.5 14V15C11.6421 15 15 11.6421 15 7.5H14ZM15 7.5C15 3.35787 11.6421 8.9407e-07 7.5 0V1C11.0899 1 14 3.91015 14 7.5H15Z" fill="{color}"/> 
+    <path
+      d="M10.1464 8.85356L10.5 9.20711L11.2071 8.5L10.8536 8.14645L10.1464 8.85356ZM7.5 5.5L7.85355 5.14645L7.5 4.79289L7.14645 5.14645L7.5 5.5ZM4.14645 8.14645L3.79289 8.5L4.5 9.20711L4.85355 8.85356L4.14645 8.14645ZM10.8536 8.14645L7.85355 5.14645L7.14645 5.85355L10.1464 8.85356L10.8536 8.14645ZM7.14645 5.14645L4.14645 8.14645L4.85355 8.85356L7.85355 5.85355L7.14645 5.14645ZM1 7.5C1 3.91015 3.91015 0.999999 7.5 1V0C3.35787 -8.9407e-07 8.9407e-07 3.35786 0 7.5H1ZM7.5 14C3.91015 14 0.999999 11.0898 1 7.5H0C-8.9407e-07 11.6421 3.35786 15 7.5 15V14ZM14 7.5C14 11.0899 11.0898 14 7.5 14V15C11.6421 15 15 11.6421 15 7.5H14ZM15 7.5C15 3.35787 11.6421 8.9407e-07 7.5 0V1C11.0899 1 14 3.91015 14 7.5H15Z"
+      fill={color}
+    />
   {:else}
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 0C11.6421 0 15 3.35786 15 7.5C15 11.6421 11.6421 15 7.5 15C3.35786 15 -2.54447e-06 11.6421 0 7.5C0 3.35786 3.35786 -2.54447e-06 7.5 0ZM3.29297 8.99995L7.50008 4.79285L11.7072 8.99995H3.29297Z" fill="{color}"/> 
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M7.5 0C11.6421 0 15 3.35786 15 7.5C15 11.6421 11.6421 15 7.5 15C3.35786 15 -2.54447e-06 11.6421 0 7.5C0 3.35786 3.35786 -2.54447e-06 7.5 0ZM3.29297 8.99995L7.50008 4.79285L11.7072 8.99995H3.29297Z"
+      fill={color}
+    />
   {/if}
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-teenyicons.vercel.app/)
+## Props
+@prop export let size: string = '15';
+@prop export let role: string = 'img';
+@prop export let color: string = 'currentColor';
+@prop export let variation: 'solid' | 'outline' = 'outline';
+@prop export let ariaLabel = 'up circle';
+-->

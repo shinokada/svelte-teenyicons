@@ -1,9 +1,10 @@
 <script lang="ts">
-  export let size: string = "15";
-  export let role: string = "img";
-  export let color: string = "currentColor" 
-  export let variation: "solid" | "outline" = "outline";
-export let ariaLabel="bar chart" </script>
+  export let size: string = '15';
+  export let role: string = 'img';
+  export let color: string = 'currentColor';
+  export let variation: 'solid' | 'outline' = 'outline';
+  export let ariaLabel = 'bar chart';
+</script>
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -15,16 +16,32 @@ export let ariaLabel="bar chart" </script>
   aria-label={ariaLabel}
   viewBox="0 0 15 15"
   on:click
-  on:mouseenter 
-  on:mouseleave 
-  on:mouseover 
-  on:mouseout 
-  on:blur 
-  on:focus 
+  on:mouseenter
+  on:mouseleave
+  on:mouseover
+  on:mouseout
+  on:blur
+  on:focus
 >
   {#if variation === 'outline'}
-    <path d="M0 14.5H15M5.5 12V6M9.5 12V3M13.5 12V0M1.5 9V12" stroke="{color}"/> 
+    <path d="M0 14.5H15M5.5 12V6M9.5 12V3M13.5 12V0M1.5 9V12" stroke={color} />
   {:else}
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M13 0H14V12H13V0ZM10 3V12H9V3H10ZM6 6V12H5V6H6ZM1 12V9H2V12H1ZM15 15H0V14H15V15Z" fill="{color}"/> 
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M13 0H14V12H13V0ZM10 3V12H9V3H10ZM6 6V12H5V6H6ZM1 12V9H2V12H1ZM15 15H0V14H15V15Z"
+      fill={color}
+    />
   {/if}
 </svg>
+
+<!--
+@component
+[Go to docs](https://svelte-teenyicons.vercel.app/)
+## Props
+@prop export let size: string = '15';
+@prop export let role: string = 'img';
+@prop export let color: string = 'currentColor';
+@prop export let variation: 'solid' | 'outline' = 'outline';
+@prop export let ariaLabel = 'bar chart';
+-->
