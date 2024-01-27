@@ -4,11 +4,10 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.9.2](https://github.com/shinokada/svelte-teenyicons/compare/v0.9.1...v0.9.2) (2023-09-21)
 
-
 ### Features
 
-* add context ([4c5b422](https://github.com/shinokada/svelte-teenyicons/commit/4c5b422f4e5bd4bb27387f40b6cffc41e8f8eeec))
-* add sidebar menu ([3f78c38](https://github.com/shinokada/svelte-teenyicons/commit/3f78c386ae6c7e24ca94af602aca6b9698a3f746))
+- add context ([4c5b422](https://github.com/shinokada/svelte-teenyicons/commit/4c5b422f4e5bd4bb27387f40b6cffc41e8f8eeec))
+- add sidebar menu ([3f78c38](https://github.com/shinokada/svelte-teenyicons/commit/3f78c386ae6c7e24ca94af602aca6b9698a3f746))
 
 ### [0.9.1](https://github.com/shinokada/svelte-teenyicons/compare/v0.8.1...v0.9.1) (2023-09-01)
 
