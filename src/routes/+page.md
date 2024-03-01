@@ -20,16 +20,6 @@ Thank you for considering my open-source package. If you use it in a commercial 
 
 [GitHub Repo](https://github.com/shinokada/svelte-teenyicons)
 
-## Original source
-
-[teenyicons/teenyicons](https://github.com/teenyicons/teenyicons)
-
-## License
-
-[Svelte-Teenyicons License](https://github.com/shinokada/svelte-teenyicons/LICENSE)
-
-[teenyicons/teenyicons License](https://github.com/teenyicons/teenyicons/blob/master/LICENSE)
-
 ## Installation
 
 ```sh
@@ -345,6 +335,16 @@ Use `import * as Icon from 'svelte-teenyicons`.
 <Icon.Moon size="100" class="mx-2" tabindex="0" />
 ```
 
+## Original source
+
+[teenyicons/teenyicons](https://github.com/teenyicons/teenyicons)
+
+## License
+
+[Svelte-Teenyicons License](https://github.com/shinokada/svelte-teenyicons/LICENSE)
+
+[teenyicons/teenyicons License](https://github.com/teenyicons/teenyicons/blob/master/LICENSE)
+
 ## Other icons
 
-[Svelte-Icon-Sets](https://svelte-svg-icons.vercel.app/)
+[Svelte-Icon-Sets](https://svelte-svg-icons.codewithshin.com/)
