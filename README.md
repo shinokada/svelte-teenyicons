@@ -17,9 +17,9 @@ Thank you for considering my open-source package. If you use it in a commercial 
 See the [Svelte Teenyicons documentation](https://svelte-teenyicons.codewithshin.com/) to learn more.
 
 ## Icons
- 
- - [Outline](https://svelte-teenyicons.codewithshin.com/outline)
- - [Solid](https://svelte-teenyicons.codewithshin.com/solid)
+
+- [Outline](https://svelte-teenyicons.codewithshin.com/outline)
+- [Solid](https://svelte-teenyicons.codewithshin.com/solid)
 
 ## Repo
 

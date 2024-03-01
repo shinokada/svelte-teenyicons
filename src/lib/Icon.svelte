@@ -21,7 +21,7 @@
 
 <!--
 @component
-[Go to docs](https://svelte-teenyicons.vercel.app/)
+[Go to docs](https://svelte-teenyicons.codewithshin.com/)
 ## Props
 @prop export let icon: ComponentType;
 @prop export let size: number = 15;

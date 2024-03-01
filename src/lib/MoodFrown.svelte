@@ -49,7 +49,7 @@
 
 <!--
 @component
-[Go to docs](https://svelte-teenyicons.vercel.app/)
+[Go to docs](https://svelte-teenyicons.codewithshin.com/)
 ## Props
 @prop export let size: string = ctx.size || '15';
 @prop export let role: string = ctx.role || 'img';
